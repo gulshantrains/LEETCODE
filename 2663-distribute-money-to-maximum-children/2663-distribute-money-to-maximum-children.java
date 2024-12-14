@@ -1,8 +1,5 @@
 class Solution {
     public int distMoney(int money, int children) {
-
-        if ((float)money / (float)children == (float)8)
-            return children;
         if (money < children)
             return -1;
 
