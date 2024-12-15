@@ -4,6 +4,7 @@
 ## Math
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
 ## Greedy
@@ -38,4 +39,12 @@
 |  |
 | ------- |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
