@@ -26,6 +26,7 @@
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
@@ -106,6 +107,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
