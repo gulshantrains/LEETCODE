@@ -32,7 +32,7 @@ class Solution {
         int r = a.length - 1;
 
         while (l < r) {
-            while (l < r && a[l] == a[l + 1])
+            while (l < r && a[l] == a[l + 1]) //SKIP REPEATED ELEMENT 
                 l++;
             while (l < r && a[r - 1] == a[r])
                 r--;
