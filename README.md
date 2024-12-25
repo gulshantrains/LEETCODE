@@ -31,6 +31,7 @@
 | [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
@@ -117,6 +118,7 @@
 | [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
