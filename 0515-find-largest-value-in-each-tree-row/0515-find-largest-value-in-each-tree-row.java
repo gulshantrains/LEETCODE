@@ -19,35 +19,26 @@ class Solution {
 
         Queue<TreeNode> qu = new LinkedList<>();
         if (root != null)
-            qu.add(root);
+            qu.add(root); // Put root in queue
 
         while (!qu.isEmpty()) {
             int level = qu.size();
-            int[] a = new int[level];
+            int curMax = Integer.MIN_VALUE; // get level at which we are working
 
             for (int i = 0; i < level; i++) {
                 TreeNode node = qu.poll();
-                a[i] = node.val;
+                curMax = Math.max(curMax, node.val);
 
                 if (node.left != null)
                     qu.add(node.left);
                 if (node.right != null)
                     qu.add(node.right);
             }
-            int x = getMax(a);
-            arr.add(x);
+
+            arr.add(curMax);
         }
         return arr;
 
     }
 
-    private int getMax(int[] ar) {
-        int max = ar[0];
-        for (int i = 1; i < ar.length; i++) {
-            if (ar[i] > max) {
-                max = ar[i];
-            }
-        }
-        return max;
-    }
 }
