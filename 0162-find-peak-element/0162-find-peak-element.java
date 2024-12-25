@@ -1,22 +1,15 @@
 class Solution {
     public int findPeakElement(int[] nums) {
-        int n = nums.length;
-        boolean[] ans = new boolean[n];
-        Arrays.fill(ans, false);
+        int l = 0, r = nums.length - 1;
 
-        for (int i = 0; i < n; i++) {
-            if (i == 0 && n>1 && nums[i] > nums[i + 1])
-                ans[i] = true;
-            if (i == n - 1 && n>1 && nums[i] > nums[i - 1])
-                ans[i] = true;
-            if (i > 0 && i < n - 1 && nums[i] > nums[i + 1] && nums[i] > nums[i - 1]) {
-                ans[i] = true;
-            }
+        while (l < r) { //Not equal because we may stuck in loop forever
+            int mid = l + (r - l) / 2;
+
+            if (nums[mid] > nums[mid + 1])
+                r = mid;
+            else
+                l = mid + 1;
         }
-        for (int i = 0; i < n; i++) {
-            if (ans[i])
-                return i;
-        }
-        return (n == 1) ? 0 : -1;
+        return l;
     }
 }
