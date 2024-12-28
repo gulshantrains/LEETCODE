@@ -35,6 +35,7 @@
 | [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
 | [0494-target-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0494-target-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
@@ -187,6 +188,7 @@
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0494-target-sum) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
 ## Backtracking
 |  |
