@@ -1,13 +1,14 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        int l = 1, r = 500000001;
+        int l = Arrays.stream(weights).max().getAsInt();
+        int r = Arrays.stream(weights).sum();
 
         while (l <= r) {
             int mid = l + (r - l) / 2;
 
             if (daysTaking(weights, mid, days)) {
-                r = mid - 1;
-            } else {
+                r = mid - 1; //It means that mid is delivering in <=days so we may check
+            } else {          //Some more values before mid we may get exact
                 l = mid + 1;
             }
         }
