@@ -12,7 +12,7 @@ class Solution {
 
     public int smallestDivisor(int[] nums, int threshold) {
         int n = nums.length;
-        int l = 1, r = Arrays.stream(nums).max().getAsInt();
+        int l = 1, r =10000001;
 
         while (l < r) {
             int mid = l + (r - l) / 2;
