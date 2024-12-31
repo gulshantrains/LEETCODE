@@ -1,16 +1,17 @@
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
-        HashSet<Integer> set = new HashSet<>();
-        for (int x : days) {
-            set.add(x);
-        }
+
         int n = days.length;
         int last_day = days[n - 1];
+        boolean[] toTravel = new boolean[last_day + 1];
+        for (int x : days) {
+            toTravel[x] = true;
+        }
         int[] dp = new int[last_day + 1];
 
         dp[0] = 0;
         for (int i = 1; i <= last_day; i++) {
-            if (!set.contains(i)) {
+            if (!toTravel[i]) {
                 dp[i] = dp[i - 1];
                 continue;
             }
