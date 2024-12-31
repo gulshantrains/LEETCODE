@@ -40,6 +40,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/flyingelephhant/LEETCODE/tree/master/0907-koko-eating-bananas) |
+| [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/flyingelephhant/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/flyingelephhant/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -191,6 +192,7 @@
 | ------- |
 | [0494-target-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2562-count-ways-to-build-good-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/2562-count-ways-to-build-good-strings) |
