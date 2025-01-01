@@ -5,7 +5,7 @@ class Solution {
         StringBuilder left = new StringBuilder();
 
         for (int i = 0; i < n - 1; i++) {
-            int lcnt = 0, rcnt = 0;
+            int cnt = 0;
             StringBuilder right = new StringBuilder();
             left.append(s.substring(i, i + 1));
             right.append(s.substring(i + 1, n));
@@ -15,15 +15,15 @@ class Solution {
 
             for (int j = 0; j < left.length(); j++) {
                 if (left.charAt(j) == '0')
-                    lcnt++;
+                    cnt++;
             }
-            System.out.println(lcnt);
+            System.out.println(cnt);
             for (int k = 0; k < right.length(); k++) {
                 if (right.charAt(k) == '1')
-                    rcnt++;
+                    cnt++;
             }
-            System.out.println(rcnt);
-            ans = Math.max(ans, (lcnt + rcnt));
+            System.out.println(cnt);
+            ans = Math.max(ans, cnt);
 
         }
         return ans;
