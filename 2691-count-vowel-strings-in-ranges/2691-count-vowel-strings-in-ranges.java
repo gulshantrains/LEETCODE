@@ -1,39 +1,20 @@
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
+        int[] prefixSum = new int[words.length + 1];
         int[] ans = new int[queries.length];
-        int[] count = new int[words.length];
-        HashSet<String> set = new HashSet<>();
 
         for (int i = 0; i < words.length; i++) {
-            String x = words[i];
-            if (x.matches("^[aeiou]$") || x.matches("^[aeiou].*[aeiou]$")) {
-                if (i == 0) {
-                    count[i] = 1;
-                    set.add(x);
-                } else {
-                    count[i] = count[i - 1] + 1;
-                    set.add(x);
-                }
+            if (words[i].matches("^[aeiou]$") || words[i].matches("^[aeiou].*[aeiou]$"))
+                prefixSum[i + 1] = prefixSum[i] + 1;
 
-            } else {
-                if (i == 0) {
-                    count[i] = 0;
-                } else
-                    count[i] = count[i - 1];
-            }
-
+            else
+                prefixSum[i + 1] = prefixSum[i];
         }
-        for (int i = 0; i < queries.length; i++) {
+        for (int j = 0; j < queries.length; j++) {
+            int start = queries[j][0];
+            int end = queries[j][1];
 
-            int start = queries[i][0];
-            int end = queries[i][1];
-
-            if(start==0){
-                ans[i]=count[end];
-            }else{
-                 ans[i] = count[end]-count[start-1];
-            }
-           
+            ans[j] = prefixSum[end + 1] - prefixSum[start];
         }
         return ans;
     }
