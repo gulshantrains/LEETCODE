@@ -5,14 +5,17 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
-                ArrayList<Integer> ls = new ArrayList<>();
-
+                int prev = -1, flag = 1;
                 for (int k = 0; k < n; k++) {
-                    if (k < i || k > j) {
-                        ls.add(nums[k]);
+                    if (k >= i && k <= j)
+                        continue;
+                    if (prev >= nums[k]) {
+                        flag = 0;
+                        break;
                     }
+                    prev = nums[k];
                 }
-                if (isStrictlyinc(ls))
+                if (flag==1)
                     count++;
 
             }
@@ -20,11 +23,4 @@ class Solution {
         return count;
     }
 
-    public boolean isStrictlyinc(List<Integer> nums) {
-        for (int i = 0; i < nums.size() - 1; i++) {
-            if (nums.get(i) >= nums.get(i + 1))
-                return false;
-        }
-        return true;
-    }
 }
