@@ -52,6 +52,7 @@
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
+| [2358-number-of-ways-to-split-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2358-number-of-ways-to-split-array) |
 | [2634-minimum-common-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2634-minimum-common-value) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
@@ -103,6 +104,7 @@
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
+| [2358-number-of-ways-to-split-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2358-number-of-ways-to-split-array) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Hash Table
 |  |
