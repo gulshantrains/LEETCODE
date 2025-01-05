@@ -4,7 +4,7 @@ class Solution {
         int[] diffA = new int[n];
         StringBuilder ss = new StringBuilder();
 
-        for (int[] x : shifts) {
+        for (var x : shifts) {
             int l = x[0];
             int r = x[1];
             int sft = x[2];
