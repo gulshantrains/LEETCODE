@@ -5,33 +5,27 @@ class Solution {
         StringBuilder ss = new StringBuilder();
 
         for (var x : shifts) {
-            int l = x[0];
-            int r = x[1];
-            int sft = x[2];
-
-            if (sft == 0) {
-                diffA[l] -= 1;
-                if (r + 1 < n)
-                    diffA[r + 1] += 1;
-            } else {
-                diffA[l] += 1;
-                if (r + 1 < n)
-                    diffA[r + 1] -= 1;
-            }
+            int l = x[0], r = x[1], sft = x[2];
+            // Increment or decrement based on shift type
+            diffA[l] += (sft == 0) ? -1 : 1;
+            if (r + 1 < n)
+                // Reverse the effect after range
+                diffA[r + 1] += (sft == 0) ? 1 : -1;
         }
-        // Cumulative Shift
+
+        // Compute the cumulative shifts 
         for (int i = 1; i < n; i++) {
             diffA[i] += diffA[i - 1];
         }
         for (int i = 0; i < n; i++) {
             char x = s.charAt(i);
-            // Total shift for that index %26 for bring in range of 0-25
+            // Total shift for that index '%26' for bring in range of 0-25
             int shift = diffA[i] % 26;
             // For Wrap Around 'z'->'a' or 'a'-'z'
             if (shift < 0)
                 shift += 26;
 
-            char ans = (char)(((x - 'a') + shift) % 26 + 'a');
+            char ans = (char) (((x - 'a') + shift) % 26 + 'a');
             ss.append(ans);
 
         }
