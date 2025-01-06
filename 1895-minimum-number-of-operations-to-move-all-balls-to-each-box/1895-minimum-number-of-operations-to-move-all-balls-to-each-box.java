@@ -5,20 +5,17 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             int x = 0;
-            if (i < n) {
-                for (int j = i + 1; j < n; j++) {
-                    if (boxes.charAt(j) == '1') {
-                        x += Math.abs(j - i);
-                    }
+            for (int j = i + 1; i < n && j < n; j++) {
+                if (boxes.charAt(j) == '1') {
+                    x += Math.abs(j - i);
                 }
             }
-            if (i > 0) {
-                for (int k = i - 1; k >= 0; k--) {
-                    if (boxes.charAt(k) == '1') {
-                        x += Math.abs(i - k);
-                    }
+            for (int k = i - 1; i > 0 && k >= 0; k--) {
+                if (boxes.charAt(k) == '1') {
+                    x += Math.abs(i - k);
                 }
             }
+
             ans[i] = x;
 
         }
