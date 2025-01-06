@@ -1,24 +1,26 @@
 class Solution {
+
     public int[] minOperations(String boxes) {
         int n = boxes.length();
-        int[] ans = new int[n];
+        int[] answer = new int[n];
 
+        int ballsToLeft = 0, movesToLeft = 0;
+        int ballsToRight = 0, movesToRight = 0;
+
+        // Single pass: calculate moves from both left and right
         for (int i = 0; i < n; i++) {
-            int x = 0;
-            for (int j = i + 1; i < n && j < n; j++) {
-                if (boxes.charAt(j) == '1') {
-                    x += Math.abs(j - i);
-                }
-            }
-            for (int k = i - 1; i > 0 && k >= 0; k--) {
-                if (boxes.charAt(k) == '1') {
-                    x += Math.abs(i - k);
-                }
-            }
+            // Left pass
+            answer[i] += movesToLeft;
+            ballsToLeft += Character.getNumericValue(boxes.charAt(i));
+            movesToLeft += ballsToLeft;
 
-            ans[i] = x;
-
+            // Right pass
+            int j = n - 1 - i;
+            answer[j] += movesToRight;
+            ballsToRight += Character.getNumericValue(boxes.charAt(j));
+            movesToRight += ballsToRight;
         }
-        return ans;
+
+        return answer;
     }
 }
