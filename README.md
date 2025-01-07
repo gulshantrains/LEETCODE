@@ -18,6 +18,7 @@
 |  |
 | ------- |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
+| [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
@@ -53,6 +54,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1646-kth-missing-positive-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/flyingelephhant/LEETCODE/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
@@ -183,6 +185,7 @@
 |  |
 | ------- |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
+| [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
 ## Tree
 |  |
