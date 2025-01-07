@@ -1,11 +1,7 @@
 class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
         int ans = 0;
-        Arrays.sort(boxTypes, (a, b) -> {
-            if (a[1] != b[1])
-                return b[1] - a[1];
-            return b[0] - a[0];
-        });
+        Arrays.sort(boxTypes, (a, b) -> (b[1] - a[1]));
 
         for (var x : boxTypes) {
             int type = x[0];
