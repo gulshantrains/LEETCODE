@@ -58,6 +58,7 @@
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/flyingelephhant/LEETCODE/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
+| [2181-smallest-index-with-equal-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2181-smallest-index-with-equal-value) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/2465-shifting-letters-ii) |
