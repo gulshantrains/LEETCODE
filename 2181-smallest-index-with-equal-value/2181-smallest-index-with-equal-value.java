@@ -7,6 +7,8 @@ class Solution {
                 ans = i;
             }
         }
-        return (ans == Integer.MAX_VALUE ? -1 : ans);
+        if (ans == Integer.MAX_VALUE)
+            return -1;
+        return ans;
     }
 }
