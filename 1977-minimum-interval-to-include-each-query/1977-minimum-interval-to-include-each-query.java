@@ -1,35 +1,43 @@
+import java.util.*;
+
 class Solution {
     public int[] minInterval(int[][] A, int[] queries) {
         int n = queries.length, m = A.length;
-        // One clone of queries for sorting and ans for storing result
-        int[] res = queries.clone(), ans = new int[n];
-        Arrays.sort(res); // Sort queries
-        int i = 0; // For iterating
-         Arrays.sort(A, (a,b)->Integer.compare(a[0], b[0]));
-        // Sort on basis of 1st element then if equal 2nd element
+        // Clone queries for sorting and create result array
+        int[] sortedQueries = queries.clone(), result = new int[n];
+        Arrays.sort(sortedQueries); // Sort queries
+        Arrays.sort(A, (a, b) -> Integer.compare(a[0], b[0])); // Sort intervals by start point
 
-        // For Storing size and right index value
-        // Treemap follows Red-Black tree and it is SORTED in Ascending
-        // already(*Smallest first)
-        TreeMap<Integer, Integer> mt = new TreeMap<>();
-        // Map will Store size wrt queries
-        HashMap<Integer, Integer> mp = new HashMap<>();
+        // Priority queue to store intervals by their size (smallest size first)
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
 
-        for (int x : res) {
-            while (i < m && A[i][0] <= x) {      //if queries is <= to left value then add means there
-                int r = A[i][1], l = A[i++][0];  //may be chance that [] lies in range
-                mt.put(r - l + 1, r);
+        // Map to store results for each query
+        Map<Integer, Integer> queryToResult = new HashMap<>();
+        int i = 0; // Pointer for iterating through intervals
+
+        // Process each query in ascending order
+        for (int query : sortedQueries) {
+            // Add all intervals that start <= current query
+            while (i < m && A[i][0] <= query) {
+                int start = A[i][0], end = A[i][1];
+                pq.offer(new int[] { end - start + 1, end }); // {size, end}
+                i++;
             }
-            while (!mt.isEmpty() && mt.firstEntry().getValue() < x) { //if value of query is greater
-                mt.pollFirstEntry();                //means that query doesnt lies in..[] so remove
+
+            // Remove intervals that end < current query
+            while (!pq.isEmpty() && pq.peek()[1] < query) {
+                pq.poll();
             }
-            mp.put(x, (mt.isEmpty() ? -1 : mt.firstKey())); //if something available then put in map
-        }
-        i = 0;
-        for (int xx : queries) {
-            ans[i++] = mp.get(xx); //re-write with original index
+
+            // Store the result for this query
+            queryToResult.put(query, pq.isEmpty() ? -1 : pq.peek()[0]);
         }
 
-        return ans;
+        // Map results back to original query order
+        for (int j = 0; j < n; j++) {
+            result[j] = queryToResult.get(queries[j]);
+        }
+
+        return result;
     }
 }
