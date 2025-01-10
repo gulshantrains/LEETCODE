@@ -1,28 +1,37 @@
 class Solution {
-    public List<String> wordSubsets(String[] A, String[] B) {
-        int[] bmax = count("");
-        for (String b: B) {
-            int[] bCount = count(b);
-            for (int i = 0; i < 26; ++i)
-                bmax[i] = Math.max(bmax[i], bCount[i]);
+    public List<String> wordSubsets(String[] words1, String[] words2) {
+        ArrayList<String> lst = new ArrayList<>();
+
+        int[] target = new int[26];
+
+        for (var x : words2) {
+
+            int[] temp1 = new int[26];
+            for (var xx : x.toCharArray()) {
+                temp1[xx - 'a']++;
+                target[xx - 'a'] = Math.max(target[xx - 'a'], temp1[xx - 'a']);
+            }
         }
 
-        List<String> ans = new ArrayList();
-        search: for (String a: A) {
-            int[] aCount = count(a);
-            for (int i = 0; i < 26; ++i)
-                if (aCount[i] < bmax[i])
-                    continue search;
-            ans.add(a);
-        }
+        for (var x : words1) {
 
-        return ans;
+            int[] temp2 = new int[26];
+            for (var xx : x.toCharArray()) {
+                temp2[xx - 'a']++;
+            }
+            if (isSubset(temp2, target)) {
+                lst.add(x);
+            }
+
+        }
+        return lst;
     }
 
-    public int[] count(String S) {
-        int[] ans = new int[26];
-        for (char c: S.toCharArray())
-            ans[c - 'a']++;
-        return ans;
+    public boolean isSubset(int[] A, int[] B) {
+        for (int i = 0; i < 26; i++) {
+            if (A[i] < B[i])
+                return false;
+        }
+        return true;
     }
 }
