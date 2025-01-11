@@ -2,8 +2,6 @@ class Solution {
     public boolean canConstruct(String s, int k) {
         if (k > s.length())
             return false;
-        if (k == s.length())
-            return true;
 
         int[] chridx = new int[26];
         int odd = 0;
@@ -12,12 +10,12 @@ class Solution {
             chridx[x - 'a']++;
         }
         for (int x : chridx) {
-            if (x != 0 && x % 2 != 0)
+            if (x % 2 != 0) //count odd wla ka number
                 odd++;
         }
-        System.out.println(odd);
-        if (odd > k)
-            return false;
+        if (odd > k) //Odd fre wale he decide krte hai kitne palindrom honge
+            return false; //agr odd wale > K ,then we can make minimum odd no of 
+                         //odd times palindrome
         return true;
     }
 }
