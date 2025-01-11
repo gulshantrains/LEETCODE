@@ -56,6 +56,7 @@
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/flyingelephhant/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1524-string-matching-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1524-string-matching-in-an-array) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/flyingelephhant/LEETCODE/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1646-kth-missing-positive-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
