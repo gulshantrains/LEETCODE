@@ -2,6 +2,8 @@ class Solution {
     public boolean canConstruct(String s, int k) {
         if (k > s.length())
             return false;
+        if (k == s.length())
+            return true;
 
         int[] chridx = new int[26];
         int odd = 0;
