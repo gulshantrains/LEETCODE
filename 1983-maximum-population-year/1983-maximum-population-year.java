@@ -1,24 +1,20 @@
 class Solution {
     public int maximumPopulation(int[][] logs) {
         int[] ar = new int[101];
-        int pop = 0;
-        int maxPop = 0;
-        int maxY = 0;
-
+        int pop = 0, maxPop=0, maxY=1950;
+       
         for (var x : logs) {
-            int b = x[0];
-            int d = x[1];
-
-            ar[b - 1950]++;
-            ar[d - 1950]--;
+            ar[x[0] - 1950]++;
+            ar[x[1] - 1950]--;
         }
+
         int runpop = 0;
         for (int i = 0; i < 101; i++) {
-            runpop += ar[i]; //At any time people alive in that particular year
+            runpop += ar[i]; // At any time people alive in that particular year
 
-            if (runpop > maxPop) { //If curr exceed max pop then updat maxpop
+            if (runpop > maxPop) { // If curr exceed max pop then updat maxpop
                 maxPop = runpop;
-                maxY = i + 1950; //now it means that max year will change
+                maxY = i + 1950; // now it means that max year will change
             }
         }
         return maxY;
