@@ -65,6 +65,7 @@
 | [1944-truncate-sentence](https://github.com/flyingelephhant/LEETCODE/tree/master/1944-truncate-sentence) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
+| [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
 | [2181-smallest-index-with-equal-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2181-smallest-index-with-equal-value) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -138,6 +139,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/flyingelephhant/LEETCODE/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
+| [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2358-number-of-ways-to-split-array) |
@@ -150,6 +152,7 @@
 | ------- |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
+| [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
 | [2634-minimum-common-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2634-minimum-common-value) |
