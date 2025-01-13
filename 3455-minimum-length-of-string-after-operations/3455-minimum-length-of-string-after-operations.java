@@ -4,8 +4,8 @@ class Solution {
             return 2; // If s length is 2 then directly return its length
         int[] ar = new int[26];
 
-        for (var x : s.toCharArray()) {
-            ar[x - 'a']++; // Count evry digit occurance
+        for (int i = 0; i < s.length(); i++) {
+            ar[s.charAt(i) - 'a']++; // Count evry digit occurance
         }
 
         int ans = 0;
