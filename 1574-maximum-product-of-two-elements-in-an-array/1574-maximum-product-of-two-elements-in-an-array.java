@@ -1,15 +1,12 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int maxx = 0;
-        for (int i = 0; i < nums.length; i++) {
-            int x = nums[i]-1;
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        for (int x : nums)
+            pq.add(x);
 
-            for (int j = i + 1; j < nums.length; j++) {
-                int xx = nums[j]-1;
+        int m1 = pq.poll();
+        int m2 = pq.poll();
 
-                maxx = Math.max(maxx, x * xx);
-            }
-        }
-        return maxx;
+        return (m1 - 1) * (m2 - 1);
     }
 }
