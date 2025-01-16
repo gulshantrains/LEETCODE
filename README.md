@@ -13,6 +13,7 @@
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
+| [1630-count-odd-numbers-in-an-interval-range](https://github.com/flyingelephhant/LEETCODE/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
