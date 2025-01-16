@@ -4,6 +4,7 @@
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/flyingelephhant/LEETCODE/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
@@ -38,6 +39,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -132,6 +134,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0191-number-of-1-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
@@ -187,6 +190,7 @@
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0345-reverse-vowels-of-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
 | [0742-to-lower-case](https://github.com/flyingelephhant/LEETCODE/tree/master/0742-to-lower-case) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
