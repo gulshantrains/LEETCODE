@@ -187,6 +187,7 @@
 |  |
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
+| [0742-to-lower-case](https://github.com/flyingelephhant/LEETCODE/tree/master/0742-to-lower-case) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
