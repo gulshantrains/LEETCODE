@@ -97,6 +97,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2792-neighboring-bitwise-xor](https://github.com/flyingelephhant/LEETCODE/tree/master/2792-neighboring-bitwise-xor) |
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
@@ -145,6 +146,7 @@
 | [2509-minimize-xor](https://github.com/flyingelephhant/LEETCODE/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/flyingelephhant/LEETCODE/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2792-neighboring-bitwise-xor](https://github.com/flyingelephhant/LEETCODE/tree/master/2792-neighboring-bitwise-xor) |
 | [3093-sum-of-values-at-indices-with-k-set-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/3093-sum-of-values-at-indices-with-k-set-bits) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Recursion
