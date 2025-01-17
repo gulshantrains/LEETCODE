@@ -87,6 +87,7 @@
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
 | [2181-smallest-index-with-equal-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2181-smallest-index-with-equal-value) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/flyingelephhant/LEETCODE/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2358-number-of-ways-to-split-array) |
@@ -122,6 +123,7 @@
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -186,6 +188,7 @@
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
 | [2634-minimum-common-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2634-minimum-common-value) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -268,6 +271,7 @@
 | [1584-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/1584-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 ## Tree
