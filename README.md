@@ -73,6 +73,7 @@
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/flyingelephhant/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1524-string-matching-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1524-string-matching-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/flyingelephhant/LEETCODE/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1584-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/1584-average-salary-excluding-the-minimum-and-maximum-salary) |
@@ -113,15 +114,18 @@
 ## Queue
 |  |
 | ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 ## Sliding Window
 |  |
 | ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/flyingelephhant/LEETCODE/tree/master/1127-last-stone-weight) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -133,10 +137,12 @@
 ## Ordered Set
 |  |
 | ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 ## Bit Manipulation
 |  |
