@@ -1,23 +1,33 @@
 class Solution {
+    class Pair {
+        int val;
+        int idx;
+
+        Pair(int val, int idx) {
+            this.val = val;
+            this.idx = idx;
+        }
+    }
+
     public int[] maxSubsequence(int[] nums, int k) {
         int n = nums.length;
-        int[][] pairr = new int[n][2];
+
+        PriorityQueue<Pair> pq1 = new PriorityQueue<>((a, b) -> b.val - a.val);
+        PriorityQueue<Pair> pq2 = new PriorityQueue<>((a, b) -> a.idx - b.idx);
 
         for (int i = 0; i < n; i++) {
-            pairr[i][0] = nums[i];
-            pairr[i][1] = i;
+            pq1.add(new Pair(nums[i], i));
         }
-        Arrays.sort(pairr, (a, b) -> b[0] - a[0]);
+        int[] ans = new int[k];
 
-        int[][] an = Arrays.copyOfRange(pairr, 0, k);
-
-        Arrays.sort(an, (a, b) -> a[1] - b[1]);
-
-        int[] res = new int[k];
-        int j = 0;
-        for (var x : an) {
-            res[j++] = x[0];
+        for (int i = 0; i < k; i++) {
+            Pair curr = pq1.poll();
+            pq2.add(new Pair(curr.val, curr.idx));
         }
-        return res;
+        
+        for(int i=0; i<k; i++){
+            ans[i]=pq2.poll().val;
+        }
+        return ans;
     }
 }
