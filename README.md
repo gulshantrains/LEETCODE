@@ -56,6 +56,7 @@
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
+| [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0494-target-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -130,6 +131,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [1127-last-stone-weight](https://github.com/flyingelephhant/LEETCODE/tree/master/1127-last-stone-weight) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -315,6 +317,7 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -395,6 +398,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Shortest Path
