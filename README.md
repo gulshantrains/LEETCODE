@@ -104,6 +104,7 @@
 | [2533-bitwise-xor-of-all-pairings](https://github.com/flyingelephhant/LEETCODE/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2634-minimum-common-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2634-minimum-common-value) |
+| [2685-first-completely-painted-row-or-column](https://github.com/flyingelephhant/LEETCODE/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -212,6 +213,7 @@
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2634-minimum-common-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2634-minimum-common-value) |
+| [2685-first-completely-painted-row-or-column](https://github.com/flyingelephhant/LEETCODE/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/flyingelephhant/LEETCODE/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -402,6 +404,7 @@
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2685-first-completely-painted-row-or-column](https://github.com/flyingelephhant/LEETCODE/tree/master/2685-first-completely-painted-row-or-column) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Shortest Path
 |  |
