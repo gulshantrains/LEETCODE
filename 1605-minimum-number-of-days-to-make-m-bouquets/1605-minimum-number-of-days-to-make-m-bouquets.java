@@ -7,18 +7,14 @@ class Solution {
         if (flower_need > n)
             return -1;
 
-        int maxBloom = 0;
-        for (int day : bloomDay) {
-            maxBloom = Math.max(maxBloom, day);
-        }
 
-        return bs(bloomDay, m, k, maxBloom);
+        return bs(bloomDay, m, k);
     }
 
-    public int bs(int[] arr, int m, int k, int maxBloom) {
+    public int bs(int[] arr, int m, int k) {
         int res = -1;
         int l = 1;
-        int r = maxBloom;
+        int r = Arrays.stream(arr).max().getAsInt();
 
         while (l <= r) {
             int mid = l + (r - l) / 2;
