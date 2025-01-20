@@ -1,10 +1,11 @@
 import heapq
 
+
 class Solution:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
         if not heightMap or not heightMap[0]:
             return 0
-        
+
         m, n = len(heightMap), len(heightMap[0])
         min_heap = []
         visited = set()
