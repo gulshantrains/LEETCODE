@@ -17,7 +17,7 @@ class Solution {
 //..i+1 as we are 0 indexed & Math.ceil as we haave to round off to INT
         for (int i = nums.length - 1; i >= 0; i--) {
             if (++freq[nums[i]] > 1)
-                return (int) Math.ceil((double)(i + 1 )/ 3);
+                return (i+3)/3;
         }
         return 0;
     }
