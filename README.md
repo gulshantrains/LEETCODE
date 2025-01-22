@@ -7,6 +7,7 @@
 | [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/flyingelephhant/LEETCODE/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
+| [0202-happy-number](https://github.com/flyingelephhant/LEETCODE/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/flyingelephhant/LEETCODE/tree/master/0326-power-of-three) |
 | [0445-add-two-numbers-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0445-add-two-numbers-ii) |
@@ -211,6 +212,7 @@
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/flyingelephhant/LEETCODE/tree/master/0041-first-missing-positive) |
+| [0202-happy-number](https://github.com/flyingelephhant/LEETCODE/tree/master/0202-happy-number) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
@@ -382,6 +384,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/flyingelephhant/LEETCODE/tree/master/0202-happy-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
 | [2634-minimum-common-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2634-minimum-common-value) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
