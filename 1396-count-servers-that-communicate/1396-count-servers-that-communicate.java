@@ -3,6 +3,8 @@
 ---Two servers are said to communicate if they are on the same row or on the same column.
 ---Return the number of servers that communicate with any other server. */
 
+
+//TC->O(m*n)+O(m*n)
 class Solution {
     public int countServers(int[][] grid) {
         int m = grid.length, n = grid[0].length;
@@ -22,7 +24,8 @@ class Solution {
         }
         for (int r = 0; r < m; r++) {
             for (int c = 0; c < n; c++) {
-                //grid me 1 server hai and uss row and column me >1 hai to connect
+               //The loop that calculates the final count checks whether a server is located at (r, c) 
+               //..and can communicate with others (i.e., rowcnt[r] > 1 || colmcnt[c] > 1).
                 if (grid[r][c] == 1 && (rowcnt[r] > 1 || colmcnt[c] > 1))
                     count++;
             }
