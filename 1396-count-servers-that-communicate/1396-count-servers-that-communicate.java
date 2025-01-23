@@ -6,34 +6,27 @@
 class Solution {
     public int countServers(int[][] grid) {
         int m = grid.length, n = grid[0].length;
-        int sercount = 0;
-
+        int count = 0;
+        int[] rowcnt = new int[m];
+        int[] colmcnt = new int[n];
+        Arrays.fill(rowcnt, 0);
+        Arrays.fill(colmcnt, 0);
+        // Row array and column array me kitne server hai usse store kr lete hai
         for (int r = 0; r < m; r++) {
             for (int c = 0; c < n; c++) {
                 if (grid[r][c] == 1) {
-                    boolean can = false;
-                    // check for server in same row
-                    for (int k = 0; k < n; k++) {
-                        if (grid[r][k] == 1 && k != c) {
-                            can = true;
-                            break;
-                        }
-                    }
-                    if (!can) {
-                        // now check for server in same column
-                        for (int j = 0; j < m; j++) {
-                            if (grid[j][c] == 1 && j != r) {
-                                can = true;
-                                break;
-                            }
-                        }
-                    }
-                    if (can)
-                        sercount +=1;
+                    rowcnt[r]++;
+                    colmcnt[c]++;
                 }
-
             }
         }
-        return sercount;
+        for (int r = 0; r < m; r++) {
+            for (int c = 0; c < n; c++) {
+                //grid me 1 server hai and uss row and column me >1 hai to connect
+                if (grid[r][c] == 1 && (rowcnt[r] > 1 || colmcnt[c] > 1))
+                    count++;
+            }
+        }
+        return count;
     }
 }
