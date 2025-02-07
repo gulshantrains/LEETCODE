@@ -1,29 +1,32 @@
 class Solution:
     def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
-        ball_colour = {}  # Maps ball -> colour
-        colour_count = defaultdict(int) #Maps colour->count,auto-initializes missing keys to 0
-        distinct = 0  # Keeps track of the number of distinct colours
-        ans = []
+        res = []  # res[i] = distinct # of colors after queries[i]
+        distinct = 0  # current distinct # of colors
 
-        for ball, colour in queries:
-            # If the ball already exists and its colour is unchanged, no update is needed.
-            if ball in ball_colour:
-                if ball_colour[ball] == colour:
-                    ans.append(distinct)
-                    continue
-                # Decrement the count for the old colour.
-                old_colour = ball_colour[ball]
-                colour_count[old_colour] -= 1
-                if colour_count[old_colour] == 0:
+        ball_color = {}  # ball : color of the ball
+        color_count = (
+            {}
+        )  # color : count of the color; # of items corresponds to 'distinct'
+
+        for ball, new_color in queries:
+            # Considering the removal of the ball's old color, update 'color_count'
+            if ball in ball_color:
+                old_color = ball_color[ball]
+                color_count[old_color] -= 1
+                if color_count[old_color] == 0:
+                    # A unique color is deleted
+                    del color_count[old_color]
                     distinct -= 1
 
-            # Update the ball's colour.
-            ball_colour[ball] = colour
-            # If this colour was not present before, update the distinct count.
-            if colour_count[colour] == 0:
+            # Update the ball's color and update 'color_count' as appropriate
+            ball_color[ball] = new_color
+            if new_color in color_count:
+                color_count[new_color] += 1
+            else:
+                # A unique color is added
+                color_count[new_color] = 1
                 distinct += 1
-            colour_count[colour] += 1
 
-            ans.append(distinct)
-
-        return ans
+            # Append the distinct # of colors after executing updates
+            res.append(distinct)
+        return res
