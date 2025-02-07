@@ -1,26 +1,29 @@
 class Solution:
     def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
-        ball_colour = {}  # To store ball -> colour mapping
-        colour_count = {}  # To store the count of balls for each colour
+        ball_colour = {}  # Maps ball -> colour
+        colour_count = defaultdict(int) #Maps colour->count,auto-initializes missing keys to 0
+        distinct = 0  # Keeps track of the number of distinct colours
         ans = []
 
         for ball, colour in queries:
-            # If the ball already has a colour, decrement the count for its previous colour.
+            # If the ball already exists and its colour is unchanged, no update is needed.
             if ball in ball_colour:
-                prev_colour = ball_colour[ball]
-                colour_count[prev_colour] -= 1
-
-                # If no balls of the previous colour remain, remove it from the dictionary.
-                if colour_count[prev_colour] <= 0:
-                    del colour_count[prev_colour]
+                if ball_colour[ball] == colour:
+                    ans.append(distinct)
+                    continue
+                # Decrement the count for the old colour.
+                old_colour = ball_colour[ball]
+                colour_count[old_colour] -= 1
+                if colour_count[old_colour] == 0:
+                    distinct -= 1
 
             # Update the ball's colour.
             ball_colour[ball] = colour
+            # If this colour was not present before, update the distinct count.
+            if colour_count[colour] == 0:
+                distinct += 1
+            colour_count[colour] += 1
 
-            # Increment the count for the new colour.
-            colour_count[colour] = colour_count.get(colour, 0) + 1
-
-            # Append the number of unique colours (keys in colour_count) to the answer list.
-            ans.append(len(colour_count))
+            ans.append(distinct)
 
         return ans
