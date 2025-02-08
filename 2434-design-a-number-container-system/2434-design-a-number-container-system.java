@@ -11,11 +11,8 @@ class NumberContainers {
         //Add index->number
         idxTonum.put(index,number); 
 
-        //If number is not in {num->index} then add no and also queue
-        if(!numToidxs.containsKey(number)){
-            numToidxs.put(number,new PriorityQueue<>());
-        }
-        numToidxs.get(number).offer(index); //Put index to number
+        numToidxs.computeIfAbsent(number, k -> new PriorityQueue<>()).add(index);
+
     }
     public int find(int number) {
         if(!numToidxs.containsKey(number)) return -1; //Not present
