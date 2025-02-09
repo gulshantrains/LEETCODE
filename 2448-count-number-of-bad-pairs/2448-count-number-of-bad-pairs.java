@@ -1,17 +1,23 @@
 class Solution {
     public long countBadPairs(int[] nums) {
-        Map<Integer, Integer> bag = new HashMap<>(); // Store occurrences of `nums[i] - i`
-        long count = 0; // Count of good pairs
+        int n = nums.length;
+        long total = 0; // Total combination Possible
+
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            // Compute the difference for the current element
+            // Find nums[i]-i 0R nums[j]-j
             int diff = nums[i] - i;
-            // Add the count of previous elements with the same difference
-            count += bag.getOrDefault(diff, 0);
-            // Update the count of this difference in the map
-            bag.put(diff, bag.getOrDefault(diff, 0) + 1);
+            // If we seen that bad pair already
+            int prevcount = map.getOrDefault(diff, 0);
+            total += i - prevcount;
+            map.put(diff, prevcount + 1);
         }
-        int len = nums.length;
-        // Total pairs minus good pairs gives bad pairs
-        return 1L * len * (len - 1) / 2 - count;
+        return total;
     }
 }
+/*MY PROBLEM:
+-->I WAS UNABLE TO THINK OF TC LESS THAN O(n^2)
+-->I WAS UNABLE TO THINK HOW WE CAN FIND IF WE HAVE SEEN ANY GOOD PAIR means 
+.......j-i==nums[j]-nums[i]
+-->j - i != nums[j] - nums[i] ---||--- nums[i]-i != nums[j]-j
+*/
