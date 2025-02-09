@@ -15,3 +15,9 @@ class Solution {
         return total;
     }
 }
+/*MY PROBLEM:
+-->I WAS UNABLE TO THINK OF TC LESS THAN O(n^2)
+-->I WAS UNABLE TO THINK HOW WE CAN FIND IF WE HAVE SEEN ANY GOOD PAIR means 
+.......j-i==nums[j]-nums[i]
+-->j - i != nums[j] - nums[i] ---||--- nums[i]-i != nums[j]-j
+*/
