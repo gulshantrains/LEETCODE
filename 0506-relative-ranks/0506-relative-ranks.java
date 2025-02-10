@@ -1,7 +1,7 @@
 class Solution {
     public String[] findRelativeRanks(int[] score) {
         int[] cp = score.clone();
-        cp = cp = Arrays.stream(cp) // Convert to stream
+        cp = Arrays.stream(cp) // Convert to stream
                 .boxed() // Convert int to Integer
                 .sorted((a, b) -> b - a) // Sort in descending order
                 .mapToInt(Integer::intValue) // Convert back to int[]
@@ -17,7 +17,7 @@ class Solution {
             else if (i == 2)
                 map.put(cp[i], "Bronze Medal");
             else
-                map.put(cp[i], String.valueOf(x));
+                map.put(cp[i], x+"");
         }
         String[] ans = new String[score.length];
         for (int i = 0; i < score.length; i++) {
