@@ -1,24 +1,26 @@
 class Solution {
     public String clearDigits(String s) {
-        String num = "0123456789"; // To check if x is number or not
-        Stack<Character> st = new Stack<>();
-        st.push(s.charAt(0));
-
-        for (int i = 1; i < s.length(); i++) {
-            char x = s.charAt(i);
-
-            // If stack top element is character and current char is NUMBER then pop top
-            // element
-            if (!st.isEmpty() && num.contains(String.valueOf(x)))
-                st.pop();
-            else if (!num.contains(String.valueOf(x)))
-                st.push(x);// Push char is it is not a NUMBER
-
-        }
+        int n = s.length(), k = -1;
         StringBuilder ss = new StringBuilder("");
-        while (!st.isEmpty()) {
-            ss.append(st.pop());
+
+        for (int i = 0; i < n; i++) {
+            char x = s.charAt(i);
+//x is a character between a...z so append it and increase counter value
+            if (x >= 'a' && x <= 'z') {
+                ss.append(x);
+                k++;
+            } else {
+                //X is not a character 
+                //and counter value is >=0 means atleast one character exist
+                if (k >= 0) { 
+                    ss.deleteCharAt(k);
+                    k--;
+                } else {
+                    ss.append(x);//if not character is before then append number
+                }
+            }
         }
-        return ss.reverse().toString();
+        return ss.toString();
+
     }
 }
