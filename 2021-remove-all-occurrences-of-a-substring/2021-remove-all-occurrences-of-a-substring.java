@@ -3,8 +3,7 @@ class Solution {
         StringBuilder ans = new StringBuilder(s);
 
         while (ans.indexOf(part) != -1) {
-            int idx = ans.indexOf(part);
-            ans.delete(idx, idx+part.length());
+            ans.delete(ans.indexOf(part), ans.indexOf(part)+part.length());
         }
         return ans.toString();
     }
