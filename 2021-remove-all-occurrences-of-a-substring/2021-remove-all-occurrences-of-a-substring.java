@@ -1,9 +1,20 @@
 class Solution {
     public String removeOccurrences(String s, String part) {
-        //If s conatins part then replace it with null and continue this till over
-        while (s.contains(part)) {
-            s = s.replaceFirst(part, "");
+        StringBuilder ans = new StringBuilder(s);
+
+        while (ans.indexOf(part) != -1) {
+            int idx = ans.indexOf(part);
+            ans.delete(idx, idx+part.length());
         }
-        return s;
+        return ans.toString();
     }
 }
+/* class Solution {
+    public String removeOccurrences(String s, String part) {
+        String ans = s; //New string 
+        while (ans.length() > 0 && ans.contains(part)) {
+            ans = ans.replaceFirst(part, "");
+        }
+        return ans;
+    }
+}*/
