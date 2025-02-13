@@ -4,8 +4,8 @@ class Solution {
         int[] ans = new int[n];
         int[] pre = new int[n];
         int[] suf = new int[n];
-        Arrays.fill(pre, 1);
-        Arrays.fill(suf, 1);
+        //Arrays.fill(pre, 1);
+        //Arrays.fill(suf, 1);
 
         pre[0] = nums[0];
         suf[n - 1] = nums[n - 1];
