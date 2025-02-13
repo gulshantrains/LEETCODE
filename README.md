@@ -47,6 +47,7 @@
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/flyingelephhant/LEETCODE/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -132,6 +133,7 @@
 | [3093-sum-of-values-at-indices-with-k-set-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/3093-sum-of-values-at-indices-with-k-set-bits) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/flyingelephhant/LEETCODE/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/flyingelephhant/LEETCODE/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -168,6 +170,7 @@
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Ordered Set
 |  |
