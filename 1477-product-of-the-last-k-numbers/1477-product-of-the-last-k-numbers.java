@@ -21,7 +21,7 @@ class ProductOfNumbers {
         if (k == ls.size())
             return ls.get(ls.size() - 1);
 
-        else if (k > ls.size())
+        if (k > ls.size())
             return 0;
 
         return ls.get(ls.size() - 1) / ls.get(ls.size() - k - 1);
