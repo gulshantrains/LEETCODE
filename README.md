@@ -73,6 +73,7 @@
 | [0494-target-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0494-target-sum) |
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
@@ -222,6 +223,7 @@
 | [0238-product-of-array-except-self](https://github.com/flyingelephhant/LEETCODE/tree/master/0238-product-of-array-except-self) |
 | [0410-split-array-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
@@ -244,6 +246,7 @@
 | [0041-first-missing-positive](https://github.com/flyingelephhant/LEETCODE/tree/master/0041-first-missing-positive) |
 | [0202-happy-number](https://github.com/flyingelephhant/LEETCODE/tree/master/0202-happy-number) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
