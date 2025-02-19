@@ -86,6 +86,7 @@
 | [0890-lemonade-change](https://github.com/flyingelephhant/LEETCODE/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/flyingelephhant/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
+| [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
@@ -158,6 +159,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0209-minimum-size-subarray-sum) |
+| [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
@@ -229,6 +231,7 @@
 | [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
+| [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1833-find-the-highest-altitude](https://github.com/flyingelephhant/LEETCODE/tree/master/1833-find-the-highest-altitude) |
@@ -251,6 +254,7 @@
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
+| [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1160-letter-tile-possibilities](https://github.com/flyingelephhant/LEETCODE/tree/master/1160-letter-tile-possibilities) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
