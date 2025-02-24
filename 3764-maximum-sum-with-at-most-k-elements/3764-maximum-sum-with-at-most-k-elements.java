@@ -7,13 +7,14 @@ class Solution {
 
         for (int[] row : grid) {
             Arrays.sort(row); // Sort in ascending order
-            reverse(row); // Reverse to get descending order
+            reverse(row); //Reverse it will give decending order
         }
         for (int i = 0; i < n; i++) {
+            //Take minimum of row length and limit[i]
             for (int j = 0; j < Math.min(li[i], m); j++) {
                 pq.offer(grid[i][j]);
 
-                if (pq.size() > k)
+                if (pq.size() > k) //This will ensure to keep Atmost K element
                     pq.poll();
             }
         }
