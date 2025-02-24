@@ -27,6 +27,7 @@
 | [3515-find-if-digit-game-can-be-won](https://github.com/flyingelephhant/LEETCODE/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -307,6 +308,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/flyingelephhant/LEETCODE/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Counting
 |  |
 | ------- |
@@ -365,6 +367,7 @@
 |  |
 | ------- |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
+| [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -552,4 +555,8 @@
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 <!---LeetCode Topics End-->
