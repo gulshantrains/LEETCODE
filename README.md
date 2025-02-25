@@ -19,6 +19,7 @@
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/flyingelephhant/LEETCODE/tree/master/1630-count-odd-numbers-in-an-interval-range) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2448-count-number-of-bad-pairs) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
@@ -107,6 +108,7 @@
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1584-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/1584-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/flyingelephhant/LEETCODE/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1646-kth-missing-positive-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1646-kth-missing-positive-number) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -239,6 +241,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/flyingelephhant/LEETCODE/tree/master/1833-find-the-highest-altitude) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/flyingelephhant/LEETCODE/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
@@ -473,6 +476,7 @@
 | [1013-fibonacci-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2562-count-ways-to-build-good-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/2562-count-ways-to-build-good-strings) |
 ## Backtracking
