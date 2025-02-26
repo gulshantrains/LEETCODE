@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<nums.length; i++){
             currsum +=nums[i];
 
-            if(currsum>maxsum) maxsum=currsum;
+            maxsum=(currsum>maxsum)?currsum:maxsum;
 
             if(currsum<0) currsum=0;
 
