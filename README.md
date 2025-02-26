@@ -66,6 +66,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/flyingelephhant/LEETCODE/tree/master/0041-first-missing-positive) |
+| [0053-maximum-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
@@ -226,6 +227,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0191-number-of-1-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0191-number-of-1-bits) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 ## Prefix Sum
@@ -468,6 +470,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
 | [0410-split-array-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0410-split-array-largest-sum) |
