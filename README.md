@@ -23,6 +23,7 @@
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/flyingelephhant/LEETCODE/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2448-count-number-of-bad-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2448-count-number-of-bad-pairs) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
+| [2649-count-total-number-of-colored-cells](https://github.com/flyingelephhant/LEETCODE/tree/master/2649-count-total-number-of-colored-cells) |
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/2802-find-the-punishment-number-of-an-integer) |
