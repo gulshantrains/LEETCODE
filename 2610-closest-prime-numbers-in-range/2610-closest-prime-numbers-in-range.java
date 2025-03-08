@@ -1,39 +1,39 @@
 class Solution {
     public int[] closestPrimes(int left, int right) {
-        boolean[] all=seive(right);
-        ArrayList<Integer> prime=new ArrayList<>();
-        int ans[]=new int[]{-1,-1};
+        int[] ans = new int[2];
+        ans[0]=-1;
+        ans[1]=-1;
+        int n1 = 0, n2 = 0;
+        int dif = Integer.MAX_VALUE;
+      
 
-        for(int i=Math.max(2,left); i<=right; i++){
-            if(all[i]) prime.add(i);
-        }
-        if(prime.size()<2) return new int[]{-1,-1};
-        int diff=Integer.MAX_VALUE;
-
-        for(int i=1; i<prime.size(); i++){
-            int temp=prime.get(i)-prime.get(i-1);
-
-            if(temp<diff){
-                diff=temp;
-                ans[0]=prime.get(i-1);
-                ans[1]=prime.get(i);
+        for (int i = left; i <= right; i++) {
+            int temp = 0;
+            if (i !=1 && isPrime(i)) {
+                n1 = i;
+                for (int j = i + 1; j <= right; j++) {
+                    if (isPrime(j)) {
+                        n2 = j;
+                        temp = n2 - n1;
+                        if (temp < dif) {
+                            dif = temp;
+                            ans[0] = n1;
+                            ans[1] = n2;
+                            if(dif<=2) return ans;
+                        }
+                        break;
+                    }
+                }
             }
         }
         return ans;
-        
     }
-    public boolean[] seive(int n){
-        boolean[] isPrime=new boolean[n+1];
-        Arrays.fill(isPrime,true);
 
-        isPrime[0]=false;
-        isPrime[1]=false;
-
-        for(int i=2; i*i<=n; i++){
-            if(isPrime[i]){
-                for(int j=2; i*j<=n; j++) isPrime[i*j]=false;
-            }
+    public boolean isPrime(int n) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0)
+                return false;
         }
-        return isPrime;
+        return true;
     }
 }
