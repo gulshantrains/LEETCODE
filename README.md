@@ -181,6 +181,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/flyingelephhant/LEETCODE/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 ## Heap (Priority Queue)
 |  |
@@ -326,6 +327,7 @@
 | [2292-counting-words-with-a-given-prefix](https://github.com/flyingelephhant/LEETCODE/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/flyingelephhant/LEETCODE/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
