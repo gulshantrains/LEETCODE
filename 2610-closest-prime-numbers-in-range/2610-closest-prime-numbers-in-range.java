@@ -19,7 +19,7 @@ class Solution {
                             dif = temp;
                             ans[0] = n1;
                             ans[1] = n2;
-                            if(dif<=2) return ans;
+                            if(dif<=2) return ans; //Waooooo
                         }
                         break;
                     }
