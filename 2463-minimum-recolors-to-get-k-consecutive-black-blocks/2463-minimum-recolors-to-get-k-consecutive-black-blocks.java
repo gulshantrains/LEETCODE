@@ -1,32 +1,23 @@
 class Solution {
-    public int minimumRecolors(String blok, int k) {
-        int count = 0;
-        int ans = 100000;
+    public int minimumRecolors(String blo, int k) {
+        int minop=100000, curr=0;
 
-        for (int i = 0; i < blok.length(); i++) {
-            if (blok.charAt(i) == 'B')
-                count++;
-            else
-                count = 0;
+    //Check for first Window of size 'k'
+        for(int i=0; i<k; i++){
+            if(blo.charAt(i)=='W') curr++;
         }
-        if (count >= k)
-            return 0;
-        else {
-            for (int i = 0; i < blok.length(); i++) {
-                int temp = 0; // operation count
-                int b = 0; // count B
-                for (int j = i; i + k <= blok.length() && j < i + k; j++) {
-                    if (blok.charAt(j) == 'B') {
-                        b++;
-                    } else {
-                        temp++;
-                        b++;
-                    }
-                    if (b == k)
-                        ans = Math.min(ans, temp);
-                }
-            }
-            return ans;
+        minop=curr; //Assign value to min
+
+        //Now check for all window by sliding one by one
+        for(int i=k; i<blo.length(); i++){
+            // If the character which exited the window is 'W' decrease count
+            if(blo.charAt(i-k)=='W') curr--;
+
+            //If character which entered the window if 'W' increase the count
+            if(blo.charAt(i)=='W') curr++;
+
+            minop=Math.min(minop,curr);
         }
+        return minop;
     }
 }
