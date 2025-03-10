@@ -186,6 +186,7 @@
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/flyingelephhant/LEETCODE/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 | [3483-alternating-groups-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3483-alternating-groups-ii) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -304,6 +305,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/flyingelephhant/LEETCODE/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/flyingelephhant/LEETCODE/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/flyingelephhant/LEETCODE/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/3705-find-the-largest-almost-missing-integer) |
 ## String
@@ -336,6 +338,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/flyingelephhant/LEETCODE/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Counting
 |  |
