@@ -32,9 +32,9 @@ class Solution {
                 ls.add(temp.val);
 
                 if (temp.left != null)
-                    que.offer(temp.left);
+                    que.add(temp.left);
                 if (temp.right != null)
-                    que.offer(temp.right);
+                    que.add(temp.right);
             }
             ans.add(ls);
         }
