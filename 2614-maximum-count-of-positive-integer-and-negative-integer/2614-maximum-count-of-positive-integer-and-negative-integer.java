@@ -1,11 +1,11 @@
 class Solution {
     public int maximumCount(int[] nums) {
 
-        IntPredicate lambdap = num -> num > 0;
-        IntPredicate lambdan = num -> num < 0;
+        IntPredicate p = num -> num > 0;
+        IntPredicate n = num -> num < 0;
 
-        int pos = (int) Arrays.stream(nums).filter(lambdap).count();
-        int neg = (int) Arrays.stream(nums).filter(lambdan).count();
+        int pos = (int) Arrays.stream(nums).filter(p).count();
+        int neg = (int) Arrays.stream(nums).filter(n).count();
 
         return Math.max(pos, neg);
     }
