@@ -169,6 +169,7 @@
 | [3515-find-if-digit-game-can-be-won](https://github.com/flyingelephhant/LEETCODE/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3639-zero-array-transformation-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3639-zero-array-transformation-i) |
+| [3643-zero-array-transformation-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/flyingelephhant/LEETCODE/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
@@ -275,6 +276,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
 | [3639-zero-array-transformation-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3639-zero-array-transformation-i) |
+| [3643-zero-array-transformation-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3643-zero-array-transformation-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -400,6 +402,7 @@
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
+| [3643-zero-array-transformation-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3643-zero-array-transformation-ii) |
 ## Number Theory
 |  |
 | ------- |
