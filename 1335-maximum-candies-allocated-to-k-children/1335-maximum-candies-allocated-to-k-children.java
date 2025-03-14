@@ -1,30 +1,31 @@
 class Solution {
-    public int maximumCandies(int[] cndy, long k) {
-        long sum = 0;
-        for (var x : cndy)
-            sum += x;
-        if (sum < k)
-            return 0;
+    public int maximumCandies(int[] candy, long k) {
+        long sum=0;
+        int ans=0;
+        for(var x:candy) sum+=x;
 
-        int l = 1, r = (int)Math.min(sum/k, Integer.MAX_VALUE);
-        int ans = 0;
+        if(sum<k) return 0; //Candy is Less than children 'K'
 
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-            
-            // Check if we can give mid candies to each of k children
-            long children = 0;
-            for (int pile : cndy) {
-                children += pile / mid;  // Count how many children can get mid candies
-            }
-            
-            if (children >= k) {
-                ans = mid;
-                l = mid + 1;  // Try larger value
-            } else {
-                r = mid - 1;  // Try smaller value
+        int l=1;
+        int r=(int)(sum/k); //This is the maximum candy one can get
+
+        while(l<=r){
+            int mid=l +(r-l)/2;
+
+            if(can(candy,mid,k)){
+                ans=mid;
+                l=mid+1; //Check larger value
+            }else{
+                r=mid-1; //Check smaller value
             }
         }
         return ans;
+
+    }
+    public boolean can(int[] candy, int pile, long k){
+        long children=0;
+        for(var x: candy) children +=x/pile;
+        
+        return children>=k;
     }
 }
