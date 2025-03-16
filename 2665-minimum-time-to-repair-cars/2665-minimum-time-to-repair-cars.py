@@ -1,11 +1,9 @@
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:
-        max_rank=max(ranks)
-        l,r,ans=1,max_rank*cars*cars,0
+        l,r,ans=1,max(ranks)*cars*cars,0
 
         while(l<=r):
-            mid=l+(r-l)//2
-
+            mid=(l+r)//2
             total = sum(int(sqrt(mid // num)) for num in ranks)
 
             if(total>=cars):
