@@ -1,25 +1,20 @@
 class Solution {
     public boolean isZeroArray(int[] nums, int[][] queries) {
-        int[] frequency = new int[nums.length + 1]; // To track frequency updates
+        int n = nums.length;
+        int[] pre = new int[n + 1];
 
-        // Process each query to mark the ranges
-        for (int[] query : queries) {
-            int l = query[0];
-            int r = query[1];
-            frequency[l] += 1; // Start incrementing from index l
-            if (r + 1 < nums.length) {
-                frequency[r + 1] -= 1; // Stop incrementing after index r
-            }
+        for (var x : queries) {
+            pre[x[0]] += 1;
+            pre[x[1] + 1] -= 1;
         }
-        int runningsum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            runningsum += frequency[i];
 
-            nums[i] -= runningsum;
-
-            if (nums[i] > 0)
-                return false;
-
+        for (int i = 1; i < n + 1; i++) {
+            pre[i] += pre[i - 1];
+        }
+        
+        for (int i = 0; i < n; i++) {
+            if(nums[i]==0) continue;
+            if(nums[i] >pre[i]) return false;
         }
         return true;
     }
