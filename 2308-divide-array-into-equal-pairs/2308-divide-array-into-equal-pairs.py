@@ -1,8 +1,9 @@
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:
-        nums.sort()
-        for i in range(1,len(nums),2):
-            if nums[i-1] != nums[i]:
+        count=Counter(nums)
+        #print(count)
+        for i in count.values():
+            if i%2 != 0:
                 return False
         return True
         
