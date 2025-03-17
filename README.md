@@ -443,6 +443,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/flyingelephhant/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0543-diameter-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -460,6 +461,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/flyingelephhant/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/flyingelephhant/LEETCODE/tree/master/0200-number-of-islands) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0543-diameter-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
@@ -501,6 +503,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/flyingelephhant/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0543-diameter-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
