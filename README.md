@@ -119,6 +119,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/flyingelephhant/LEETCODE/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1646-kth-missing-positive-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1646-kth-missing-positive-number) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
@@ -298,6 +299,7 @@
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/flyingelephhant/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2107-find-unique-binary-string) |
@@ -427,6 +429,7 @@
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1584-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/1584-average-salary-excluding-the-minimum-and-maximum-salary) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
