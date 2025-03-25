@@ -181,6 +181,7 @@
 | [3639-zero-array-transformation-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/flyingelephhant/LEETCODE/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/flyingelephhant/LEETCODE/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Queue
@@ -452,6 +453,7 @@
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 | [3430-count-days-without-meetings](https://github.com/flyingelephhant/LEETCODE/tree/master/3430-count-days-without-meetings) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/flyingelephhant/LEETCODE/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Tree
 |  |
 | ------- |
