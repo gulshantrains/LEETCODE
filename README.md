@@ -167,6 +167,7 @@
 | [2792-neighboring-bitwise-xor](https://github.com/flyingelephhant/LEETCODE/tree/master/2792-neighboring-bitwise-xor) |
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
 | [3093-sum-of-values-at-indices-with-k-set-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/3093-sum-of-values-at-indices-with-k-set-bits) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -330,6 +331,7 @@
 | [2685-first-completely-painted-row-or-column](https://github.com/flyingelephhant/LEETCODE/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/flyingelephhant/LEETCODE/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
 | [3227-find-missing-and-repeated-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/flyingelephhant/LEETCODE/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -455,6 +457,7 @@
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3430-count-days-without-meetings](https://github.com/flyingelephhant/LEETCODE/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/flyingelephhant/LEETCODE/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Tree
