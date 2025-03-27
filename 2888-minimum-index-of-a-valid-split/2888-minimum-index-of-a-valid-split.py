@@ -14,7 +14,7 @@ class Solution:
                 counter -= 1 
 
         # Step 2: Confirm if it's actually dominant
-        temp_cnt = Counter(nums)[dom_ele]
+        temp_cnt = nums.count(dom_ele)
         if temp_cnt * 2 <= len(nums):  # Must be strictly > n/2
             return -1
 
