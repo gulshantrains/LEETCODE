@@ -29,6 +29,7 @@
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3227-find-missing-and-repeated-values) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/flyingelephhant/LEETCODE/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -51,6 +52,7 @@
 | [2509-minimize-xor](https://github.com/flyingelephhant/LEETCODE/tree/master/2509-minimize-xor) |
 | [2663-distribute-money-to-maximum-children](https://github.com/flyingelephhant/LEETCODE/tree/master/2663-distribute-money-to-maximum-children) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 ## Simulation
 |  |
 | ------- |
@@ -169,6 +171,7 @@
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
 | [3093-sum-of-values-at-indices-with-k-set-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/3093-sum-of-values-at-indices-with-k-set-bits) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -398,6 +401,7 @@
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/flyingelephhant/LEETCODE/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
 ## Monotonic Stack
@@ -405,6 +409,7 @@
 | ------- |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Binary Search
 |  |
@@ -441,6 +446,7 @@
 | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/flyingelephhant/LEETCODE/tree/master/2610-closest-prime-numbers-in-range) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Sorting
 |  |
@@ -461,6 +467,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/flyingelephhant/LEETCODE/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3430-count-days-without-meetings](https://github.com/flyingelephhant/LEETCODE/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/flyingelephhant/LEETCODE/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Tree
