@@ -1,15 +1,13 @@
 class Solution:
-    def putMarbles(self, weights: List[int], k: int) -> int:
-        n,pair_sum=len(weights),[]
-        if k == 1:
+    def putMarbles(self, w: List[int], k: int) -> int:
+        if k == 1: #If partition is 1 then sum diff will always 0
             return 0
-            
-        for i in range(1,n):
-            pair_sum.append(weights[i-1]+weights[i])
 
-        pair_sum.sort()
+        pair_sum=[w[i]+w[i+1] for i in range(len(w)-1)] #Store pair wise sum
 
-        return sum(pair_sum[-(k-1):])-sum(pair_sum[:(k-1)])
+        pair_sum.sort() #Sort to get mini & max easily
+
+        return sum(pair_sum[-(k-1):])-sum(pair_sum[:(k-1)]) #Use negative indexing
 
 
         
