@@ -1,18 +1,8 @@
 class Solution:
+    def onway(self, nums: List[int], idx: int, curr: int) -> int:
+        if idx == len(nums):
+            return curr
+        return self.onway(nums, idx + 1, curr ^ nums[idx]) + self.onway(nums, idx + 1, curr)
+
     def subsetXORSum(self, nums: List[int]) -> int:
-        subset=[]
-        sum_ans=0
-
-        subset=[list(x) for i in range(len(nums)+1) for x in itertools.combinations(nums,i)]
-
-        for sub in subset:
-            temp=sub
-            sum_temp=0
-            for x in temp:
-                sum_temp ^=x
-
-            sum_ans+=sum_temp
-
-        return sum_ans
-
-        
+        return self.onway(nums, 0, 0)
