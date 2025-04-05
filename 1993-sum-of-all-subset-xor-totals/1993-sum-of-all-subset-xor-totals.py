@@ -3,9 +3,7 @@ class Solution:
         subset=[]
         sum_ans=0
 
-        for i in range(len(nums)+1):
-            for x in itertools.combinations(nums,i):
-                subset.append(list(x))
+        subset=[list(x) for i in range(len(nums)+1) for x in itertools.combinations(nums,i)]
 
         for sub in subset:
             temp=sub
