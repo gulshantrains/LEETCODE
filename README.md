@@ -21,6 +21,7 @@
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/flyingelephhant/LEETCODE/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/flyingelephhant/LEETCODE/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/flyingelephhant/LEETCODE/tree/master/2610-closest-prime-numbers-in-range) |
@@ -139,6 +140,7 @@
 | [1944-truncate-sentence](https://github.com/flyingelephhant/LEETCODE/tree/master/1944-truncate-sentence) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
 | [2107-find-unique-binary-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2107-find-unique-binary-string) |
@@ -260,6 +262,7 @@
 | [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/2478-longest-nice-subarray) |
@@ -618,6 +621,7 @@
 | [1160-letter-tile-possibilities](https://github.com/flyingelephhant/LEETCODE/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/flyingelephhant/LEETCODE/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -641,6 +645,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
 ## String Matching
 |  |
@@ -713,6 +718,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Counting Sort
 |  |
