@@ -7,12 +7,15 @@ class Solution {
             for (int j = i + 1; j < arr.length; j++) {
                 int ij = Math.abs(arr[i] - arr[j]);
 
-                for (int k = j + 1; k < arr.length; k++) {
-                    int jk = Math.abs(arr[j] - arr[k]);
+                if (ij <= a) {
+                    for (int k = j + 1; k < arr.length; k++) {
+                        int jk = Math.abs(arr[j] - arr[k]);
 
-                    if (ij <= a && jk <= b && Math.abs(arr[i] - arr[k]) <= c)
-                        ans++;
+                        if (jk <= b && Math.abs(arr[i] - arr[k]) <= c)
+                            ans++;
+                    }
                 }
+
             }
         }
         return ans;
