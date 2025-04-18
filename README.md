@@ -379,6 +379,7 @@
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/flyingelephhant/LEETCODE/tree/master/0038-count-and-say) |
 | [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0345-reverse-vowels-of-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
 | [0742-to-lower-case](https://github.com/flyingelephhant/LEETCODE/tree/master/0742-to-lower-case) |
