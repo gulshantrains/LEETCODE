@@ -1,19 +1,14 @@
 class Solution {
-    public int numberOfArrays(int[] diff, int lower, int upper) {
-        long pre = 0,           // running sum of differences
-                minPre = 0,     // min prefix sum seen
-                maxPre = 0;     // max prefix sum seen
-
-        for (int d : diff) {
-            pre += d;                   // extend prefix by current difference
-            minPre = Math.min(minPre, pre);
-            maxPre = Math.max(maxPre, pre);
+    public int numberOfArrays(int[] differences, int lower, int upper) {
+        long sum = 0, min=0,max=0 ;   // prefix sum
+            
+        for (var diff : differences) {
+            sum += diff;           // update sum
+            min = Math.min(min, sum);    // update min
+            max = Math.max(max, sum);   // update max
         }
 
-        long low = lower - minPre;
-        long high = upper - maxPre;
-
-        // number of integer values in [low, high], or 0 if empty
-        return (int) Math.max(0, high - low + 1);
+        // total valid starting values
+        return (int) Math.max(0, (upper - lower) - (max - min) + 1);
     }
 }
