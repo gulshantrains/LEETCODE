@@ -1,41 +1,43 @@
-MOD = 10**9 + 7
+MODULO = int(1e9 + 7)
+MAX_VALUE = 10_000
 
-class Combinations:
-    def __init__(self, n, mod):
-        self.M = mod
-        self.fact = [1] * (n + 1)
-        self.inv_fact = [1] * (n + 1)
+STRICT_COUNTS = [[i + 1 for i in range(MAX_VALUE)]]
+prev_row = [1] * MAX_VALUE
+next_row = [0] * MAX_VALUE
+prev_base = 1
 
-        for i in range(1, n + 1):
-            self.fact[i] = self.fact[i - 1] * i % mod
-            self.inv_fact[i] = pow(self.fact[i], mod - 2, mod)
-
-    def nCr(self, n, r):
-        if r < 0 or r > n:
-            return 0
-        return self.fact[n] * self.inv_fact[r] % self.M * self.inv_fact[n - r] % self.M
+while (prev_base << 1) <= MAX_VALUE:
+    next_base = prev_base << 1
+    for i in range(next_base - 1, MAX_VALUE):
+        next_row[i] = 0
+    for prev_num in range(prev_base, MAX_VALUE + 1):
+        prev_count = prev_row[prev_num - 1]
+        for mult in range(2, MAX_VALUE + 1):
+            product = prev_num * mult
+            if product > MAX_VALUE:
+                break
+            next_row[product - 1] = (next_row[product - 1] + prev_count) % MODULO
+    current_counts = [next_row[next_base - 1]]
+    for next_num in range(next_base, MAX_VALUE):
+        current_counts.append((current_counts[-1] + next_row[next_num]) % MODULO)
+    STRICT_COUNTS.append(current_counts)
+    prev_base = next_base
+    prev_row, next_row = next_row, prev_row
 
 class Solution:
     def idealArrays(self, n: int, maxValue: int) -> int:
-        comb = Combinations(n, MOD)
-        dp = [1] * (maxValue + 1)
-        total = sum(dp[1:]) % MOD  # Base case: k=1
-
-        kLimit = min(n, 16)
-        for k in range(2, kLimit + 1):
-            next_dp = [0] * (maxValue + 1)
-            for j in range(1, maxValue + 1):
-                if dp[j] == 0:
-                    continue
-                for i in range(2 * j, maxValue + 1, j):
-                    next_dp[i] = (next_dp[i] + dp[j]) % MOD
-
-            count = sum(next_dp[1:]) % MOD
-            if count == 0:
+        count = 0
+        combo = 1
+        top = n - 1
+        bottom = 1
+        base = 1
+        for k in range(min(n, len(STRICT_COUNTS))):
+            if base <= maxValue:
+                count = (count + combo * STRICT_COUNTS[k][maxValue - base]) % MODULO
+            else:
                 break
-
-            factor = comb.nCr(n - 1, k - 1)
-            total = (total + count * factor % MOD) % MOD
-            dp = next_dp
-
-        return total
+            combo = combo * top // bottom
+            top -= 1
+            bottom += 1
+            base <<= 1
+        return count
