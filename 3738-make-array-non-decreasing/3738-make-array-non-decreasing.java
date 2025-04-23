@@ -1,19 +1,13 @@
 class Solution {
     public int maximumPossibleSize(int[] nums) {
-        Stack<Integer> st = new Stack<>();
-        
+        int ans = 0, prevmax = 0;
+
         for (var x : nums) {
-            if (st.isEmpty()) {
-                st.push(x);
-            } else if (!st.isEmpty()) {
-                if (x >= st.peek())
-                    st.push(x);
-                else {
-                    int temp = Math.max(st.pop(), x);
-                    st.push(temp);
-                }
+            if (x >= prevmax) {
+                ans++;
+                prevmax = x;
             }
         }
-        return st.size();
+        return ans;
     }
 }
