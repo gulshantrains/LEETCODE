@@ -65,6 +65,7 @@
 | [2681-put-marbles-in-bags](https://github.com/flyingelephhant/LEETCODE/tree/master/2681-put-marbles-in-bags) |
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
+| [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
 ## Simulation
 |  |
 | ------- |
@@ -219,6 +220,7 @@
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/flyingelephhant/LEETCODE/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
+| [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
 ## Queue
 |  |
 | ------- |
@@ -448,6 +450,7 @@
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
+| [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -455,6 +458,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
 ## Binary Search
 |  |
 | ------- |
