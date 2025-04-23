@@ -1,24 +1,17 @@
 class Solution {
     public int countLargestGroup(int n) {
-        int[] ds = new int[37];  
+        int[] ds = new int[37];
         for (int i = 1; i <= n; i++) {
             ds[sum(i)]++;
         }
+        int cnt = 1, maxval = 0;
 
-        // Convert int[] to Integer[] to sort with custom comparator
-        Integer[] boxed = new Integer[37];
         for (int i = 0; i < 37; i++) {
-            boxed[i] = ds[i];
-        }
-
-        Arrays.sort(boxed, (a, b) -> b - a);
-
-        int cnt = 1;
-        for (int i = 1; i < 37; i++) {
-            if (boxed[i].equals(boxed[i - 1])) {
+            if (ds[i] > maxval) {
+                cnt=1;;
+                maxval = ds[i];
+            } else if (ds[i] == maxval){
                 cnt++;
-            } else {
-                break;
             }
         }
         return cnt;
