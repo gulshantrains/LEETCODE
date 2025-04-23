@@ -20,6 +20,7 @@
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
+| [1500-count-largest-group](https://github.com/flyingelephhant/LEETCODE/tree/master/1500-count-largest-group) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/flyingelephhant/LEETCODE/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/flyingelephhant/LEETCODE/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -356,6 +357,7 @@
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/flyingelephhant/LEETCODE/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/flyingelephhant/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1500-count-largest-group](https://github.com/flyingelephhant/LEETCODE/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
