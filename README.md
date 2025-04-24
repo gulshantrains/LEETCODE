@@ -75,6 +75,7 @@
 | [2265-partition-array-according-to-given-pivot](https://github.com/flyingelephhant/LEETCODE/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2551-apply-operations-to-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2551-apply-operations-to-an-array) |
+| [3311-ant-on-the-boundary](https://github.com/flyingelephhant/LEETCODE/tree/master/3311-ant-on-the-boundary) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/flyingelephhant/LEETCODE/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/3447-clear-digits) |
@@ -206,6 +207,7 @@
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3227-find-missing-and-repeated-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3227-find-missing-and-repeated-values) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
+| [3311-ant-on-the-boundary](https://github.com/flyingelephhant/LEETCODE/tree/master/3311-ant-on-the-boundary) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3430-count-days-without-meetings](https://github.com/flyingelephhant/LEETCODE/tree/master/3430-count-days-without-meetings) |
@@ -340,6 +342,7 @@
 | [2465-shifting-letters-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
+| [3311-ant-on-the-boundary](https://github.com/flyingelephhant/LEETCODE/tree/master/3311-ant-on-the-boundary) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3643-zero-array-transformation-ii) |
