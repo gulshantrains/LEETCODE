@@ -10,16 +10,22 @@ class Solution {
                 d++;
             }
         }
-        HashSet<Integer> ch = new HashSet<>();
+        int i = 0, j = 0;
+        Map<Integer, Integer> mp = new HashMap<>();
 
-        for (int i = 0; i < n; i++) {
-            ch.clear();
+        while (j < n) {
+            mp.put(nums[j], mp.getOrDefault(nums[j], 0) + 1);
 
-            for (int j = i; j < n; j++) {
-                ch.add(nums[j]);
-                if (ch.size() == d)
-                    ans++;
+            while (mp.size() == d) {
+                ans += (n - j);
+                mp.put(nums[i], mp.get(nums[i]) - 1);
+
+                if (mp.get(nums[i]) <= 0)
+                    mp.remove(nums[i]);
+
+                i++;
             }
+            j++;
         }
         return ans;
     }
