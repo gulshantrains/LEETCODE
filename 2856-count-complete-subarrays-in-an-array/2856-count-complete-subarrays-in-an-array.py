@@ -1,3 +1,6 @@
+from typing import List
+from collections import defaultdict
+
 class Solution:
     def countCompleteSubarrays(self, nums: List[int]) -> int:
         d=len(set(nums))
