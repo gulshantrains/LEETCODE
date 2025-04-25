@@ -4,7 +4,7 @@ class Solution {
         int cnt = 0;
         int pre_sum = 0;
 
-        Map<Integer, Integer> freq = new HashMap<>();
+        Map<Integer, Integer> freq = new HashMap<>(k);
         freq.put(0, 1);
 
         for (int x : nums) {
