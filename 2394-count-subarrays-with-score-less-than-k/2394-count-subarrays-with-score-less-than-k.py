@@ -7,7 +7,7 @@ class Solution:
 
             while temp * (j - i + 1) >= k:
                 temp -= nums[i]
-                i += 1
+                i+=1
 
             cnt += j - i + 1
         return cnt
