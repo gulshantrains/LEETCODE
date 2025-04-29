@@ -3,8 +3,11 @@ class Solution {
         long cnt = 0, ans = 0;
         int n = nums.length;
         int i = 0;
+        int max = Integer.MIN_VALUE;
 
-        int max = Arrays.stream(nums).max().getAsInt();
+        for (var x : nums)
+            if (x > max)
+                max = x;
 
         for (int j = 0; j < n; j++) {
             if (nums[j] == max) {
