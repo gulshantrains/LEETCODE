@@ -19,6 +19,7 @@
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1500-count-largest-group](https://github.com/flyingelephhant/LEETCODE/tree/master/1500-count-largest-group) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/flyingelephhant/LEETCODE/tree/master/1630-count-odd-numbers-in-an-interval-range) |
@@ -130,6 +131,7 @@
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1396-count-servers-that-communicate](https://github.com/flyingelephhant/LEETCODE/tree/master/1396-count-servers-that-communicate) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/flyingelephhant/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1524-string-matching-in-an-array) |
