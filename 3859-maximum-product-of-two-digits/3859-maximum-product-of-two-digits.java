@@ -2,6 +2,7 @@ class Solution {
     List<Integer> ls = new ArrayList<>();
 
     public int maxProduct(int n) {
+        ls.clear();
         helper(n);
         Collections.sort(ls, Collections.reverseOrder());
 
