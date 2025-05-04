@@ -3,11 +3,9 @@ class Solution {
 
     public int maxProduct(int n) {
         helper(n);
-        Collections.sort(ls);
-        int s = ls.size();
+        Collections.sort(ls, Collections.reverseOrder());
 
-        int ans = ls.get(s - 1) * ls.get(s - 2);
-        return ans;
+        return ls.get(0) * ls.get(1);
     }
 
     public void helper(int n) {
