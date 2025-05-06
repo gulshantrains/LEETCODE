@@ -75,6 +75,7 @@
 | [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2048-build-array-from-permutation](https://github.com/flyingelephhant/LEETCODE/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/flyingelephhant/LEETCODE/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2551-apply-operations-to-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2551-apply-operations-to-an-array) |
@@ -164,6 +165,7 @@
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
+| [2048-build-array-from-permutation](https://github.com/flyingelephhant/LEETCODE/tree/master/2048-build-array-from-permutation) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
 | [2107-find-unique-binary-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/flyingelephhant/LEETCODE/tree/master/2145-grid-game) |
