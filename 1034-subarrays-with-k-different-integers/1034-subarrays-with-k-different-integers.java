@@ -1,29 +1,26 @@
 class Solution {
-    private int subArray(int[] nums, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int n = nums.length, cnt = 0, j = 0;
-        for (int i = 0; i < n; i++) {
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+    public int subarraysWithKDistinct(int[] A, int k) {
+        return atMost(A, k) - atMost(A, k - 1);
+    }
 
-         //Jaise he size 2 se jda hua window srink kre g left side se
-            while (map.size() > k) {
-                map.put(nums[j], map.get(nums[j]) - 1);
+    public int atMost(int[] a, int k) {
+        HashMap<Integer, Integer> mp = new HashMap<>();
 
-                if (map.get(nums[j]) == 0) {
-                    map.remove(nums[j]);
-                }
-                j++;
+        int i = 0, j = 0, cnt = 0;
+
+        while (j < a.length) {
+            mp.put(a[j], mp.getOrDefault(a[j], 0) + 1);
+
+            while (mp.size() > k) {
+                mp.put(a[i], mp.get(a[i]) - 1);
+
+                if (mp.get(a[i]) == 0)
+                    mp.remove(a[i]);
+                i++;
             }
-            cnt += (i - j + 1); //No of subArray ending at J ka formula hai
+            cnt += (j - i + 1); //No of subArray with Atmost(0--K) k unique element
+            j++;
         }
         return cnt;
     }
-
-    public int subarraysWithKDistinct(int[] nums, int k) {
-        //Agr we know till <=k & <=k-1 then Difference dono ka will
-        //give exactly K
-        return subArray(nums, k) - subArray(nums, k - 1);
-    }
 }
-//Dikkat kya ho rha tha ki hm log [1,2,2] ko ek count kr rahe the
-//jbki ussme [1,2,2] & [2,2]--> 2 hai
