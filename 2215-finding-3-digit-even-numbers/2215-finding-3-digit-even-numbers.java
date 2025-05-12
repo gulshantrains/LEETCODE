@@ -1,34 +1,32 @@
-import java.util.*;
-
 class Solution {
-    public int[] findEvenNumbers(int[] d) {
-        Set<Integer> set = new TreeSet<>();  // TreeSet to keep results sorted and unique
+    public int[] findEvenNumbers(int[] digits) {
+        Set<Integer> ls = new HashSet<>();
 
-        int n = d.length;
-        for (int i = 0; i < n; i++) {
-            if (d[i] == 0) continue; // Hundreds place cannot be 0
+        for (int i = 0; i < digits.length; i++) {
+            if (digits[i] == 0)
+                continue;
 
-            for (int j = 0; j < n; j++) {
-                if (j == i) continue;
+            for (int j = 0; j < digits.length; j++) {
+                if (j == i)
+                    continue;
 
-                for (int k = 0; k < n; k++) {
-                    if (k == i || k == j) continue;
+                for (int k = 0; k < digits.length; k++) {
+                    if (k == i || k == j)
+                        continue;
+                    if (digits[k] % 2 != 0)
+                        continue;
+                    int temp = digits[i] * 100 + digits[j] * 10 + digits[k];
 
-                    if (d[k] % 2 != 0) continue; // Last digit must be even
-
-                    int num = d[i] * 100 + d[j] * 10 + d[k];
-                    set.add(num);
+                    ls.add(temp);
                 }
             }
         }
-
-        // Convert Set<Integer> to int[]
-        int[] result = new int[set.size()];
+        int[] ans = new int[ls.size()];
         int idx = 0;
-        for (int num : set) {
-            result[idx++] = num;
+        for (int x : ls) {
+            ans[idx++] = x;
         }
-
-        return result;
+        Arrays.sort(ans);
+        return ans;
     }
 }
