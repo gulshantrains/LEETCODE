@@ -1,5 +1,5 @@
 class Solution {
-    public static int mod = 1000000007;
+    public static int mod = (int)1e9+7;
 
     public int lengthAfterTransformations(String s, int t) {
         int[] map = new int[26];
