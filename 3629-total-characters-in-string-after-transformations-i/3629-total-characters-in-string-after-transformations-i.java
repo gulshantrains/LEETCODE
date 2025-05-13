@@ -10,19 +10,13 @@ class Solution {
         while (t-- > 0) {
             int[] temp = new int[26];
 
-            for (int i = 0; i < 26; i++) {
-                if (map[i] == 0)
-                    continue;
+            temp[0] = map[25];
+            temp[1] = map[25];
 
-                if (i == 25) {
-                    temp[0] = (temp[0] + map[25]) % mod;
-                    temp[1] = (map[25] + temp[1]) % mod;
-                } else {
-                    temp[i + 1] += (map[i] + temp[i + 1]) % mod;
-                }
+            for (int i = 0; i < 25; i++) {
+                temp[i + 1] = (map[i] + temp[i + 1]) % mod;
             }
             map = temp;
-
         }
         int ans = 0;
         for (var xx : map)
