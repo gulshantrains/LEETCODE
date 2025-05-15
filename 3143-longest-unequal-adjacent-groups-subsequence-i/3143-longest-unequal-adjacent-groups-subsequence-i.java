@@ -5,11 +5,10 @@ class Solution {
         int prev = -1;
 
         for (int i = 0; i < gr.length; i++) {
-            if (prev == gr[i])
-                continue;
-            
-            ls.add(wo[i]);
-            prev = gr[i];
+            if (prev != gr[i]) {
+                prev = gr[i];
+                ls.add(wo[i]);
+            }
         }
         return ls;
     }
