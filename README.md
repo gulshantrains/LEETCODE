@@ -99,6 +99,7 @@
 | [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/flyingelephhant/LEETCODE/tree/master/0041-first-missing-positive) |
 | [0053-maximum-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/0053-maximum-subarray) |
+| [0075-sort-colors](https://github.com/flyingelephhant/LEETCODE/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
@@ -577,6 +578,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/flyingelephhant/LEETCODE/tree/master/0075-sort-colors) |
 | [0368-largest-divisible-subset](https://github.com/flyingelephhant/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
 | [0561-array-partition](https://github.com/flyingelephhant/LEETCODE/tree/master/0561-array-partition) |
@@ -762,6 +764,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/flyingelephhant/LEETCODE/tree/master/0075-sort-colors) |
 | [0202-happy-number](https://github.com/flyingelephhant/LEETCODE/tree/master/0202-happy-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
 | [0768-partition-labels](https://github.com/flyingelephhant/LEETCODE/tree/master/0768-partition-labels) |
