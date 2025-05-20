@@ -455,6 +455,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/flyingelephhant/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/flyingelephhant/LEETCODE/tree/master/0020-valid-parentheses) |
 | [0038-count-and-say](https://github.com/flyingelephhant/LEETCODE/tree/master/0038-count-and-say) |
 | [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/0076-minimum-window-substring) |
@@ -515,6 +516,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/flyingelephhant/LEETCODE/tree/master/0020-valid-parentheses) |
 | [0145-binary-tree-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
 | [0445-add-two-numbers-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0445-add-two-numbers-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
