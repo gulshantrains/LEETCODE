@@ -1,44 +1,42 @@
 class Solution {
-
     public int minZeroArray(int[] nums, int[][] queries) {
-        int n = nums.length, left = 0, right = queries.length;
+        if (!can(nums, queries, queries.length))
+            return -1;
 
-        // Zero array isn't formed after all queries are processed
-        if (!currentIndexZero(nums, queries, right)) return -1;
+        int l = 0, r = queries.length;
 
-        // Binary Search
-        while (left <= right) {
-            int middle = left + (right - left) / 2;
-            if (currentIndexZero(nums, queries, middle)) {
-                right = middle - 1;
-            } else {
-                left = middle + 1;
-            }
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+
+            if (can(nums, queries, mid))
+                r = mid - 1;
+            else
+                l = mid + 1;
         }
-
-        // Return earliest query that zero array can be formed
-        return left;
+        return l;
     }
 
-    private boolean currentIndexZero(int[] nums, int[][] queries, int k) {
-        int n = nums.length, sum = 0;
-        int[] differenceArray = new int[n + 1];
+    private boolean can(int[] nu, int[][] qu, int range) {
+        int[] temp = new int[nu.length + 1];
 
-        // Process query
-        for (int queryIndex = 0; queryIndex < k; queryIndex++) {
-            int left = queries[queryIndex][0], right =
-                queries[queryIndex][1], val = queries[queryIndex][2];
+        for (int i = 0; i < range; i++) {
+            int l = qu[i][0];
+            int r = qu[i][1];
+            int val = qu[i][2];
 
-            // Process start and end of range
-            differenceArray[left] += val;
-            differenceArray[right + 1] -= val;
+            temp[l] += val;
+            temp[r + 1] -= val;
         }
 
-        // Check if zero array can be formed
-        for (int numIndex = 0; numIndex < n; numIndex++) {
-            sum += differenceArray[numIndex];
-            if (sum < nums[numIndex]) return false;
+        for (int i = 1; i < temp.length; i++) {
+            temp[i] += temp[i - 1];
         }
+
+        for (int i = 0; i < nu.length; i++) {
+            if (temp[i] < nu[i])
+                return false;
+        }
+
         return true;
     }
 }
