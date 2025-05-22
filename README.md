@@ -525,6 +525,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/flyingelephhant/LEETCODE/tree/master/0020-valid-parentheses) |
 | [0145-binary-tree-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/flyingelephhant/LEETCODE/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/flyingelephhant/LEETCODE/tree/master/0225-implement-stack-using-queues) |
 | [0445-add-two-numbers-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0445-add-two-numbers-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
@@ -866,6 +867,7 @@
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/flyingelephhant/LEETCODE/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/flyingelephhant/LEETCODE/tree/master/0225-implement-stack-using-queues) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
