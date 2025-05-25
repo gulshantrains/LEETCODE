@@ -12,7 +12,7 @@ class Solution {
             String word = x.getKey();
             int freq = x.getValue();
 
-            String rev = new StringBuilder(word).reverse().toString();
+            String rev = "" + word.charAt(1) + word.charAt(0);
 
             if (word.equals(rev)) {
                 totalLength += (freq / 2) * 4;
