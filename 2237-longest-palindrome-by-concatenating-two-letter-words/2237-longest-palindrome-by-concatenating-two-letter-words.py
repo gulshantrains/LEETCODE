@@ -1,25 +1,29 @@
+from collections import Counter
+from typing import List
+
+
 class Solution:
     def longestPalindrome(self, words: List[str]) -> int:
-        mpp = defaultdict(int)
-        for w in words:
-            mpp[w] += 1
+        cnt = Counter(words)
+        ans = 0
+        flag = False
 
-        total_length = 0
-        flag = 0
+        for x in list(cnt.keys()):
+            rev = x[::-1]
 
-        for word, freq in mpp.items():
-            rev = word[::-1]
+            if rev == x:
+                # Each pair of self-palindromic words (e.g., "gg" + "gg") adds 4 to the length.
+                ans += (cnt[x] // 2) * 4
 
-            if word == rev:
-                total_length += (freq // 2) * 4
+                if cnt[x] % 2 == 1:
+                    flag = True
+            elif x < rev:
+                # Ensure the reversed word exists in the counter before accessing its count
+                # Counter handles missing keys by returning 0, so direct access is safe here.
+                # Each symmetric pair (e.g., "lc" + "cl") adds 4 to the length.
+                ans += min(cnt[x], cnt[rev]) * 4
 
-                if freq % 2 == 1:
-                    flag = 1
-            else:
-                if word < rev and rev in mpp:
-                    freq_of_reversed = mpp[rev]
-                    number_of_pairs = min(freq, freq_of_reversed)
+        if flag:
+            ans += 2
 
-                    total_length += number_of_pairs * 4
-
-        return total_length + flag * 2
+        return ans
