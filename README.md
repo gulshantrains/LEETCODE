@@ -663,6 +663,7 @@
 | [3058-maximum-number-of-k-divisible-components](https://github.com/flyingelephhant/LEETCODE/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/flyingelephhant/LEETCODE/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -686,6 +687,7 @@
 | [2793-count-the-number-of-complete-components](https://github.com/flyingelephhant/LEETCODE/tree/master/2793-count-the-number-of-complete-components) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/flyingelephhant/LEETCODE/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/flyingelephhant/LEETCODE/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -712,6 +714,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/flyingelephhant/LEETCODE/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/flyingelephhant/LEETCODE/tree/master/2793-count-the-number-of-complete-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/flyingelephhant/LEETCODE/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Binary Tree
 |  |
 | ------- |
