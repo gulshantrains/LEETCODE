@@ -12,12 +12,10 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             long num_subarrays = (long) (i - ple[i]) * (nle[i] - i);
-
-            long contribution = ((long)arr[i] * num_subarrays) % mod;
-            ans = (ans + contribution) % mod;
+            ans = (ans + (num_subarrays * arr[i]) % mod) % mod;
 
         }
-        return (int) ans % mod;
+        return (int) ans;
     }
 
     public int[] prevLessElement(int[] A) {
