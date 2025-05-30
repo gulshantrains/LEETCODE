@@ -1,4 +1,26 @@
 class Solution {
+    public int trap(int[] h) {
+
+        int rain = 0, lmax = 0, rmax = 0, l = 0, r = h.length - 1;
+
+        while (l <= r) {
+            if (h[l] > h[r]) {
+                rmax = Math.max(rmax, h[r]); //Minimum will be used to store
+
+                rain += rmax - h[r];
+                r--;
+            } else {
+                lmax = Math.max(lmax, h[l]);
+
+                rain += lmax - h[l];
+                l++;
+            }
+        }
+        return rain;
+    }
+}
+/*
+class Solution {
     public int trap(int[] height) {
         int n = height.length;
         int[] lmh = new int[n];
@@ -31,3 +53,4 @@ class Solution {
         }
     }
 }
+*/
