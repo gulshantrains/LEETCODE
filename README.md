@@ -193,6 +193,7 @@
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/flyingelephhant/LEETCODE/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2227-sum-of-subarray-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/flyingelephhant/LEETCODE/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/flyingelephhant/LEETCODE/tree/master/2262-solving-questions-with-brainpower) |
@@ -556,6 +557,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/flyingelephhant/LEETCODE/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2227-sum-of-subarray-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -570,6 +572,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0943-sum-of-subarray-minimums](https://github.com/flyingelephhant/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [2227-sum-of-subarray-ranges](https://github.com/flyingelephhant/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
