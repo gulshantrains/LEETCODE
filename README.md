@@ -39,6 +39,7 @@
 | [2998-count-symmetric-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3199-distribute-candies-among-children-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3199-distribute-candies-among-children-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3227-find-missing-and-repeated-values) |
 | [3321-type-of-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/3321-type-of-triangle) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/flyingelephhant/LEETCODE/tree/master/3515-find-if-digit-game-can-be-won) |
@@ -852,6 +853,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2215-finding-3-digit-even-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/2998-count-symmetric-integers) |
+| [3199-distribute-candies-among-children-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3199-distribute-candies-among-children-i) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/3548-find-the-count-of-good-integers) |
 ## String Matching
@@ -937,6 +939,7 @@
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3199-distribute-candies-among-children-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3199-distribute-candies-among-children-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/3548-find-the-count-of-good-integers) |
 | [3637-count-number-of-balanced-permutations](https://github.com/flyingelephhant/LEETCODE/tree/master/3637-count-number-of-balanced-permutations) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
