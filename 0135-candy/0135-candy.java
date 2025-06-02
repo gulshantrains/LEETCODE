@@ -16,10 +16,6 @@ class Solution {
                 temp[i] = Math.max(temp[i + 1] + 1, temp[i]);
         }
 
-        int ans = 0;
-        for (var x : temp)
-            ans += x;
-
-        return ans;
+        return Arrays.stream(temp).sum();
     }
 }
