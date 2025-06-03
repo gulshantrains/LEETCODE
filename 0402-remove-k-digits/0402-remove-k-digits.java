@@ -17,7 +17,7 @@ class Solution {
             st.push(val);
         }
     //When Number is Increasing 1,2,3,4,5,6,7 then we have to remove from top
-        while (!st.isEmpty() && k > 0) {
+        while (k > 0) {
             st.pop();
             k--;
         }
