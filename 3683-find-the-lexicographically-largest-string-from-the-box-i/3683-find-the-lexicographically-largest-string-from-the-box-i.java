@@ -21,12 +21,17 @@ class Solution {
             int act = Math.min(maxL, n - i);
 
             // If no valid length can be formed from this position (e.g., if maxL is too small), skip
-            
+
             if (act <= 0) {
                 continue;
             }
 
             String temp = word.substring(i, i + act);
+            /*In our case:
+            beginIndex = i
+            endIndex = i + act
+            So, the length of the substring will be (i + act) - i = act.(Which is our desired length)
+            */
 
             if (ans.compareTo(temp) <= 0) {
                 ans = temp;
