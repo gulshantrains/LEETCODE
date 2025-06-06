@@ -3,8 +3,8 @@ class Solution {
         int n = s.length();
 
         char[] mcr = new char[n + 1];
-        mcr[n] = '{'; 
-        
+        mcr[n] = '{';
+
         for (int i = n - 1; i >= 0; i--) {
             if (i == n - 1) {
                 mcr[i] = s.charAt(i);
@@ -13,26 +13,23 @@ class Solution {
             }
         }
 
-        // Use a StringBuilder for the robot's temporary string, t.
-        StringBuilder t = new StringBuilder();
-        StringBuilder ans = new StringBuilder();
+        Deque<Character> t = new ArrayDeque<>();
+        StringBuilder ans = new StringBuilder(); // The final string written on paper
 
-        // Iterate through the input string s.
         for (int i = 0; i < n; i++) {
-            char currentChar = s.charAt(i);
-            
-            t.append(currentChar);
 
-            while (t.length() > 0 && t.charAt(t.length() - 1) <= mcr[i + 1]) {
-                ans.append(t.charAt(t.length() - 1));
-                
-                t.deleteCharAt(t.length() - 1);
+            t.addLast(s.charAt(i));
+
+            while (!t.isEmpty() && t.peekLast() <= mcr[i + 1]) {
+                ans.append(t.removeLast());
             }
         }
 
+        // Append any remaining characters from t to p.
+        while (!t.isEmpty()) {
+            ans.append(t.removeLast());
+        }
 
-        ans.append(t.reverse());
-        
         return ans.toString();
     }
 }
