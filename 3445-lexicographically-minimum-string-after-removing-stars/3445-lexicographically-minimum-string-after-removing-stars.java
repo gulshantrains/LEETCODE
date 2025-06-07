@@ -1,43 +1,41 @@
 class Solution {
 
-    class Pair {
-        char ch;
-        int idx;
-
-        Pair(char ch, int idx) {
-            this.ch = ch;
-            this.idx = idx;
-        }
-    }
-
     public String clearStars(String s) {
         int n = s.length();
 
-        Queue<Pair> pq = new PriorityQueue<>((a, b) -> {
-            if (a.ch != b.ch)
-                return a.ch - b.ch;
-            return b.idx - a.idx;
-        });
+        TreeMap<Character, Stack<Integer>> mp = new TreeMap<>();
 
         for (int i = 0; i < n; i++) {
-            char ch = s.charAt(i);
-            if (ch == '*') {
-                if (!pq.isEmpty())
-                    pq.poll();
+            char temp = s.charAt(i);
+
+            if (temp == '*') {
+                if (!mp.isEmpty()) {
+                    char minChar = mp.firstKey();
+                    Stack<Integer> stack = mp.get(minChar);
+                    stack.pop(); // remove largest index of that char
+
+                    if (stack.isEmpty()) {
+                        mp.remove(minChar);
+                    }
+                }
             } else {
-                pq.offer(new Pair(ch, i));
+                mp.putIfAbsent(temp, new Stack<>());
+                mp.get(temp).push(i);
             }
         }
 
-        // Extract indices and sort
-        List<Integer> ls = new ArrayList<>();
-        while (!pq.isEmpty()) {
-            ls.add(pq.poll().idx);
+        // Gather all remaining indices and sort
+        List<Integer> indices = new ArrayList<>();
+        
+        for (Stack<Integer> stack : mp.values()) {
+            indices.addAll(stack);
         }
-        Collections.sort(ls);
 
+        Collections.sort(indices);
+
+        // Build the result
         StringBuilder sb = new StringBuilder();
-        for (int idx : ls) {
+        for (int idx : indices) {
             sb.append(s.charAt(idx));
         }
 
