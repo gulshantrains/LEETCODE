@@ -714,6 +714,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/flyingelephhant/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/flyingelephhant/LEETCODE/tree/master/0200-number-of-islands) |
+| [0386-lexicographical-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
@@ -985,4 +986,8 @@
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
