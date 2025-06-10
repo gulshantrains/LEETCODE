@@ -1,26 +1,27 @@
 class Solution {
-    private static void dfs(int n, boolean[] visited, int[][] M) {
-        visited[n] = true; //Visited
-
-        for(int i=0; i<M.length; i++){
-            if(!visited[i] && M[n][i]==1){
-                dfs(i,visited,M);
-            }
-        }
-    }
-
     public int findCircleNum(int[][] M) {
-        int ans = 0; //It will count same province
-        int V = M.length; //Total town in city
+        int n = M.length;
+        boolean[] v = new boolean[n];
+        int cnt=0;
 
-        boolean[] visited = new boolean[V];
+        for (int i = 0; i < n; i++) {
+            if (!v[i]) {
+                Queue<Integer> q = new LinkedList<>();
+                q.add(i);
 
-        for (int i = 0; i < V; i++) {
-            if (!visited[i]) {
-                ans++; //Means a new Province is found because all connected province
-                dfs(i, visited, M); //is marked in dfs call
+                while (!q.isEmpty()) {
+                    int x = q.poll();
+                    v[x]=true;
+                    for (int j = 0; j < n; j++) {
+                        if(!v[j] && M[x][j]==1){
+                            q.add(j);
+                        }
+                    }
+
+                }
+                cnt++;
             }
         }
-        return ans;
+        return cnt;
     }
 }
