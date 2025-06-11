@@ -717,6 +717,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/flyingelephhant/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/flyingelephhant/LEETCODE/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/flyingelephhant/LEETCODE/tree/master/0207-course-schedule) |
 | [0386-lexicographical-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
@@ -745,6 +746,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/flyingelephhant/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/flyingelephhant/LEETCODE/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/flyingelephhant/LEETCODE/tree/master/0207-course-schedule) |
 | [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
@@ -798,6 +800,7 @@
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/flyingelephhant/LEETCODE/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
@@ -958,6 +961,7 @@
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/flyingelephhant/LEETCODE/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/flyingelephhant/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
