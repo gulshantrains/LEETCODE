@@ -1,47 +1,51 @@
 class Solution {
+    private List<List<Integer>> adj;
+    private int[] visit; //[ 0: Not Visited ][ 1:Being visited ] [ 2:Visited (Done) ]
 
-    public boolean dfs(
-        int node,
-        int[][] adj,
-        boolean[] visit,
-        boolean[] inStack
-    ) {
-        // If the node is already in the stack, we have a cycle.
-        if (inStack[node]) {
-            return true;
-        }
-        if (visit[node]) {
-            return false;
-        }
-        // Mark the current node as visited and part of current recursion stack.
-        visit[node] = true;
-        inStack[node] = true;
-        for (int neighbor : adj[node]) {
-            if (dfs(neighbor, adj, visit, inStack)) {
+    private boolean isCycle(int n) {
+        visit[n] = 1;
+
+        for (int x : adj.get(n)) {
+            if (visit[x] == 0 && isCycle(x)) {
                 return true;
+            } else if (visit[x] == 1) {
+                return true; //Node is visited and this is Back Edge also
             }
         }
-        // Remove the node from the stack.
-        inStack[node] = false;
+        visit[n] = 2;
         return false;
     }
 
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;
-        boolean[] visit = new boolean[n];
-        boolean[] inStack = new boolean[n];
+        adj = new ArrayList<>(n);
+        visit = new int[n];
+        Arrays.fill(visit, 0);
+        List<Integer> ans = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
-            dfs(i, graph, visit, inStack);
-        }
+            adj.add(new ArrayList<>());
+            for (int j = 0; j < graph[i].length; j++) {
+                adj.get(i).add(graph[i][j]);
 
-        List<Integer> safeNodes = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            if (!inStack[i]) {
-                safeNodes.add(i);
             }
         }
 
-        return safeNodes;
+        // Run cycle detection on all nodes
+        for (int i = 0; i < n; i++) {
+            if (visit[i] == 0) {
+                isCycle(i);
+            }
+        }
+
+        // Nodes marked 2 are safe
+        for (int i = 0; i < n; i++) {
+            if (visit[i] == 2) {
+                ans.add(i);
+            }
+        }
+
+        return ans;
+
     }
 }
