@@ -1,42 +1,69 @@
 class Solution {
-    private ArrayList<ArrayList<Integer>> adj;
-    private int[] ind;
+    private ArrayList<ArrayList<Integer>> adj; 
+    private int[] visit; // Visit state: 0 = unvisited, 1 = visiting, 2 = visited
+
+    private void dfs(int n, Stack<Integer> st, boolean[] vi) {
+        vi[n] = true; // Mark current node as visited
+        
+        for (int v : adj.get(n)) {
+            if (!vi[v]) {
+                dfs(v, st, vi); // Visit unvisited neighbors
+            }
+        }
+        st.push(n); // Push after visiting all neighbors
+    }
+
+    // DFS to detect cycle in the graph
+    private boolean isCycle(int n) {
+        visit[n] = 1; // Mark as visiting
+        for (int x : adj.get(n)) {
+            if (visit[x] == 0) {
+                if (isCycle(x)) return true; // Cycle found in DFS
+            } else if (visit[x] == 1) {
+                return true; // Back edge found, cycle exists
+            }
+        }
+        visit[n] = 2; // Mark as visited
+        return false;
+    }
 
     public int[] findOrder(int nC, int[][] pre) {
         adj = new ArrayList<>(nC);
-        ind = new int[nC];
-        Arrays.fill(ind, 0);
+        visit = new int[nC];
 
+        // Initialize adjacency list
         for (int i = 0; i < nC; i++) {
             adj.add(new ArrayList<>());
         }
-        // [a,b]===> b----->a
+
+        // Build graph: [a, b] means b -> a
         for (int[] e : pre) {
             int course = e[0];
             int prec = e[1];
-
-            ind[course]++;
             adj.get(prec).add(course);
         }
-        Queue<Integer> q = new LinkedList<>();
+
+        // Check for cycles in the graph
         for (int i = 0; i < nC; i++) {
-            if (ind[i] == 0)
-                q.add(i);
+            if (visit[i] == 0 && isCycle(i))
+                return new int[0]; // Return empty array if cycle found
         }
+
+        Stack<Integer> st = new Stack<>();
+        boolean[] vi = new boolean[nC]; // To track visited nodes in DFS
+
+        // Perform DFS to get topological order
+        for (int i = 0; i < nC; i++) {
+            if (!vi[i])
+                dfs(i, st, vi);
+        }
+
+        // Build result array from stack
         int[] ans = new int[nC];
         int idx = 0;
-
-        while (!q.isEmpty()) {
-            int v = q.poll();
-            ans[idx++] = v;
-
-            for (int ne : adj.get(v)) {
-                ind[ne]--;
-
-                if (ind[ne] == 0)
-                    q.add(ne);
-            }
+        while (!st.isEmpty()) {
+            ans[idx++] = st.pop();
         }
-        return (idx == nC) ? ans : new int[0];
+        return ans;
     }
 }
