@@ -2,24 +2,6 @@ class Solution {
     private ArrayList<ArrayList<Integer>> adj;
     private int[] ind;
 
-    private int[] bfs(Queue<Integer> q, int size) {
-        int[] ans = new int[size];
-        int idx = 0;
-
-        while (!q.isEmpty()) {
-            int v = q.poll();
-            ans[idx++] = v;
-
-            for (int ne : adj.get(v)) {
-                ind[ne]--;
-
-                if (ind[ne] == 0)
-                    q.add(ne);
-            }
-        }
-        return (idx == size) ? ans : new int[0];
-    }
-
     public int[] findOrder(int nC, int[][] pre) {
         adj = new ArrayList<>(nC);
         ind = new int[nC];
@@ -41,8 +23,20 @@ class Solution {
             if (ind[i] == 0)
                 q.add(i);
         }
+        int[] ans = new int[nC];
+        int idx = 0;
 
-        return bfs(q, nC);
+        while (!q.isEmpty()) {
+            int v = q.poll();
+            ans[idx++] = v;
 
+            for (int ne : adj.get(v)) {
+                ind[ne]--;
+
+                if (ind[ne] == 0)
+                    q.add(ne);
+            }
+        }
+        return (idx == nC) ? ans : new int[0];
     }
 }
