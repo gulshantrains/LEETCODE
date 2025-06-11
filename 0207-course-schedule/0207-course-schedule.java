@@ -1,55 +1,50 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-       
-        int[] inDegree = new int[numCourses];
-        Arrays.fill(inDegree, 0); 
+    private int[] state; // 0: unvisited, 1: visiting, 2: visited
+    private ArrayList<ArrayList<Integer>> adj; 
 
-        // adj.get(i) will contain a list of courses that have 'i' as a prerequisite.
-        // So, if course 'j' is in adj.get(i), it means there's an edge from i -> j.
-        // This is equivalent to: to take 'j', you must first take 'i'.
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>(numCourses);
-        for (int i = 0; i < numCourses; i++) {
+    private boolean hasCycleDFS(int n) {
+        state[n] = 1; // Mark current node as 'visiting'
+
+        for (int v : adj.get(n)) { // Iterate over neighbors
+            if (state[v] == 0) { // If neighbor is unvisited
+                if (hasCycleDFS(v)) { 
+                    return true;     // Propagate the cycle detection
+                }
+            } else if (state[v] == 1) { // If neighbor is currently 'visiting' (in recursion stack)
+                return true;            // Cycle detected (back-edge)
+            }
+            // If state[v] == 2, it means the neighbor has already been fully processed and is not part of a cycle.
+            // We just skip it.
+        }
+
+        state[n] = 2; // Mark current node as 'visited' (fully processed, no cycle found through this path)
+        return false; // No cycle found starting from this node or its descendants
+    }
+
+    public boolean canFinish(int nC, int[][] pre) {
+
+        adj = new ArrayList<>(nC); // Initialize adj as a private member
+        for (int i = 0; i < nC; i++) {
             adj.add(new ArrayList<>());
         }
 
-        for (int[] pre : prerequisites) {
-            int courseToTake = pre[0];   // This course needs a prerequisite
-            int prerequisiteCourse = pre[1]; // This is the prerequisite course
+        for (int[] p : pre) {
+            int dependentCourse = p[0]; // Course that needs prerequisite
+            int prerequisiteCourse = p[1]; // The prerequisite course
 
-            inDegree[courseToTake]++;
-
-            // Add an edge from 'prerequisiteCourse' to 'courseToTake' in the adjacency list.
-            // This means 'prerequisiteCourse' is a prerequisite for 'courseToTake'.
-            adj.get(prerequisiteCourse).add(courseToTake);
+            adj.get(prerequisiteCourse).add(dependentCourse); // Edge: prerequisite -> dependent
         }
 
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < numCourses; i++) {
-            if (inDegree[i] == 0) {
-                queue.add(i); 
-            }
-        }
+        state = new int[nC];
+        Arrays.fill(state, 0);
 
-        int coursesTakenCount = 0; // Count of courses that have been successfully "taken" (processed)
-
-        // Process courses using Kahn's algorithm (Topological Sort)
-        while (!queue.isEmpty()) {
-            int currentCourse = queue.poll(); // Get a course with no remaining prerequisites
-            coursesTakenCount++;             // Increment the count of taken courses
-
-            // Iterate through all courses that have 'currentCourse' as a prerequisite.
-            // These are the 'neighbors' of 'currentCourse' in the graph.
-            for (int neighbor : adj.get(currentCourse)) {
-                
-                inDegree[neighbor]--;
-
-                // If the 'neighbor' course now has an in-degree of 0,
-                // it means all its prerequisites have been met, so add it to the queue.
-                if (inDegree[neighbor] == 0) {
-                    queue.add(neighbor);
+        for (int i = 0; i < nC; i++) {
+            if (state[i] == 0) { // If the course hasn't been visited yet
+                if (hasCycleDFS(i)) { 
+                    return false;     // If a cycle is detected, we cannot finish all courses
                 }
             }
         }
-        return coursesTakenCount == numCourses;
+        return true; 
     }
 }
