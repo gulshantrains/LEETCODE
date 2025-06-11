@@ -1,46 +1,35 @@
 class Solution {
-    private List<List<Integer>> adj;
-    private int[] visit; //[ 0: Not Visited ][ 1:Being visited ] [ 2:Visited (Done) ]
+    private boolean dfs(int n, int[][] graph, boolean[] visited, boolean[] inRec) {
+        visited[n] = true;
+        inRec[n] = true;
 
-    private boolean isCycle(int n) {
-        visit[n] = 1;
-
-        for (int x : adj.get(n)) {
-            if (visit[x] == 0 && isCycle(x)) {
+        for (int x : graph[n]) {
+            if (!visited[x]) {
+                if (dfs(x, graph, visited, inRec))
+                    return true;
+            } else if (inRec[x])
                 return true;
-            } else if (visit[x] == 1) {
-                return true; //Node is visited and this is Back Edge also
-            }
         }
-        visit[n] = 2;
+        inRec[n] = false;
         return false;
     }
 
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;
-        adj = new ArrayList<>(n);
-        visit = new int[n];
-        Arrays.fill(visit, 0);
+        boolean[] visited = new boolean[n];
+        boolean[] inRec = new boolean[n];
         List<Integer> ans = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
-            for (int j = 0; j < graph[i].length; j++) {
-                adj.get(i).add(graph[i][j]);
-
-            }
-        }
 
         // Run cycle detection on all nodes
         for (int i = 0; i < n; i++) {
-            if (visit[i] == 0) {
-                isCycle(i);
+            if (!visited[i]) {
+                dfs(i, graph, visited, inRec);
             }
         }
 
         // Nodes marked 2 are safe
         for (int i = 0; i < n; i++) {
-            if (visit[i] == 2) {
+            if (!inRec[i]) {
                 ans.add(i);
             }
         }
