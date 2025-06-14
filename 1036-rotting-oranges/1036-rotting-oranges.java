@@ -30,7 +30,7 @@ class Solution {
             return 0;
 
         int time = 0;
-        while (!q.isEmpty()) {
+        while (good > 0 && !q.isEmpty()) {
 
             int s = q.size();
             for (int i = 0; i < s; i++) {
@@ -47,7 +47,7 @@ class Solution {
                     }
                 }
             }
-            if (!q.isEmpty()) time++;
+            time++;
         }
         return (good == 0) ? time : -1;
     }
