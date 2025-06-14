@@ -33,7 +33,6 @@ class Solution {
         while (!q.isEmpty()) {
 
             int s = q.size();
-            boolean flag = false;
             for (int i = 0; i < s; i++) {
                 Pair t = q.poll();
 
@@ -45,12 +44,10 @@ class Solution {
                         grid[nrow][ncol] = 2;
                         good--;
                         q.offer(new Pair(nrow, ncol));
-                        flag = true;
                     }
                 }
             }
-            if (flag)
-                time++;
+            if (!q.isEmpty()) time++;
         }
         return (good == 0) ? time : -1;
     }
