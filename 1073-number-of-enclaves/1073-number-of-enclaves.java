@@ -21,15 +21,7 @@ class Solution {
                     dfs(grid, i, j);
             }
         }
-        int ans = 0;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 1)
-                    ans++;
-            }
-        }
-        return ans;
-        // return Arrays.stream(grid).mapToInt(row-> Arrays.stream(row).sum()).sum();
+        
+        return Arrays.stream(grid).mapToInt(row-> Arrays.stream(row).sum()).sum();
     }
 }
