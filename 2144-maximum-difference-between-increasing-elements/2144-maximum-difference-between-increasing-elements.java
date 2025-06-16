@@ -1,13 +1,13 @@
 class Solution {
     public int maximumDifference(int[] n) {
         int ans = -1;
-        if (n.length == 1)
-            return ans;
-        for (int i = 0; i < n.length; i++) {
-            for (int j = i + 1; j < n.length; j++) {
-                if (n[i] < n[j])
-                    ans = Math.max(ans, (n[j] - n[i]));
+        int premin = n[0];
 
+        for (int i = 1; i < n.length; i++) {
+            if (n[i] > premin) {
+                ans = Math.max(ans, n[i] - premin);
+            } else {
+                premin = n[i];
             }
         }
         return ans;
