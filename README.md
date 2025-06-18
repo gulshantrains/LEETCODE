@@ -87,6 +87,7 @@
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/flyingelephhant/LEETCODE/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/flyingelephhant/LEETCODE/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/3647-zero-array-transformation-iii) |
@@ -271,6 +272,7 @@
 | [3194-find-words-containing-character](https://github.com/flyingelephhant/LEETCODE/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/flyingelephhant/LEETCODE/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3227-find-missing-and-repeated-values) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3311-ant-on-the-boundary](https://github.com/flyingelephhant/LEETCODE/tree/master/3311-ant-on-the-boundary) |
@@ -699,6 +701,7 @@
 | [2836-neither-minimum-nor-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/2836-neither-minimum-nor-maximum) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/flyingelephhant/LEETCODE/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/flyingelephhant/LEETCODE/tree/master/3430-count-days-without-meetings) |
