@@ -75,6 +75,7 @@
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/flyingelephhant/LEETCODE/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/flyingelephhant/LEETCODE/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/flyingelephhant/LEETCODE/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2509-minimize-xor](https://github.com/flyingelephhant/LEETCODE/tree/master/2509-minimize-xor) |
@@ -229,6 +230,7 @@
 | [2292-counting-words-with-a-given-prefix](https://github.com/flyingelephhant/LEETCODE/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2308-divide-array-into-equal-pairs) |
 | [2358-number-of-ways-to-split-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2358-number-of-ways-to-split-array) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/flyingelephhant/LEETCODE/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/flyingelephhant/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2448-count-number-of-bad-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2448-count-number-of-bad-pairs) |
@@ -693,6 +695,7 @@
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/2215-finding-3-digit-even-numbers) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/flyingelephhant/LEETCODE/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/flyingelephhant/LEETCODE/tree/master/2588-maximum-number-of-points-from-grid-queries) |
