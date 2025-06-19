@@ -4,8 +4,8 @@ var partitionArray = function (nums, k) {
     let rec = nums[0];
     for (let num of nums) {
         if (num - rec > k) {
-            ans++;
-            rec = num;
+            ans++
+            rec = num
         }
     }
     return ans;
