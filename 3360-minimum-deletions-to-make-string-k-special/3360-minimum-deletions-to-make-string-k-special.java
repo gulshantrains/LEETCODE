@@ -1,45 +1,51 @@
-import java.util.*;
-
 class Solution {
     public int minimumDeletions(String word, int k) {
+        // Step 1: Calculate character frequencies
         int[] freq = new int[26];
-        Arrays.fill(freq, 0);
-        
-        // Step 1: Build frequency map
-        for (char x : word.toCharArray())
-            freq[x - 'a']++;
-
-        // Step 2: Extract non-zero frequencies into a list
-        List<Integer> mp = new ArrayList<>();
-        for (int x : freq) {
-            if (x != 0)
-                mp.add(x);
+        for (char c : word.toCharArray()) {
+            freq[c - 'a']++;
         }
 
-        Collections.sort(mp); // Sort to simplify logic
-        int ans = Integer.MAX_VALUE;
+        // Initialize minimum deletions to the maximum possible (delete all characters)
+        // This is a safe upper bound.
+        int minTotalDeletions = word.length();
 
-        // Step 3: Try each frequency as the target lower bound
-        for (int i = 0; i < mp.size(); i++) {
-            int target = mp.get(i);
-            int delete = 0;
+        // If the word is empty, no deletions are needed.
+        if (word.length() == 0) {
+            return 0;
+        }
 
-            for (int j = 0; j < mp.size(); j++) {
-                int current = mp.get(j);
+        // Step 2: Iterate through all possible values that a minimum frequency (minF) could take.
+        // The minimum frequency can range from 0 (if we delete all occurrences of a char)
+        // up to the maximum possible frequency in the word (word.length()).
+        // We iterate from 0 to word.length() to cover all scenarios for 'minF'.
+        for (int possibleMinFreq = 0; possibleMinFreq <= word.length(); possibleMinFreq++) {
+            int currentDeletions = 0; // Deletions calculated for this specific 'possibleMinFreq' scenario
 
-                if (current < target) {
-                    // If frequency is less than target, delete all of it
-                    delete += current;
-                } else if (current > target + k) {
-                    // If frequency exceeds allowed range, trim to (target + k)
-                    delete += current - (target + k);
+            // Step 3: For each 'possibleMinFreq', calculate deletions needed for all characters
+            for (int f_val : freq) {
+                if (f_val == 0) {
+                    continue; // Skip characters that are not present
                 }
-                // else: do nothing, it's within range
-            }
 
-            ans = Math.min(ans, delete);
+                if (f_val < possibleMinFreq) {
+                    // If a character's frequency is less than our 'possibleMinFreq',
+                    // we must delete all occurrences of this character.
+                    currentDeletions += f_val;
+                } else if (f_val > possibleMinFreq + k) {
+                    // If a character's frequency is greater than the allowed upper bound (possibleMinFreq + k),
+                    // we must delete characters until it reaches this upper bound.
+                    currentDeletions += (f_val - (possibleMinFreq + k));
+                }
+                // If possibleMinFreq <= f_val <= possibleMinFreq + k,
+                // this frequency is already within our desired range, so no deletions are needed for it.
+            }
+            
+            // Update the overall minimum deletions found so far.
+            minTotalDeletions = Math.min(minTotalDeletions, currentDeletions);
         }
 
-        return ans;
+        // Step 4: Return the minimum deletions found.
+        return minTotalDeletions;
     }
 }
