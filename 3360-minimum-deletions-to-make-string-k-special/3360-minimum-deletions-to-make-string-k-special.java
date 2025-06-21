@@ -1,7 +1,7 @@
 class Solution {
     public int minimumDeletions(String word, int k) {
         int[] freq = new int[26];
-        
+
         for (char ch : word.toCharArray()) {
             freq[ch - 'a']++;
         }
@@ -37,3 +37,8 @@ class Solution {
         return ans; // Return the minimum deletions required
     }
 }
+//Allowed Range:
+//To satisfy the condition max freq - min freq ≤ k,
+//all valid character frequencies must lie within
+//[target, target + k]
+//..If freq=x then we need other to be MAX to MaX(x+k) so that |x-x-k|<=k so range is [x,x+k];
