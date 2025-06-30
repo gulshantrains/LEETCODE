@@ -171,6 +171,7 @@
 | [1016-subarray-sums-divisible-by-k](https://github.com/flyingelephhant/LEETCODE/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
+| [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/flyingelephhant/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
@@ -543,6 +544,7 @@
 | [0868-push-dominoes](https://github.com/flyingelephhant/LEETCODE/tree/master/0868-push-dominoes) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
+| [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/flyingelephhant/LEETCODE/tree/master/1160-letter-tile-possibilities) |
@@ -868,6 +870,7 @@
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
+| [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/flyingelephhant/LEETCODE/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -1030,6 +1033,7 @@
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
+| [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/flyingelephhant/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1396-count-servers-that-communicate](https://github.com/flyingelephhant/LEETCODE/tree/master/1396-count-servers-that-communicate) |
