@@ -15,35 +15,24 @@ class Solution {
     public static int[] parent;
 
     public int find(int x) {
-        // Base case: if x is its own parent, it is the root of the set.
         if (x == parent[x])
             return x;
 
-        // Path compression: set parent[x] directly to the root of its current parent.
-        // This flattens the tree, making future find operations faster.
-        parent[x] = find(parent[x]);
-
-        return parent[x];
+        return parent[x] = find(parent[x]);
     }
 
     public void union(int x, int y) {
-        // Find the roots of the sets containing x and y.
         int x_root = find(x);
         int y_root = find(y);
 
-        // If x and y are already in the same set, do nothing.
         if (x_root == y_root)
             return;
 
-        // Union by rank: Attach the tree with the smaller rank under the root
-        // of the tree with the larger rank. This helps keep the trees flat.
         if (rank[x_root] < rank[y_root]) {
-            parent[x_root] = y_root; // Make y_root the parent of x_root
+            parent[x_root] = y_root;
         } else if (rank[y_root] < rank[x_root]) {
-            parent[y_root] = x_root; // Make x_root the parent of y_root
+            parent[y_root] = x_root;
         } else {
-            // If ranks are equal, choose one as the parent (e.g., y_root)
-            // and increment its rank as the tree height effectively increases.
             parent[x_root] = y_root;
             rank[y_root]++;
         }
@@ -83,9 +72,9 @@ class Solution {
                 int first_par_root = find(c.charAt(0) - 'a');
                 int second_par_root = find(c.charAt(3) - 'a');
 
-        // If the roots are the same, it means the two variables are in the same set
-        // (i.e., they are equivalent according to '==' equations).
-        // However, the current equation states they are not equal, which is a contradiction.
+                // If the roots are the same, it means the two variables are in the same set
+                // (i.e., they are equivalent according to '==' equations).
+                // However, the current equation states they are not equal, which is a contradiction.
                 if (first_par_root == second_par_root)
                     return false; // Contradiction found, so return false.
             }
