@@ -1,8 +1,6 @@
 //..SubSequence will always contains  2 Number [min,.....,min+1] Always
 class Solution {
     public int findLHS(int[] A) {
-        // Create a HashMap to store the frequency of each number in the array.
-        // The key will be the number itself, and the value will be its count.
         Map<Integer, Integer> mp = new HashMap<>();
 
         // Initialize the variable 'ans' to 0. This will store the maximum length of the harmonious subsequence found so far.
@@ -10,9 +8,8 @@ class Solution {
 
         // --- Step 1: Count the frequency of each number ---
         // Iterate through each number 'x' in the input array 'A'.
-        for (var x : A) {
-            mp.put(x, mp.getOrDefault(x, 0) + 1);
-        }
+        for (var x : A) mp.merge(x, 1, Integer::sum);
+        
 
         // --- Step 2: Find the longest harmonious subsequence ---
         // Iterate through each unique number 'key' present in the map.
