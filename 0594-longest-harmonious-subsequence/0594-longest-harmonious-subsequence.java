@@ -1,17 +1,22 @@
 class Solution {
     public int findLHS(int[] A) {
+        Map<Integer, Integer> mp = new HashMap<>();
         int n = A.length;
         int ans = 0;
 
-        Arrays.sort(A);
+        for (var x : A) {
+            mp.put(x, mp.getOrDefault(x, 0) + 1);
+        }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = n - 1; j >= i; j--) {
-                if (A[j] == A[i] + 1) {
-                    ans = Math.max(ans, j - i + 1);
-                    break;
-                }
+        for (var key : mp.keySet()) {
+            int need = key + 1;
+            int currLen = 0;
+
+            if (mp.containsKey(need)) {
+                currLen = mp.get(need) + mp.get(key);
+
             }
+            ans = Math.max(ans, currLen);
         }
         return ans;
     }
