@@ -1,32 +1,27 @@
 /**
- * @param {number[]} nums
+ * @param {number[]} A
  * @param {number} target
  * @return {number}
  */
 var numSubseq = function (A, target) {
-    const mod = 1_000_000_007;
-    A.sort((a, b) => a - b);
-
-    let ans = 0;
-    let l = 0;
-    let r = A.length - 1;
-    let n = A.length;
-
-    const pow = new Array(n);
-    pow[0] = 1;
-    for (let i = 1; i < n; i++) {
-        pow[i] = (pow[i - 1] * 2) % mod;
+    const MOD = 10 ** 9 + 7
+    const subsets = []
+    subsets[0] = 1
+    for (let i = 1; i < A.length; i++) {
+        subsets[i] = (subsets[i - 1] * 2) % MOD
     }
-
-    while (l <= r) {
-        if (A[l] + A[r] > target) {
-            r--;
+    A.sort((a, b) => a - b)
+    let count = 0
+    let left = 0
+    let right = A.length - 1
+    while (left <= right) {
+        if (A[left] + A[right] > target) {
+            right--
         } else {
-            ans = (ans + pow[r - l]) % mod;
-            l++;
+            count = (count + subsets[right - left]) % MOD
+            left++
         }
     }
-    return ans;
-
+    return count
 
 };
