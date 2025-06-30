@@ -150,6 +150,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/flyingelephhant/LEETCODE/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/flyingelephhant/LEETCODE/tree/master/0561-array-partition) |
+| [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
@@ -326,6 +327,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
@@ -470,6 +472,7 @@
 | [0496-next-greater-element-i](https://github.com/flyingelephhant/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
+| [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0768-partition-labels](https://github.com/flyingelephhant/LEETCODE/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -587,6 +590,7 @@
 ## Counting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1160-letter-tile-possibilities](https://github.com/flyingelephhant/LEETCODE/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -702,6 +706,7 @@
 | [0368-largest-divisible-subset](https://github.com/flyingelephhant/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
 | [0561-array-partition](https://github.com/flyingelephhant/LEETCODE/tree/master/0561-array-partition) |
+| [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
