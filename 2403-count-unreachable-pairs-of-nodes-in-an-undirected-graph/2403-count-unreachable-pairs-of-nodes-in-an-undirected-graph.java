@@ -1,62 +1,57 @@
-import java.util.Collection;
 class Solution {
-    public int[] p;
-    public int[] r;
+    public int[] parent;
+    public int[] Size; 
 
+    // Find operation with path compression
     private int find(int x) {
-        if (x == p[x])
+        if (x == parent[x])
             return x;
-
-        return p[x] = find(p[x]);
+        return parent[x] = find(parent[x]);
     }
 
+    // Union operation with union by size (as it now stores size)
     private void union(int x, int y) {
-        int xp = find(x);
-        int yp = find(y);
+        int rootX = find(x);
+        int rootY = find(y);
 
-        if (xp == yp)
+        if (rootX == rootY)
             return;
 
-        if (r[xp] < r[yp]) {
-            p[xp] = yp;
-        } else if (r[xp] > r[yp]) {
-            p[yp] = xp;
-        } else {
-            p[xp] = yp;
-            r[yp]++;
+        // Union by size: attach smaller component to larger component
+        if (Size[rootX] < Size[rootY]) {
+            parent[rootX] = rootY;
+            Size[rootY] += Size[rootX];
+        } else { // Size[rootX] >= Size[rootY]
+            parent[rootY] = rootX;
+            Size[rootX] += Size[rootY];
         }
-
     }
 
     public long countPairs(int n, int[][] edges) {
-        p = new int[n];
-        r = new int[n];
+        parent = new int[n];
+        Size = new int[n]; 
 
+        // Initialize: each node is its own parent, and each component initially has size 1
         for (int i = 0; i < n; i++) {
-            p[i] = i;
+            parent[i] = i;
+            Size[i] = 1; // Initialize size to 1 for each individual node
         }
 
-        for (int[] x : edges) {
-            union(x[0], x[1]);
+        for (int[] edge : edges) {
+            union(edge[0], edge[1]);
         }
-        
-        Map<Integer, Long> mp = new HashMap<>(); 
-        
-        for (int i = 0; i < n; i++) {
-            // Corrected: Call find(i) to get the true representative
-            mp.merge(find(i), 1L, Long::sum); // Use 1L for Long increment
-        }
-        
-        long totalNodes = n; // This is sum of all component sizes, simply 'n'
+
+        long totalRemainingNodes = n; // Total nodes remaining to be paired
         long ans = 0;
 
-        Collection<Long> componentSizes = mp.values();
-        
-        for (Long size : componentSizes) {
-            ans += (size * (totalNodes - size));
+        // Iterate through all nodes to find component roots and calculate pairs
+        for (int i = 0; i < n; i++) {
+            if (parent[i] == i) { // If 'i' is a root of a component
+                long currentSize = Size[i];
+                ans += currentSize * (totalRemainingNodes - currentSize);
+                totalRemainingNodes -= currentSize;
+            }
         }
-
-        // Corrected: Divide by 2 because each pair is counted twice
-        return ans / 2;
+        return ans;
     }
 }
