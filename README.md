@@ -4,6 +4,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0002-add-two-numbers) |
 | [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/flyingelephhant/LEETCODE/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
@@ -412,6 +413,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0002-add-two-numbers) |
 | [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/flyingelephhant/LEETCODE/tree/master/0326-power-of-three) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
@@ -999,6 +1001,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0002-add-two-numbers) |
 | [0445-add-two-numbers-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0445-add-two-numbers-ii) |
 ## Matrix
 |  |
