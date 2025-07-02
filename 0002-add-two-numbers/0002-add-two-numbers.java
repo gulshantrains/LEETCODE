@@ -1,34 +1,43 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode temp = new ListNode(); //Create a empty container node
-        ListNode ans = temp; //Give one pointer to empty node
-        int sum = 0, carry = 0;
+        ListNode dummyHead = new ListNode(); // A dummy node to simplify list construction
+        ListNode current = dummyHead; // Pointer to the current node in the result list
+        int carry = 0;
 
         while (l1 != null || l2 != null || carry != 0) {
-            sum = carry; //Give all Carry to Sum as it will be used in current iteration
+            int sum = carry;
 
-            sum += (l1 != null) ? l1.val : 0; //Take value of l1 node
-            sum += (l2 != null) ? l2.val : 0; //Value of l2 node
+            // Add value from l1 if it exists
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
 
-            int rem = sum % 10; //This will become node value
-            carry = sum / 10;   //Will add in next
+            // Add value from l2 if it exists
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
 
-            temp.next = new ListNode(rem); //Add a node next to temp
-            temp = temp.next; //Move pointer one step forward
+            // Calculate digit for current node and new carry
+            int digit = sum % 10;
+            carry = sum / 10;
 
-            l1 = (l1 != null) ? l1.next : null; //Change l1 and l2 node
-            l2 = (l2 != null) ? l2.next : null;
+            // Create and append new node
+            current.next = new ListNode(digit);
+            current = current.next; // Move to the newly added node
         }
-        return ans.next;
+
+        return dummyHead.next; // The actual head of the result list
     }
 }
