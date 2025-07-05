@@ -191,6 +191,7 @@
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/flyingelephhant/LEETCODE/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1524-string-matching-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/flyingelephhant/LEETCODE/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -492,6 +493,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/flyingelephhant/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1500-count-largest-group](https://github.com/flyingelephhant/LEETCODE/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
@@ -603,6 +605,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1396-count-servers-that-communicate](https://github.com/flyingelephhant/LEETCODE/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/flyingelephhant/LEETCODE/tree/master/2140-longest-subsequence-repeated-k-times) |
