@@ -99,6 +99,7 @@
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/flyingelephhant/LEETCODE/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/3647-zero-array-transformation-iii) |
 | [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -314,6 +315,7 @@
 | [3705-find-the-largest-almost-missing-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/flyingelephhant/LEETCODE/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Queue
 |  |
@@ -996,6 +998,7 @@
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/3548-find-the-count-of-good-integers) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## String Matching
 |  |
