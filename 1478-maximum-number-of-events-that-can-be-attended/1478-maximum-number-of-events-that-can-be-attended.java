@@ -7,6 +7,9 @@ class Solution {
         int days = E[0][0];
 
         while (!pq.isEmpty() || i < n) {
+            if (pq.isEmpty())
+                days = E[i][0];
+
             while (i < n && E[i][0] == days) {
                 pq.offer(E[i][1]);
                 i++;
@@ -16,7 +19,7 @@ class Solution {
                 ans++;
             }
             days++;
-            
+
             while (!pq.isEmpty() && pq.peek() < days) {
                 pq.poll();
             }
