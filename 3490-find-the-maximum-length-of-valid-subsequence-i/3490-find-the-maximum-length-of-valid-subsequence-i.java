@@ -35,3 +35,30 @@ class Solution {
         return Math.max(altC, Math.max(evenC, oddC));
     }
 }
+
+/*
+All these sums must have the same parity (either all even sums or all odd sums).
+
+Let's analyze the parity of sums:
+
+Even + Even = Even
+Odd + Odd = Even
+Even + Odd = Odd
+Odd + Even = Odd
+
+From this, we can deduce some key patterns for a valid subsequence:
+
+All Even Numbers: If a subsequence consists only of even numbers (e.g., [2,4,6]), then (Even + Even) 
+...will always be Even. The sums will all have even parity.
+
+All Odd Numbers: If a subsequence consists only of odd numbers (e.g., [1,3,5]), then (Odd + Odd) 
+...will always be Even. The sums will all have even parity.
+
+Alternating Parity: If a subsequence alternates between odd and even numbers (e.g., [1,2,3,4] or [2,1,4,3]), 
+...then (Odd + Even) and (Even + Odd) will always be Odd. The sums will all have odd parity.
+
+Therefore, the problem boils down to finding the longest subsequence that is either:
+Composed entirely of even numbers.
+Composed entirely of odd numbers.
+Composed of numbers with strictly alternating parities.
+*/
