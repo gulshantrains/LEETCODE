@@ -185,6 +185,7 @@
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/flyingelephhant/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/flyingelephhant/LEETCODE/tree/master/1073-number-of-enclaves) |
+| [1087-longest-arithmetic-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1087-longest-arithmetic-subsequence) |
 | [1127-last-stone-weight](https://github.com/flyingelephhant/LEETCODE/tree/master/1127-last-stone-weight) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/flyingelephhant/LEETCODE/tree/master/1293-three-consecutive-odds) |
@@ -501,6 +502,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/flyingelephhant/LEETCODE/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
+| [1087-longest-arithmetic-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1087-longest-arithmetic-subsequence) |
 | [1160-letter-tile-possibilities](https://github.com/flyingelephhant/LEETCODE/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/flyingelephhant/LEETCODE/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -698,6 +700,7 @@
 | [0907-koko-eating-bananas](https://github.com/flyingelephhant/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/flyingelephhant/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1087-longest-arithmetic-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1087-longest-arithmetic-subsequence) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/flyingelephhant/LEETCODE/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/flyingelephhant/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/flyingelephhant/LEETCODE/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -941,6 +944,7 @@
 | [1013-fibonacci-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
+| [1087-longest-arithmetic-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1087-longest-arithmetic-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/flyingelephhant/LEETCODE/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
