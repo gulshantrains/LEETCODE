@@ -1,10 +1,7 @@
 class Solution {
     public int longestArithSeqLength(int[] nums) {
         int n = nums.length;
-        if (n <= 2)
-            return n;
-
-        int longest = 2;
+                int longest = 2;
         Map<Integer, Integer>[] dp = new HashMap[n];
 
         for (int i = 0; i < n; i++) {
