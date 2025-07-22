@@ -1,23 +1,22 @@
 class Solution {
     public int maximumUniqueSubarray(int[] A) {
-        int n = A.length, ans = Integer.MIN_VALUE, i = 0, j = 0;
-        Map<Integer, Integer> mp = new HashMap<>();
+        int n = A.length, ans = Integer.MIN_VALUE, j=0;
         int sum = 0;
 
-        while (j < n) {
-            while (j < n && !mp.containsKey(A[j])) {
-                sum += A[j];
-                mp.merge(A[j], 1, Integer::sum);
+        boolean[] seen = new boolean[10001];
+        for (int i = 0; i < n; i++) {
+            //Duplicate is Found means remove all duplicate
+            while (seen[A[i]]) {
+                seen[A[j]] = false;
+                sum -= A[j];
                 j++;
             }
-            ans = Math.max(ans, sum);
-            sum -= A[i];
-            mp.merge(A[i], -1, Integer::sum);
-
-            if (mp.get(A[i]) == 0)
-                mp.remove(A[i]);
-            i++;
+            //Add all non duplicate number
+            sum += A[i];
+            ans = Math.max(sum, ans);
+            seen[A[i]] = true;
         }
+
         return ans;
     }
 }
