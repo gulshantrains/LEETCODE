@@ -1,61 +1,61 @@
-import java.util.*;
+class Solution {
 
-public class Solution {
-
-    // 8 directions: vertical, horizontal, and diagonals
-    private static final int[][] directions = {
+    // Direction array to move in 8 directions: up, up-right, right, down-right, down, down-left, left, up-left
+    public int[][] dir = {
             { -1, 0 }, { -1, 1 }, { 0, 1 }, { 1, 1 },
             { 1, 0 }, { 1, -1 }, { 0, -1 }, { -1, -1 }
     };
 
-    // Main method to find shortest path in binary matrix
     public int shortestPathBinaryMatrix(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
+        int m = grid.length; // Total number of rows
+        int n = grid[0].length; // Total number of columns
 
-        // If start or end is blocked, return -1
-        if (grid[0][0] == 1 || grid[m - 1][n - 1] == 1)
+        // Edge case: start or end cell is blocked, or grid is invalid
+        if (m == 0 || n == 0 || grid[0][0] == 1 || grid[m - 1][n - 1] == 1)
             return -1;
 
-        // Distance matrix initialized to MAX_VALUE
-        int[][] result = new int[m][n];
-        for (int[] row : result)
-            Arrays.fill(row, Integer.MAX_VALUE);
+        // **Breadth-First Search (BFS)** technique is used here
+        // WHY BFS? → We are looking for the *shortest path*, and BFS is the standard approach to find shortest path in an unweighted grid
+        Queue<int[]> q = new LinkedList<>();
+        q.offer(new int[] { 0, 0 }); // Start BFS from the top-left cell (0,0)
 
-        // Priority Queue to implement Dijkstra (min-heap based on distance)
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
+        // Mark the starting cell as visited by setting it to 1
+        grid[0][0] = 1;
 
-        // Starting point with distance = 1 (since we start by visiting the first cell)
-        pq.offer(new int[] { 1, 0, 0 });
-        result[0][0] = 1;
+        int level = 0; // level stores the number of steps taken from the start
 
-        while (!pq.isEmpty()) {
-            int[] node = pq.poll();
-            int dist = node[0];
-            int x = node[1];
-            int y = node[2];
+        // Standard BFS loop
+        while (!q.isEmpty()) {
+            int N = q.size(); // Number of cells in the current level (distance from source)
 
-            // Explore all 8 directions
-            for (int[] dir : directions) {
-                int newX = x + dir[0];
-                int newY = y + dir[1];
+            // Explore all cells at the current level
+            for (int i = 0; i < N; i++) {
+                int[] temp = q.poll(); // Dequeue the cell
+                int x = temp[0], y = temp[1];
 
-                // Check bounds and if cell is clear (0)
-                if (isSafe(newX, newY, m, n) && grid[newX][newY] == 0) {
-                    // If a shorter path is found
-                    if (dist + 1 < result[newX][newY]) {
-                        result[newX][newY] = dist + 1;
-                        pq.offer(new int[] { dist + 1, newX, newY });
-                    }
+                // If we've reached the bottom-right cell, return the number of steps
+                if (x == m - 1 && y == n - 1)
+                    return level + 1; // We add 1 because we started from 0
+
+                // Explore all 8 directions
+                for (var d : dir) {
+                    int newX = x + d[0];
+                    int newY = y + d[1];
+
+                    // Skip out-of-bound cells or blocked cells (grid[x][y] == 1 means blocked or already visited)
+                    if (newX < 0 || newX >= m || newY < 0 || newY >= n || grid[newX][newY] == 1)
+                        continue;
+
+                    q.offer(new int[] { newX, newY }); // Add the cell to queue
+                    grid[newX][newY] = 1; // Mark cell as visited to prevent re-processing
                 }
             }
+
+            // Increment level (distance from start) after processing all nodes in this level
+            level++;
         }
 
-        return (result[m - 1][n - 1] == Integer.MAX_VALUE ? -1 : result[m - 1][n - 1]);
-    }
-
-    // Check if a cell is within grid bounds
-    private boolean isSafe(int x, int y, int m, int n) {
-        return x >= 0 && x < m && y >= 0 && y < n;
+        // If BFS finishes and we never reached the bottom-right cell, return -1
+        return -1;
     }
 }
