@@ -373,6 +373,7 @@
 | [0239-sliding-window-maximum](https://github.com/flyingelephhant/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
+| [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [1127-last-stone-weight](https://github.com/flyingelephhant/LEETCODE/tree/master/1127-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/flyingelephhant/LEETCODE/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -823,6 +824,7 @@
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
@@ -860,6 +862,7 @@
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
@@ -918,6 +921,7 @@
 | [0210-course-schedule-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
@@ -1084,6 +1088,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/flyingelephhant/LEETCODE/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
