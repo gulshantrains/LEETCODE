@@ -5,7 +5,7 @@ class Solution {
         int m = grid.length; //Total Rows
         int n = grid[0].length; //Total column
 
-        if (m == 0 || n == 0 || grid[0][0] != 0) //May be we have starting cell as 1 so return -1
+        if (m == 0 || n == 0 || grid[0][0] == 1 || grid[m - 1][n - 1] == 1) //May be we have starting cell as 1 so return -1
             return -1;
 
         Queue<int[]> q = new LinkedList<>();
@@ -33,7 +33,7 @@ class Solution {
                         continue;
 
                     q.offer(new int[] { newX, newY });
-                    grid[newX][newY] = 1;
+                    grid[newX][newY] = 1; //Mark that cell as visited or not visit again
                 }
 
             }
