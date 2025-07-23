@@ -46,11 +46,10 @@ class Solution {
         }
         int ans = 0;
         for (int i = 1; i <= n; i++) {
-            ans = Math.max(ans, tm[i]);
             if (tm[i] == Integer.MAX_VALUE)
                 return -1;
+            ans = Math.max(ans, tm[i]);
         }
         return ans;
-
     }
 }
