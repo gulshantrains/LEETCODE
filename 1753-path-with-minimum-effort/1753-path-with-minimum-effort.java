@@ -1,58 +1,50 @@
-import java.util.*;
-
 class Solution {
-    private boolean isValid(int x, int y, int m, int n) {
-        return x >= 0 && x < m && y >= 0 && y < n;
-    }
+    int[][] dir = { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
 
-    public int[][] dir = { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
+    class Pair implements Comparable<Pair> {
+        int effort, x, y;
 
-    public int minimumEffortPath(int[][] heights) {
-        int low = 0, high = 1_000_000, ans = 0;
-
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-
-            if (canReach(heights, mid)) {
-                ans = mid;
-                high = mid - 1;
-            } else {
-                low = mid + 1;
-            }
+        Pair(int effort, int x, int y) {
+            this.effort = effort;
+            this.x = x;
+            this.y = y;
         }
 
-        return ans;
+        public int compareTo(Pair other) {
+            return Integer.compare(this.effort, other.effort);
+        }
     }
 
-    public boolean canReach(int[][] heights, int maxEffort) {
-        int m = heights.length;
-        int n = heights[0].length;
+    public int minimumEffortPath(int[][] heights) {
+        int m = heights.length, n = heights[0].length;
+        int[][] effort = new int[m][n];
+        for (int[] row : effort)
+            Arrays.fill(row, Integer.MAX_VALUE);
 
-        boolean[][] visited = new boolean[m][n];
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[] { 0, 0 });
-        visited[0][0] = true;
+        PriorityQueue<Pair> pq = new PriorityQueue<>();
+        pq.offer(new Pair(0, 0, 0));
+        effort[0][0] = 0;
 
-        while (!queue.isEmpty()) {
-            int[] cell = queue.poll();
-            int x = cell[0], y = cell[1];
+        while (!pq.isEmpty()) {
+            Pair curr = pq.poll();
+            int currEff = curr.effort, x = curr.x, y = curr.y;
 
-            if (x == m - 1 && y == n - 1) return true;
+            if (x == m - 1 && y == n - 1)
+                return currEff;
 
             for (int[] d : dir) {
-                int nx = x + d[0];
-                int ny = y + d[1];
+                int nx = x + d[0], ny = y + d[1];
 
-                if (isValid(nx, ny, m, n) && !visited[nx][ny]) {
-                    int diff = Math.abs(heights[x][y] - heights[nx][ny]);
-                    if (diff <= maxEffort) {
-                        visited[nx][ny] = true;
-                        queue.offer(new int[] { nx, ny });
+                if (nx >= 0 && nx < m && ny >= 0 && ny < n) {
+                    int nextEff = Math.max(currEff, Math.abs(heights[x][y] - heights[nx][ny]));
+
+                    if (nextEff < effort[nx][ny]) {
+                        effort[nx][ny] = nextEff;
+                        pq.offer(new Pair(nextEff, nx, ny));
                     }
                 }
             }
         }
-
-        return false;
+        return 0; // fallback
     }
 }
