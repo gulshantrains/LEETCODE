@@ -1,56 +1,58 @@
+import java.util.*;
+
 class Solution {
-    // Check if a cell is within grid bounds
     private boolean isValid(int x, int y, int m, int n) {
         return x >= 0 && x < m && y >= 0 && y < n;
     }
 
     public int[][] dir = { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
 
-    public int minimumEffortPath(int[][] h) {
-        int l = 0, r = 1_000_001;
-        int ans = 0;
+    public int minimumEffortPath(int[][] heights) {
+        int low = 0, high = 1_000_000, ans = 0;
 
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
 
-            if (can(h, mid)) {
+            if (canReach(heights, mid)) {
                 ans = mid;
-                r = mid - 1;
-            } else
-                l = mid + 1;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
         }
+
         return ans;
     }
 
-    public boolean can(int[][] h, int maxVal) {
-        int m = h.length;
-        int n = h[0].length;
+    public boolean canReach(int[][] heights, int maxEffort) {
+        int m = heights.length;
+        int n = heights[0].length;
 
-        boolean[][] visit = new boolean[m][n];
-        Queue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
+        boolean[][] visited = new boolean[m][n];
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[] { 0, 0 });
+        visited[0][0] = true;
 
-        pq.offer(new int[] { 0, 0, 0 });
-        visit[0][0] = true;
+        while (!queue.isEmpty()) {
+            int[] cell = queue.poll();
+            int x = cell[0], y = cell[1];
 
-        while (!pq.isEmpty()) {
-            int[] temp = pq.poll();
+            if (x == m - 1 && y == n - 1) return true;
 
-            int x = temp[1];
-            int y = temp[2];
+            for (int[] d : dir) {
+                int nx = x + d[0];
+                int ny = y + d[1];
 
-            for (var d : dir) {
-                int nX = x + d[0];
-                int nY = y + d[1];
-
-                if (isValid(nX, nY, m, n) && !visit[nX][nY]) {
-                    int thres = Math.abs(h[x][y] - h[nX][nY]);
-                    if (thres <= maxVal) {
-                        pq.offer(new int[] { thres, nX, nY });
-                        visit[nX][nY] = true;
+                if (isValid(nx, ny, m, n) && !visited[nx][ny]) {
+                    int diff = Math.abs(heights[x][y] - heights[nx][ny]);
+                    if (diff <= maxEffort) {
+                        visited[nx][ny] = true;
+                        queue.offer(new int[] { nx, ny });
                     }
                 }
             }
         }
-        return visit[m - 1][n - 1];
+
+        return false;
     }
 }
