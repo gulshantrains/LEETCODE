@@ -1,27 +1,31 @@
 class Solution {
     public int countHillValley(int[] nums) {
-        List<Integer> temp = new ArrayList<>();
+        int n = nums.length;
+        int ans = 0;
 
-        // Step 1: Remove consecutive duplicates
-        temp.add(nums[0]);
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] != nums[i - 1]) {
-                temp.add(nums[i]);
+        for (int i = 1; i < n - 1; i++) {
+            // Skip if nums[i] == nums[i - 1]
+            if (nums[i] == nums[i - 1]) continue;
+
+            int left = i - 1;
+            int right = i + 1;
+
+            // Skip over equal elements to the left
+            while (left >= 0 && nums[left] == nums[i]) left--;
+
+            // Skip over equal elements to the right
+            while (right < n && nums[right] == nums[i]) right++;
+
+            // Must have valid neighbors
+            if (left >= 0 && right < n) {
+                if (nums[i] > nums[left] && nums[i] > nums[right]) {
+                    ans++; // Hill
+                } else if (nums[i] < nums[left] && nums[i] < nums[right]) {
+                    ans++; // Valley
+                }
             }
         }
 
-        // Step 2: Count hills and valleys
-        int count = 0;
-        for (int i = 1; i < temp.size() - 1; i++) {
-            int prev = temp.get(i - 1);
-            int curr = temp.get(i);
-            int next = temp.get(i + 1);
-
-            if ((curr > prev && curr > next) || (curr < prev && curr < next)) {
-                count++;
-            }
-        }
-
-        return count;
+        return ans;
     }
 }
