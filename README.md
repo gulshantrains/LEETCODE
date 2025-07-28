@@ -242,6 +242,7 @@
 | [2145-grid-game](https://github.com/flyingelephhant/LEETCODE/tree/master/2145-grid-game) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/flyingelephhant/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2181-smallest-index-with-equal-value](https://github.com/flyingelephhant/LEETCODE/tree/master/2181-smallest-index-with-equal-value) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -434,6 +435,7 @@
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2308-divide-array-into-equal-pairs) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2478-longest-nice-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/2478-longest-nice-subarray) |
@@ -1022,6 +1024,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2107-find-unique-binary-string) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/flyingelephhant/LEETCODE/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Memoization
@@ -1057,6 +1060,7 @@
 | [1656-count-good-triplets](https://github.com/flyingelephhant/LEETCODE/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/flyingelephhant/LEETCODE/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/2998-count-symmetric-integers) |
 | [3199-distribute-candies-among-children-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3199-distribute-candies-among-children-i) |
