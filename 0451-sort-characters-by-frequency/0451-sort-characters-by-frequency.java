@@ -6,7 +6,7 @@ class Solution {
         for (char ch : s.toCharArray())
             mp.merge(ch, 1, Integer::sum);
 
-        for (Map.Entry<Character, Integer> et : mp.entrySet()) {
+        for (var et : mp.entrySet()) { //var-->Map.Entry<Character, Integer>
             int freq = et.getValue();
             char ch = et.getKey();
 
@@ -15,7 +15,7 @@ class Solution {
         }
 
         StringBuilder ans = new StringBuilder();
-        for (Map.Entry<Integer, List<Character>> entry : tr.entrySet()) {
+        for (var entry : tr.entrySet()) { //var-->Map.Entry<Integer, List<Character>>
             int freq = entry.getKey();
 
             for (char ch : entry.getValue()) {
