@@ -1,36 +1,25 @@
 class Solution {
-
     public int countMaxOrSubsets(int[] nums) {
-        int maxOrValue = 0;
-        for (int num : nums) {
-            maxOrValue |= num;
+        int maxOr = 0;
+        for (int x : nums)
+            maxOr |= x;
+
+        int n = nums.length;
+
+        int total = 1 << n; //Total number of SubSet (2^n)
+        int ans = 0;
+
+        for (int mask = 0; mask < total; mask++) {
+            int currOr = 0;
+            for (int i = 0; i < n; i++) {
+                if (((mask >> i) & 1) == 1) { //This bascially check we should include curr element or not if 0 dont if 1 yes 
+                    currOr |= nums[i];
+                }
+
+            }
+            if (currOr == maxOr)
+                ans++;
         }
-        return countSubsets(nums, 0, 0, maxOrValue);
-    }
-
-    private int countSubsets(
-        int[] nums,
-        int index,
-        int currentOr,
-        int targetOr
-    ) {
-        // Base case: reached the end of the array
-        if (index == nums.length) {
-            return (currentOr == targetOr) ? 1 : 0;
-        }
-
-        // Don't include the current number
-        int countWithout = countSubsets(nums, index + 1, currentOr, targetOr);
-
-        // Include the current number
-        int countWith = countSubsets(
-            nums,
-            index + 1,
-            currentOr | nums[index],
-            targetOr
-        );
-
-        // Return the sum of both cases
-        return countWithout + countWith;
+        return ans;
     }
 }
