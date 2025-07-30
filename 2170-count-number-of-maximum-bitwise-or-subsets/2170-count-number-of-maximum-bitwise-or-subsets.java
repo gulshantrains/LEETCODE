@@ -43,3 +43,27 @@ class Solution {
         return countSubset(0, nums, dp, maxOr, 0);
     }
 }
+// ---------------------------------------------
+// Brute-force recursion without memoization:
+// Time Complexity = O(2^n)
+// ---------------------------------------------
+/*
+public int countSubset(int idx, int[] nums, int maxOr, int currOr) {
+    int n = nums.length;
+
+    // Base case: if we've considered all elements
+    if (idx == n) {
+        // If OR of current subset equals the max OR, count it
+        return currOr == maxOr ? 1 : 0;
+    }
+
+    // Option 1: Include nums[idx] in current subset
+    int take = countSubset(idx + 1, nums, maxOr, currOr | nums[idx]);
+
+    // Option 2: Exclude nums[idx] from current subset
+    int noTake = countSubset(idx + 1, nums, maxOr, currOr);
+
+    // Return total count
+    return take + noTake;
+}
+*/
