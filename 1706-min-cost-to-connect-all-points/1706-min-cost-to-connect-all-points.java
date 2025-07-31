@@ -1,32 +1,33 @@
 class Solution {
-    public int minCostConnectPoints(int[][] A) {
-        int n = A.length, ans = 0;
-        boolean[] visit = new boolean[n];
-        Queue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]); //{cost,xi,yi}
+    public int minCostConnectPoints(int[][] points) {
+        int n = points.length;
+        boolean[] visited = new boolean[n];
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]); // {index, cost}
+        pq.offer(new int[]{0, 0}); // Start from point 0 with 0 cost
 
-        pq.offer(new int[] { 0, 0 });
+        int totalCost = 0;
+        int connectedPoints = 0;
 
-        while (!pq.isEmpty()) {
-            int[] temp = pq.poll();
+        while (!pq.isEmpty() && connectedPoints < n) {
+            int[] curr = pq.poll();
+            int node = curr[0];
+            int cost = curr[1];
 
-            int cost = temp[0], i = temp[1];
+            if (visited[node]) continue;
 
-            if (visit[i])
-                continue;
+            visited[node] = true;
+            totalCost += cost;
+            connectedPoints++;
 
-            ans += cost;
-            visit[i] = true;
-
-            for (int k = 0; k < n; k++) {
-                int xj = A[k][0], yj = A[k][1];
-                if (!visit[k]) {
-                    int manD = Math.abs(A[i][0] - xj) + Math.abs(A[i][1] - yj);
-
-                    pq.offer(new int[] { manD, k });
+            for (int i = 0; i < n; i++) {
+                if (!visited[i]) {
+                    int dist = Math.abs(points[node][0] - points[i][0]) +
+                               Math.abs(points[node][1] - points[i][1]);
+                    pq.offer(new int[]{i, dist});
                 }
             }
         }
-        return ans;
 
+        return totalCost;
     }
 }
