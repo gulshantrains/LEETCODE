@@ -172,6 +172,7 @@
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/flyingelephhant/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0943-sum-of-subarray-minimums](https://github.com/flyingelephhant/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/flyingelephhant/LEETCODE/tree/master/0945-snakes-and-ladders) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
@@ -437,6 +438,7 @@
 | [0231-power-of-two](https://github.com/flyingelephhant/LEETCODE/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -997,6 +999,7 @@
 | [0806-domino-and-tromino-tiling](https://github.com/flyingelephhant/LEETCODE/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/flyingelephhant/LEETCODE/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0943-sum-of-subarray-minimums](https://github.com/flyingelephhant/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/flyingelephhant/LEETCODE/tree/master/1025-minimum-cost-for-tickets) |
