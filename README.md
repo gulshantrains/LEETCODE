@@ -161,6 +161,7 @@
 | [0561-array-partition](https://github.com/flyingelephhant/LEETCODE/tree/master/0561-array-partition) |
 | [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/flyingelephhant/LEETCODE/tree/master/0735-asteroid-collision) |
@@ -526,6 +527,7 @@
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/flyingelephhant/LEETCODE/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -599,6 +601,7 @@
 | [0402-remove-k-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0742-to-lower-case](https://github.com/flyingelephhant/LEETCODE/tree/master/0742-to-lower-case) |
 | [0768-partition-labels](https://github.com/flyingelephhant/LEETCODE/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/flyingelephhant/LEETCODE/tree/master/0868-push-dominoes) |
@@ -784,6 +787,7 @@
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
 | [0561-array-partition](https://github.com/flyingelephhant/LEETCODE/tree/master/0561-array-partition) |
 | [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/flyingelephhant/LEETCODE/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -857,6 +861,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
@@ -898,6 +903,7 @@
 | [0542-01-matrix](https://github.com/flyingelephhant/LEETCODE/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
@@ -1153,6 +1159,7 @@
 | [0200-number-of-islands](https://github.com/flyingelephhant/LEETCODE/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
 | [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
