@@ -137,6 +137,7 @@
 | [0075-sort-colors](https://github.com/flyingelephhant/LEETCODE/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/flyingelephhant/LEETCODE/tree/master/0084-largest-rectangle-in-histogram) |
+| [0118-pascals-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/0118-pascals-triangle) |
 | [0130-surrounded-regions](https://github.com/flyingelephhant/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/flyingelephhant/LEETCODE/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -988,6 +989,7 @@
 | [0042-trapping-rain-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
+| [0118-pascals-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/0118-pascals-triangle) |
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/flyingelephhant/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0410-split-array-largest-sum) |
