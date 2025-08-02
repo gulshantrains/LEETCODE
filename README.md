@@ -168,6 +168,7 @@
 | [0735-asteroid-collision](https://github.com/flyingelephhant/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
@@ -393,6 +394,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
 | [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/flyingelephhant/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/flyingelephhant/LEETCODE/tree/master/1127-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/flyingelephhant/LEETCODE/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -748,6 +750,7 @@
 | [0410-split-array-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/flyingelephhant/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/flyingelephhant/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -871,6 +874,7 @@
 | [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/flyingelephhant/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
@@ -913,6 +917,7 @@
 | [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/flyingelephhant/LEETCODE/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/flyingelephhant/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/flyingelephhant/LEETCODE/tree/master/0820-find-eventual-safe-states) |
@@ -1133,6 +1138,7 @@
 | [0407-trapping-rain-water-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/flyingelephhant/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/flyingelephhant/LEETCODE/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/flyingelephhant/LEETCODE/tree/master/1036-rotting-oranges) |
@@ -1167,6 +1173,7 @@
 | [0547-number-of-provinces](https://github.com/flyingelephhant/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/flyingelephhant/LEETCODE/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
+| [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/flyingelephhant/LEETCODE/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
 | [1032-satisfiability-of-equality-equations](https://github.com/flyingelephhant/LEETCODE/tree/master/1032-satisfiability-of-equality-equations) |
