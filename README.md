@@ -547,6 +547,7 @@
 | [1510-find-lucky-integer-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1813-maximum-erasure-value](https://github.com/flyingelephhant/LEETCODE/tree/master/1813-maximum-erasure-value) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/flyingelephhant/LEETCODE/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
@@ -621,6 +622,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/flyingelephhant/LEETCODE/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/flyingelephhant/LEETCODE/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/flyingelephhant/LEETCODE/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/flyingelephhant/LEETCODE/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1944-truncate-sentence](https://github.com/flyingelephhant/LEETCODE/tree/master/1944-truncate-sentence) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -670,6 +672,7 @@
 | [1396-count-servers-that-communicate](https://github.com/flyingelephhant/LEETCODE/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/flyingelephhant/LEETCODE/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/flyingelephhant/LEETCODE/tree/master/2140-longest-subsequence-repeated-k-times) |
