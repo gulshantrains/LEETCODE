@@ -9,8 +9,8 @@ class Solution {
             for (int j = i; j < n; j++) {
                 freq[s.charAt(j) - 'a']++;
 
-                int min = Integer.MAX_VALUE;
-                int max = Integer.MIN_VALUE;
+                int min = 100_000_000;
+                int max = -100_000_000;
 
                 for (int f : freq) {
                     if (f > 0) { // Only consider characters present in the substring
