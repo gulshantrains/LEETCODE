@@ -46,30 +46,26 @@ class Solution {
 
         int res = 0;
 
-        // Go left first i steps, then right (k - 2*i) steps
-        for (int i = 0; i <= k; i++) {
+        for (int i = 0; i <= k / 2; i++) {
+            // Go left first i steps, then right (k - 2*i) steps
             int left = Pos - i;
             int right = Pos + (k - 2 * i);
-            if (right < left) continue;
+
             int l = leftIdx(left);
             int r = rightIdx(right) - 1;
-            if (l <= r && r < n) {
-                res = Math.max(res, preSum[r + 1] - preSum[l]);
-            }
-        }
 
-        // Go right first i steps, then left (k - 2*i) steps
-        for (int i = 0; i <= k; i++) {
-            int right = Pos + i;
-            int left = Pos - (k - 2 * i);
-            if (left > right) continue;
-            int l = leftIdx(left);
-            int r = rightIdx(right) - 1;
-            if (l <= r && r < n) {
-                res = Math.max(res, preSum[r + 1] - preSum[l]);
-            }
-        }
+            res = Math.max(res, preSum[r + 1] - preSum[l]);
 
+            // Go right first i steps, then left (k - 2*i) steps
+            right = Pos + i;
+            left = Pos - (k - 2 * i);
+
+            l = leftIdx(left);
+            r = rightIdx(right) - 1;
+
+            res = Math.max(res, preSum[r + 1] - preSum[l]);
+
+        }
         return res;
     }
 }
