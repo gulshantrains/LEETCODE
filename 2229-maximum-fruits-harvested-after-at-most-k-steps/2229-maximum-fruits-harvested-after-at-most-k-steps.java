@@ -1,71 +1,31 @@
 class Solution {
-    public int[] idx;
-    public int[] preSum;
+    public int maxTotalFruits(int[][] A, int startPos, int k) {
+        int left = 0, n = A.length, maxSum = 0, curSum = 0;
 
-    // First index where position > j
-    public int rightIdx(int j) {
-        int l = 0, r = idx.length - 1;
-        int res = idx.length; // default to length (i.e., end)
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-            if (idx[mid] > j) {
-                res = mid;
-                r = mid - 1;
-            } else {
-                l = mid + 1;
+        for (int right = 0; right < n; ++right) {
+            curSum += A[right][1];
+
+            int l = A[left][0];
+            int r = A[right][0];
+
+            /*
+             (r-l) is Window Size(length of the fruit zone)
+              Math.min(Math.abs(startPos - l), Math.abs(startPos - r)  
+              This calculates the distance to the nearer of the two ends of the fruit zone. 
+              To be efficient, your first move should always be toward the closest entry point of the collection zone.
+            */
+            int cost = (r - l) + Math.min(Math.abs(startPos - l), Math.abs(startPos - r));
+
+            while (left <= right && cost > k) {
+                curSum -= A[left][1];
+                left++;
+                
+                if (left <= right)
+                    l = A[left][0];
+                cost = (r - l) + Math.min(Math.abs(startPos - l), Math.abs(startPos - r));
             }
+            maxSum = Math.max(curSum, maxSum);
         }
-        return res;
-    }
-
-    // First index where position >= i
-    public int leftIdx(int i) {
-        int l = 0, r = idx.length - 1;
-        int res = idx.length;
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-            if (idx[mid] >= i) {
-                res = mid;
-                r = mid - 1;
-            } else {
-                l = mid + 1;
-            }
-        }
-        return res;
-    }
-
-    public int maxTotalFruits(int[][] A, int Pos, int k) {
-        int n = A.length;
-        idx = new int[n];
-        preSum = new int[n + 1];
-
-        for (int i = 0; i < n; i++) {
-            idx[i] = A[i][0];
-            preSum[i + 1] = preSum[i] + A[i][1];
-        }
-
-        int res = 0;
-
-        for (int i = 0; i <= k / 2; i++) {
-            // Go left first i steps, then right (k - 2*i) steps
-            int left = Pos - i;
-            int right = Pos + (k - 2 * i);
-
-            int l = leftIdx(left);
-            int r = rightIdx(right) - 1;
-
-            res = Math.max(res, preSum[r + 1] - preSum[l]);
-
-            // Go right first i steps, then left (k - 2*i) steps
-            right = Pos + i;
-            left = Pos - (k - 2 * i);
-
-            l = leftIdx(left);
-            r = rightIdx(right) - 1;
-
-            res = Math.max(res, preSum[r + 1] - preSum[l]);
-
-        }
-        return res;
+        return maxSum;
     }
 }
