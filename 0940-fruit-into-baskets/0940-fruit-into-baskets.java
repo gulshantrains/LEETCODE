@@ -1,3 +1,8 @@
+/*
+Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
+This made me to think that we should use sliding Window and if Size > 2 then decrease
+..window size
+*/
 class Solution {
     public int totalFruit(int[] A) {
         Map<Integer, Integer> mp = new HashMap<>();
