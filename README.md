@@ -125,6 +125,7 @@
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/flyingelephhant/LEETCODE/tree/master/3708-zigzag-grid-traversal-with-skip) |
+| [3790-fruits-into-baskets-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Array
 |  |
 | ------- |
@@ -349,6 +350,7 @@
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/flyingelephhant/LEETCODE/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/flyingelephhant/LEETCODE/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3790-fruits-into-baskets-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Queue
 |  |
 | ------- |
@@ -432,6 +434,7 @@
 | [2280-count-good-triplets-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2868-continuous-subarrays) |
+| [3790-fruits-into-baskets-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -786,6 +789,7 @@
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3252-count-the-number-of-incremovable-subarrays-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3252-count-the-number-of-incremovable-subarrays-i) |
 | [3643-zero-array-transformation-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3643-zero-array-transformation-ii) |
+| [3790-fruits-into-baskets-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Number Theory
 |  |
 | ------- |
@@ -980,6 +984,7 @@
 | [2280-count-good-triplets-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/flyingelephhant/LEETCODE/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3790-fruits-into-baskets-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 ## Graph
 |  |
 | ------- |
