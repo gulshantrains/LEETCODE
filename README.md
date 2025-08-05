@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/flyingelephhant/LEETCODE/tree/master/0007-reverse-integer) |
 | [0067-add-binary](https://github.com/flyingelephhant/LEETCODE/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/flyingelephhant/LEETCODE/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
