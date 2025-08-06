@@ -145,6 +145,7 @@
 | [0135-candy](https://github.com/flyingelephhant/LEETCODE/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/flyingelephhant/LEETCODE/tree/master/0162-find-peak-element) |
+| [0198-house-robber](https://github.com/flyingelephhant/LEETCODE/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/flyingelephhant/LEETCODE/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/flyingelephhant/LEETCODE/tree/master/0238-product-of-array-except-self) |
@@ -1021,6 +1022,7 @@
 | [0053-maximum-subarray](https://github.com/flyingelephhant/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/flyingelephhant/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/0118-pascals-triangle) |
+| [0198-house-robber](https://github.com/flyingelephhant/LEETCODE/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/flyingelephhant/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0410-split-array-largest-sum) |
