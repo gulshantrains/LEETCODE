@@ -1,22 +1,21 @@
 class Solution {
     public int numOfUnplacedFruits(int[] f, int[] b) {
-        int count = 0;
+        int n = f.length, ans = 0;
 
-        for (int i = 0; i < f.length; i++) {
+        for (int fr : f) {
             boolean flag = true;
 
-            for (int j = 0; j < b.length; j++) {
-                if (b[j] == -1) // This basket is already full
-                    continue;
-                else if (b[j] >= f[i]) {
+            for (int i = 0; i < b.length; i++) {
+                if (b[i] >= fr) {
+                    b[i] = -1;
                     flag = false;
-                    b[j] = -1; // Fill this basket
                     break;
                 }
             }
             if (flag)
-                count++;
+                ans++;
         }
-        return count;
+        return ans;
+
     }
 }
