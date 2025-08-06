@@ -1,24 +1,30 @@
 class Solution {
+    public int[] dp;
+
     public int climbStairs(int n) {
-        int[] dp = new int[n + 1];
+        dp = new int[n + 1];
         Arrays.fill(dp, -1);
+        
+        if(n<=3) return n;
 
-        return solve(n, dp);
+
+        return solve(n);
     }
+    public int solve(int n){
+        if(n<=3) return n;
 
-    private int solve(int step, int[] dp) {
-        if (step == 0)
-            return 1;
-        if (step < 0)
-            return 0;
+        if(dp[n] != -1) return dp[n];
 
-        if (dp[step] != -1)
-            return dp[step];
-
-        int oneStep = solve(step - 1,dp);
-        int twoStep = solve(step - 2,dp);
-
-        return dp[step] = oneStep + twoStep;
-
+        return dp[n]=solve(n-1)+solve(n-2);
     }
 }
+/*
+Recursion--->O(2^n)
+class Solution {
+    public int climbStairs(int n) {
+      if(n<=3) return n;
+
+      return climbStairs(n-1)+climbStairs(n-2);
+    }
+}
+*/
