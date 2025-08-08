@@ -17,6 +17,7 @@
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
+| [0826-soup-servings](https://github.com/flyingelephhant/LEETCODE/tree/master/0826-soup-servings) |
 | [1013-fibonacci-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
@@ -1042,6 +1043,7 @@
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/flyingelephhant/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/flyingelephhant/LEETCODE/tree/master/0806-domino-and-tromino-tiling) |
+| [0826-soup-servings](https://github.com/flyingelephhant/LEETCODE/tree/master/0826-soup-servings) |
 | [0868-push-dominoes](https://github.com/flyingelephhant/LEETCODE/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -1275,4 +1277,8 @@
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/flyingelephhant/LEETCODE/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
