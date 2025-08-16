@@ -3,6 +3,6 @@ class Solution {
         String n = "" + num;
         n = n.replaceFirst("6", "9");
 
-        return Integer.valueOf(n);
+        return Integer.parseInt(n);
     }
 }
