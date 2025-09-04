@@ -65,6 +65,7 @@
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/flyingelephhant/LEETCODE/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/flyingelephhant/LEETCODE/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
+| [3830-find-closest-person](https://github.com/flyingelephhant/LEETCODE/tree/master/3830-find-closest-person) |
 ## Greedy
 |  |
 | ------- |
