@@ -1,22 +1,26 @@
 class Solution {
     public String sortVowels(String s) {
-        List<String> vow = new ArrayList<>();
+        Set<Character> vowels = Set.of('A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u');
+        List<Character> vow = new ArrayList<>();
 
-        for (var x : s.toCharArray()) {
-            if ("AEIOUaeiou".contains(String.valueOf(x)))
-                vow.add(String.valueOf(x));
+        for (char x : s.toCharArray()) {
+            if (vowels.contains(x)) {
+                vow.add(x);
+            }
         }
+
         Collections.sort(vow);
 
         StringBuilder ans = new StringBuilder();
         int i = 0;
-        for (var x : s.toCharArray()) {
-            if (!"AEIOUaeiou".contains(String.valueOf(x))) {
-                ans.append(x);
-            } else {
+        for (char x : s.toCharArray()) {
+            if (vowels.contains(x)) {
                 ans.append(vow.get(i++));
+            } else {
+                ans.append(x);
             }
         }
+
         return ans.toString();
     }
 }
