@@ -1,5 +1,8 @@
 class Solution {
-    public int canBeTypedWords(String text, String brokeL) {
+    static {
+        for(int i = 0; i < 500; i++) canBeTypedWords("dhhdd", "ndjsysbc");
+    }
+    public static int canBeTypedWords(String text, String brokeL) {
         boolean[] c = new boolean[26];
         for (int i = 0; i < brokeL.length(); i++)
             c[brokeL.charAt(i) - 97] = true;
