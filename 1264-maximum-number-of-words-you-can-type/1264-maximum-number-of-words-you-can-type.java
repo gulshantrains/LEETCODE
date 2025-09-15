@@ -1,9 +1,9 @@
 class Solution {
     public int canBeTypedWords(String text, String brokeL) {
-        Set<Character> broke = new HashSet<>();
-        for (char c : brokeL.toCharArray()) {
-            broke.add(c);
-        }
+        boolean[] c = new boolean[26];
+        for (int i = 0; i < brokeL.length(); i++)
+            c[brokeL.charAt(i) - 97] = true;
+
         int count = 1;
         boolean flag = true;
 
@@ -11,7 +11,7 @@ class Solution {
             if (x == ' ') {
                 count++;
                 flag = true;
-            } else if (broke.contains(x) && flag) {
+            } else if (c[x - 97] && flag) {
                 count--;
                 flag = false; //It will prevent to count twice is two words are broke
             }
