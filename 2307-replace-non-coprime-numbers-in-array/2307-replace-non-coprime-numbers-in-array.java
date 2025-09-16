@@ -21,12 +21,7 @@ class Solution {
     }
 
     private int gcd(int a, int b) {
-        while (b != 0) {
-            int temp = a % b;
-            a = b;
-            b = temp;
-        }
-        return a;
+        return b == 0 ? a : gcd(b, a % b);
     }
 
     private int lcm(int a, int b, int gc) {
