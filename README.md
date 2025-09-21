@@ -265,6 +265,7 @@
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2022-maximum-alternating-subsequence-sum) |
+| [2023-design-movie-rental-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2023-design-movie-rental-system) |
 | [2048-build-array-from-permutation](https://github.com/flyingelephhant/LEETCODE/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2102-find-the-middle-index-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2102-find-the-middle-index-in-array) |
@@ -447,6 +448,7 @@
 | [1753-path-with-minimum-effort](https://github.com/flyingelephhant/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2023-design-movie-rental-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2023-design-movie-rental-system) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/flyingelephhant/LEETCODE/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2300-construct-string-with-repeat-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/2300-construct-string-with-repeat-limit) |
@@ -470,6 +472,7 @@
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2023-design-movie-rental-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2023-design-movie-rental-system) |
 | [2280-count-good-triplets-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2434-design-a-number-container-system) |
@@ -623,6 +626,7 @@
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/flyingelephhant/LEETCODE/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
+| [2023-design-movie-rental-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2023-design-movie-rental-system) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2107-find-unique-binary-string) |
@@ -1329,6 +1333,7 @@
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1477-product-of-the-last-k-numbers) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/flyingelephhant/LEETCODE/tree/master/3678-design-task-manager) |
