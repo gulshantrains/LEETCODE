@@ -19,6 +19,7 @@
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/flyingelephhant/LEETCODE/tree/master/0826-soup-servings) |
+| [0830-largest-triangle-area](https://github.com/flyingelephhant/LEETCODE/tree/master/0830-largest-triangle-area) |
 | [0900-reordered-power-of-2](https://github.com/flyingelephhant/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
@@ -194,6 +195,7 @@
 | [0792-binary-search](https://github.com/flyingelephhant/LEETCODE/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/flyingelephhant/LEETCODE/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/flyingelephhant/LEETCODE/tree/master/0854-making-a-large-island) |
 | [0878-shifting-letters](https://github.com/flyingelephhant/LEETCODE/tree/master/0878-shifting-letters) |
 | [0890-lemonade-change](https://github.com/flyingelephhant/LEETCODE/tree/master/0890-lemonade-change) |
@@ -1250,6 +1252,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/flyingelephhant/LEETCODE/tree/master/0830-largest-triangle-area) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
