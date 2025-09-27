@@ -15,8 +15,7 @@ class Solution {
 
     public double find(int[] A, int[] B, int[] C) {
         return 0.5 * Math.abs(
-                A[0] * (B[1] - C[1]) +
-                B[0] * (C[1] - A[1]) +
-                C[0] * (A[1] - B[1]));
+            A[0]*B[1] + B[0]*C[1] + C[0]*A[1] - B[0]*A[1] - C[0]*B[1] - A[0]*C[1]
+        );
     }
 }
