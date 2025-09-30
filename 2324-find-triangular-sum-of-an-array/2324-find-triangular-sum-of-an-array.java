@@ -1,22 +1,29 @@
+import java.math.BigInteger;
 class Solution {
     public int triangularSum(int[] nums) {
         int n = nums.length;
-        long ans = 0;
         if (n == 1)
             return nums[0];
 
-        int[] coeF = new int[n];
-        coeF[0] = 1;
+        BigInteger c = BigInteger.ONE; // start with C(n-1,0) = 1
+        BigInteger[] coeF = new BigInteger[n];
+        coeF[0] = c;
 
+        // compute binomial coefficients exactly (BigInteger)
         for (int i = 1; i < n; i++) {
-            for (int j = n - 1; j >= 1; j--) {
+            // c = c * (n-i) / i
+            c = c.multiply(BigInteger.valueOf(n - i))
+                    .divide(BigInteger.valueOf(i));
+            coeF[i] = c;
+        }
 
-                coeF[j] = (coeF[j - 1] + coeF[j]) % 10;
-            }
-        }
+        // compute weighted sum modulo 10
+        BigInteger ans = BigInteger.ZERO;
         for (int i = 0; i < n; i++) {
-            ans = (ans + nums[i] * coeF[i]) % 10;
+            ans = ans.add(BigInteger.valueOf(nums[i])
+                    .multiply(coeF[i]));
         }
-        return (int) ans;
+
+        return ans.mod(BigInteger.TEN).intValue();
     }
 }
