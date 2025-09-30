@@ -1,31 +1,22 @@
 class Solution {
-    public int find(int[] a, int n) {
-        if (n == 1)
-            return a[0];
-
-        for (int i = 0; i < n - 1; i++) {
-            a[i] = (a[i] + a[i + 1]) % 10;
-        }
-        return find(a, n - 1);
-    }
-
     public int triangularSum(int[] nums) {
-        return find(nums, nums.length);
-    }
-}
-/*
-public int triangularSum(int[] nums) {
-        int len = nums.length;
-        if (len == 1)
+        int n = nums.length;
+        long ans = 0;
+        if (n == 1)
             return nums[0];
 
-        while (len > 1) {
-            for (int i = 0; i < len - 1; i++) {
+        int[] coeF = new int[n];
+        coeF[0] = 1;
 
-                nums[i] = (nums[i] + nums[i + 1]) % 10;
+        for (int i = 1; i < n; i++) {
+            for (int j = n - 1; j >= 1; j--) {
+
+                coeF[j] = (coeF[j - 1] + coeF[j]) % 10;
             }
-            len--;
         }
-        return nums[0];
+        for (int i = 0; i < n; i++) {
+            ans = (ans + nums[i] * coeF[i]) % 10;
+        }
+        return (int) ans;
     }
-*/
+}
