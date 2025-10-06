@@ -1,59 +1,45 @@
 class Solution {
-    public int[][] dir = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
-
-    public boolean can(boolean[][] grid, int x, int y, int m) {
-
-        return (x >= 0 && y >= 0 && x < m && y < m && !grid[x][y]);
-    }
-
-    class Tuple {
-        int time;
-        int x;
-        int y;
-
-        Tuple(int time, int x, int y) {
-            this.time = time;
+    class P {
+        int x, y, val; // val === timeSoFar = max height along path to (x,y)
+        P(int x, int y, int val) {
             this.x = x;
             this.y = y;
+            this.val = val;
         }
     }
+
+    public static int[][] dir = { { -1, 0 }, { 0, -1 }, { 0, 1 }, { 1, 0 } };
 
     public int swimInWater(int[][] grid) {
-        int m = grid.length; //Row column is also same
-        boolean[][] vis = new boolean[m][m];
-        Queue<Tuple> pq = new PriorityQueue<>((a, b) -> a.time - b.time);//Min-Heap on time
+        int n = grid.length;
+        boolean[][] visited = new boolean[n][n];
+        PriorityQueue<P> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
 
-        pq.offer(new Tuple(grid[0][0], 0, 0));
-        vis[0][0] = true;
-        int maxTime = Integer.MIN_VALUE;
+        // start with the time equal to the starting cell's height
+        pq.offer(new P(0, 0, grid[0][0]));
 
         while (!pq.isEmpty()) {
-            Tuple temp = pq.poll();
+            P curr = pq.poll();
+            int x = curr.x, y = curr.y, time = curr.val;
 
-            int t = temp.time, xi = temp.x, yi = temp.y;
+            if (visited[x][y]) continue;
 
-            
-            if (xi == m - 1 && yi == m - 1)
-                return t;
+            visited[x][y] = true;
 
-            for (var d : dir) {
-                int nx = xi + d[0];
-                int ny = yi + d[1];
+            if (x == n - 1 && y == n - 1) return time;
 
-                if (can(vis, nx, ny, m)) {
-                    pq.offer(new Tuple(Math.max(t, grid[nx][ny]), nx, ny));
-                    vis[nx][ny] = true;
-                }
+            for (int[] d : dir) {
+                int nx = x + d[0];
+                int ny = y + d[1];
 
+                if (nx < 0 || ny < 0 || nx >= n || ny >= n) continue;
+                if (visited[nx][ny]) continue;
+
+                // propagate the maximum height needed to reach neighbor
+                int nextTime = Math.max(time, grid[nx][ny]);
+                pq.offer(new P(nx, ny, nextTime));
             }
         }
-        return -1;
+        return -1; 
     }
 }
-/*
-MY MISTAKE:
-maxTime = Math.min(maxTime, grid[nx][ny])
-This minimizes maxTime at every step. However, we actually want to track the 
-maximum elevation seen so far on the path, since we must wait until the 
-highest elevation on our path is ≤ current time to traverse that path.
-*/
