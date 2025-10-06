@@ -1,6 +1,26 @@
+/*
+Now you’re trying to move to a neighbor (nx, ny) whose height is grid[nx][ny].
+
+Two cases:
+Case 1: The neighbor is below or equal to current water level
+grid[nx][ny] <= time
+→ You can swim there immediately without waiting.
+
+So the time to reach neighbor = time.
+
+Case 2: The neighbor is higher than current water level
+grid[nx][ny] > time
+→ You can’t reach it until water rises up to that height.
+
+So the time to reach neighbor = grid[nx][ny].
+
+Hence the formula:
+int nextTime = Math.max(time, grid[nx][ny]);
+
+*/
 class Solution {
     class P {
-        int x, y, val; // val === timeSoFar = max height along path to (x,y)
+        int x, y, val; 
         P(int x, int y, int val) {
             this.x = x;
             this.y = y;
