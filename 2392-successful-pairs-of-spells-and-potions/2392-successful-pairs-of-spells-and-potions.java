@@ -1,3 +1,5 @@
+//TC-->O(NlogM + MlogM) sorting + for each index*BS 
+
 class Solution {
     public int[] successfulPairs(int[] spells, int[] pot, long success) {
         Arrays.sort(pot);
@@ -6,7 +8,7 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             int idx = BS(pot, success, spells[i]);
-            
+
             ans[i] = (idx == -1) ? 0 : (m - idx);
         }
         return ans;
