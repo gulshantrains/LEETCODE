@@ -376,6 +376,7 @@
 | [3321-type-of-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/3321-type-of-triangle) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/flyingelephhant/LEETCODE/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/flyingelephhant/LEETCODE/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3430-count-days-without-meetings](https://github.com/flyingelephhant/LEETCODE/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/flyingelephhant/LEETCODE/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -594,6 +595,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2915-count-of-interesting-subarrays) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
 | [3311-ant-on-the-boundary](https://github.com/flyingelephhant/LEETCODE/tree/master/3311-ant-on-the-boundary) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/flyingelephhant/LEETCODE/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3618-find-the-original-typed-string-ii) |
 | [3639-zero-array-transformation-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3639-zero-array-transformation-i) |
