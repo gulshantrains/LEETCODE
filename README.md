@@ -239,6 +239,7 @@
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/flyingelephhant/LEETCODE/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/flyingelephhant/LEETCODE/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/flyingelephhant/LEETCODE/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/flyingelephhant/LEETCODE/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1396-count-servers-that-communicate](https://github.com/flyingelephhant/LEETCODE/tree/master/1396-count-servers-that-communicate) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/flyingelephhant/LEETCODE/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/flyingelephhant/LEETCODE/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -643,6 +644,7 @@
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/flyingelephhant/LEETCODE/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/flyingelephhant/LEETCODE/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/flyingelephhant/LEETCODE/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/flyingelephhant/LEETCODE/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/flyingelephhant/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1500-count-largest-group](https://github.com/flyingelephhant/LEETCODE/tree/master/1500-count-largest-group) |
@@ -730,6 +732,7 @@
 | [1264-maximum-number-of-words-you-can-type](https://github.com/flyingelephhant/LEETCODE/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/flyingelephhant/LEETCODE/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/flyingelephhant/LEETCODE/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/flyingelephhant/LEETCODE/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/flyingelephhant/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/flyingelephhant/LEETCODE/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/flyingelephhant/LEETCODE/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -931,6 +934,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0900-reordered-power-of-2](https://github.com/flyingelephhant/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/flyingelephhant/LEETCODE/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/flyingelephhant/LEETCODE/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1584-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/1584-average-salary-excluding-the-minimum-and-maximum-salary) |
