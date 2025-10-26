@@ -1,19 +1,11 @@
 class Solution {
     public char findTheDifference(String s, String t) {
-        int[] freq = new int[26];
-        for (var x : t.toCharArray())
-            freq[x - 'a']++;
+        int ans=0;
 
-        for (var x : s.toCharArray())
-            freq[x - 'a']--;
+        for(var x: t.toCharArray()) ans ^=x;
+        for(var x: s.toCharArray()) ans ^=x;
 
-        for (int i = 0; i < 26; i++) {
-            if (freq[i] == 0)
-                continue;
-
-            return (char) (i + 'a');
-        }
-
-        return ' ';
+        return (char)ans;
+        
     }
 }
