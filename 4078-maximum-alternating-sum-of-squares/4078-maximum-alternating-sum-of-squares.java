@@ -6,7 +6,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             A[i] = Math.abs(A[i]);
         }
-        
         Arrays.sort(A);
 
         for (int i = 0; i < n; i++) {
