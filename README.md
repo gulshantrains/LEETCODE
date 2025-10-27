@@ -196,6 +196,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/flyingelephhant/LEETCODE/tree/master/0417-pacific-atlantic-water-flow) |
 | [0494-target-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/flyingelephhant/LEETCODE/tree/master/0496-next-greater-element-i) |
+| [0500-keyboard-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0500-keyboard-row) |
 | [0503-next-greater-element-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0506-relative-ranks](https://github.com/flyingelephhant/LEETCODE/tree/master/0506-relative-ranks) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
@@ -652,6 +653,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/flyingelephhant/LEETCODE/tree/master/0496-next-greater-element-i) |
+| [0500-keyboard-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0500-keyboard-row) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/flyingelephhant/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
@@ -755,6 +757,7 @@
 | [0409-longest-palindrome](https://github.com/flyingelephhant/LEETCODE/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+| [0500-keyboard-row](https://github.com/flyingelephhant/LEETCODE/tree/master/0500-keyboard-row) |
 | [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0742-to-lower-case](https://github.com/flyingelephhant/LEETCODE/tree/master/0742-to-lower-case) |
 | [0768-partition-labels](https://github.com/flyingelephhant/LEETCODE/tree/master/0768-partition-labels) |
