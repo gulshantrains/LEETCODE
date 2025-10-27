@@ -1,10 +1,9 @@
 class Solution {
     public int distributeCandies(int[] candyType) {
-       Map<Integer,Integer>mp=new HashMap<>();
-       for(int x: candyType) mp.merge(x,1,Integer::sum);
+       Set<Integer>mp=new HashSet<>();
+       for(int x: candyType) mp.add(x);
 
-       int can=candyType.length>>1;
 
-       return Math.min(can,mp.size()); 
+       return Math.min(candyType.length>>1,mp.size()); 
     }
 }
