@@ -210,6 +210,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/flyingelephhant/LEETCODE/tree/master/0611-valid-triangle-number) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0697-degree-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0697-degree-of-an-array) |
 | [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/flyingelephhant/LEETCODE/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/flyingelephhant/LEETCODE/tree/master/0733-flood-fill) |
@@ -662,6 +663,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/flyingelephhant/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/flyingelephhant/LEETCODE/tree/master/0575-distribute-candies) |
 | [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
+| [0697-degree-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0697-degree-of-an-array) |
 | [0721-accounts-merge](https://github.com/flyingelephhant/LEETCODE/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/flyingelephhant/LEETCODE/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
