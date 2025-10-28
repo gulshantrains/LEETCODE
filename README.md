@@ -435,6 +435,7 @@
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/flyingelephhant/LEETCODE/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/flyingelephhant/LEETCODE/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [4080-smallest-missing-multiple-of-k](https://github.com/flyingelephhant/LEETCODE/tree/master/4080-smallest-missing-multiple-of-k) |
 ## Queue
 |  |
 | ------- |
@@ -745,6 +746,7 @@
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/flyingelephhant/LEETCODE/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/flyingelephhant/LEETCODE/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [4080-smallest-missing-multiple-of-k](https://github.com/flyingelephhant/LEETCODE/tree/master/4080-smallest-missing-multiple-of-k) |
 ## String
 |  |
 | ------- |
