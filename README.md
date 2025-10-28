@@ -163,6 +163,7 @@
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/flyingelephhant/LEETCODE/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [4058-compute-alternating-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/4058-compute-alternating-sum) |
 ## Array
 |  |
 | ------- |
@@ -435,6 +436,7 @@
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/flyingelephhant/LEETCODE/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/flyingelephhant/LEETCODE/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [4058-compute-alternating-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/4058-compute-alternating-sum) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/flyingelephhant/LEETCODE/tree/master/4080-smallest-missing-multiple-of-k) |
 ## Queue
 |  |
