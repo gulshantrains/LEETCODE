@@ -95,6 +95,7 @@
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/flyingelephhant/LEETCODE/tree/master/0890-lemonade-change) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/flyingelephhant/LEETCODE/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/flyingelephhant/LEETCODE/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1448-maximum-69-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/flyingelephhant/LEETCODE/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -242,6 +243,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/flyingelephhant/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/flyingelephhant/LEETCODE/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/flyingelephhant/LEETCODE/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/flyingelephhant/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/flyingelephhant/LEETCODE/tree/master/1063-best-sightseeing-pair) |
@@ -998,6 +1000,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/flyingelephhant/LEETCODE/tree/master/0780-max-chunks-to-make-sorted) |
 | [0900-reordered-power-of-2](https://github.com/flyingelephhant/LEETCODE/tree/master/0900-reordered-power-of-2) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/flyingelephhant/LEETCODE/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/flyingelephhant/LEETCODE/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/flyingelephhant/LEETCODE/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
