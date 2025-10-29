@@ -16,13 +16,6 @@ class Solution {
             res += x;
         }
 
-        if (k == 0)
-            return res;
-        else if (k % 2 != 0) {
-            res -= 2 * min;
-        }
-
-        return res;
-
+        return res - (k % 2) * 2 * min;
     }
 }
