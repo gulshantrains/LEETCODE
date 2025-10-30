@@ -5,27 +5,21 @@ class Solution {
         if (n < 3)
             return false;
 
-        // Find the peak index
         for (int i = 1; i < n - 1; i++) {
-            if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+            
+            if (arr[i - 1] < arr[i] && arr[i] > arr[i + 1]) {
                 idx = i;
                 break;
             }
         }
-
-        // No peak found
-        if (idx == -1)
-            return false;
-
-        // Increasing before the peak (strictly)
+        if(idx==-1) return false;
+        
         for (int i = 0; i < idx; i++) {
-            if (arr[i] >= arr[i + 1])   // should be strictly increasing
+            if (arr[i] >= arr[i + 1])
                 return false;
         }
-
-        // Decreasing after the peak (strictly)
-        for (int i = idx; i < n - 1; i++) {
-            if (arr[i] <= arr[i + 1])   // should be strictly decreasing
+        for (int i = idx + 1; i < n - 1; i++) {
+            if (arr[i + 1] >= arr[i])
                 return false;
         }
 
