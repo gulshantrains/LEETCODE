@@ -238,6 +238,7 @@
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/flyingelephhant/LEETCODE/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
+| [0978-valid-mountain-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0978-valid-mountain-array) |
 | [1006-vowel-spellchecker](https://github.com/flyingelephhant/LEETCODE/tree/master/1006-vowel-spellchecker) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/flyingelephhant/LEETCODE/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
