@@ -21,6 +21,7 @@
 | [0826-soup-servings](https://github.com/flyingelephhant/LEETCODE/tree/master/0826-soup-servings) |
 | [0830-largest-triangle-area](https://github.com/flyingelephhant/LEETCODE/tree/master/0830-largest-triangle-area) |
 | [0900-reordered-power-of-2](https://github.com/flyingelephhant/LEETCODE/tree/master/0900-reordered-power-of-2) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/flyingelephhant/LEETCODE/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1013-fibonacci-number](https://github.com/flyingelephhant/LEETCODE/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/flyingelephhant/LEETCODE/tree/master/1018-largest-perimeter-triangle) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
@@ -234,6 +235,7 @@
 | [0940-fruit-into-baskets](https://github.com/flyingelephhant/LEETCODE/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/flyingelephhant/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/flyingelephhant/LEETCODE/tree/master/0945-snakes-and-ladders) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/flyingelephhant/LEETCODE/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1006-vowel-spellchecker](https://github.com/flyingelephhant/LEETCODE/tree/master/1006-vowel-spellchecker) |
@@ -680,6 +682,7 @@
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/flyingelephhant/LEETCODE/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0940-fruit-into-baskets](https://github.com/flyingelephhant/LEETCODE/tree/master/0940-fruit-into-baskets) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/flyingelephhant/LEETCODE/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0952-word-subsets](https://github.com/flyingelephhant/LEETCODE/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1006-vowel-spellchecker](https://github.com/flyingelephhant/LEETCODE/tree/master/1006-vowel-spellchecker) |
@@ -852,6 +855,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/flyingelephhant/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0594-longest-harmonious-subsequence](https://github.com/flyingelephhant/LEETCODE/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/flyingelephhant/LEETCODE/tree/master/0900-reordered-power-of-2) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/flyingelephhant/LEETCODE/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1034-subarrays-with-k-different-integers](https://github.com/flyingelephhant/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1160-letter-tile-possibilities](https://github.com/flyingelephhant/LEETCODE/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -981,6 +985,7 @@
 ## Number Theory
 |  |
 | ------- |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/flyingelephhant/LEETCODE/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/flyingelephhant/LEETCODE/tree/master/2610-closest-prime-numbers-in-range) |
