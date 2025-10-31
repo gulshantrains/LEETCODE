@@ -139,6 +139,7 @@
 | [3738-make-array-non-decreasing](https://github.com/flyingelephhant/LEETCODE/tree/master/3738-make-array-non-decreasing) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/flyingelephhant/LEETCODE/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3997-maximize-sum-of-at-most-k-distinct-elements](https://github.com/flyingelephhant/LEETCODE/tree/master/3997-maximize-sum-of-at-most-k-distinct-elements) |
 ## Simulation
 |  |
 | ------- |
@@ -448,6 +449,7 @@
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/flyingelephhant/LEETCODE/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/flyingelephhant/LEETCODE/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3997-maximize-sum-of-at-most-k-distinct-elements](https://github.com/flyingelephhant/LEETCODE/tree/master/3997-maximize-sum-of-at-most-k-distinct-elements) |
 | [4012-earliest-time-to-finish-one-task](https://github.com/flyingelephhant/LEETCODE/tree/master/4012-earliest-time-to-finish-one-task) |
 | [4058-compute-alternating-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/4058-compute-alternating-sum) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/flyingelephhant/LEETCODE/tree/master/4080-smallest-missing-multiple-of-k) |
@@ -765,6 +767,7 @@
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/flyingelephhant/LEETCODE/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/flyingelephhant/LEETCODE/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3997-maximize-sum-of-at-most-k-distinct-elements](https://github.com/flyingelephhant/LEETCODE/tree/master/3997-maximize-sum-of-at-most-k-distinct-elements) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/flyingelephhant/LEETCODE/tree/master/4080-smallest-missing-multiple-of-k) |
 ## String
 |  |
@@ -1060,6 +1063,7 @@
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/flyingelephhant/LEETCODE/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/flyingelephhant/LEETCODE/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3997-maximize-sum-of-at-most-k-distinct-elements](https://github.com/flyingelephhant/LEETCODE/tree/master/3997-maximize-sum-of-at-most-k-distinct-elements) |
 ## Tree
 |  |
 | ------- |
