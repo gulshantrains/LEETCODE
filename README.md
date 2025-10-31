@@ -448,6 +448,7 @@
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/flyingelephhant/LEETCODE/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/flyingelephhant/LEETCODE/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [4012-earliest-time-to-finish-one-task](https://github.com/flyingelephhant/LEETCODE/tree/master/4012-earliest-time-to-finish-one-task) |
 | [4058-compute-alternating-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/4058-compute-alternating-sum) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/flyingelephhant/LEETCODE/tree/master/4080-smallest-missing-multiple-of-k) |
 ## Queue
