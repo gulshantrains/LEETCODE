@@ -1,37 +1,61 @@
 class Solution {
-    private static final int EMPTY = 0, GUARDED = 1, WALL = 2, GUARD = 3;
-    private static final int[][] DIRS = {{-1,0},{1,0},{0,-1},{0,1}}; // up, down, left, right
+    private static final int NOT_GUARDED = 0;
+    private static final int GUARDED = 1;
+    private static final int WALL = 2;
+    private static final int GUARD = 3;
 
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
         int[][] grid = new int[m][n];
 
-        // Mark guards and walls
-        for (int[] g : guards) grid[g[0]][g[1]] = GUARD;
-        for (int[] w : walls) grid[w[0]][w[1]] = WALL;
-
-        // Spread guard vision
+        // Mark guards
         for (int[] g : guards)
-            for (int[] d : DIRS)
-                mark(g[0], g[1], d, grid);
+            grid[g[0]][g[1]] = GUARD;
 
-        // Count unguarded cells
-        int unguarded = 0;
-        for (int[] row : grid)
-            for (int cell : row)
-                if (cell == EMPTY) unguarded++;
+        // Mark walls
+        for (int[] w : walls)
+            grid[w[0]][w[1]] = WALL;
 
-        return unguarded;
+        // Each guard marks in 4 directions
+        for (int[] g : guards)
+            mark(g[0], g[1], grid);
+
+        // Count unguarded empty cells
+        int count = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == NOT_GUARDED)
+                    count++;
+            }
+        }
+
+        return count;
     }
 
-    private void mark(int r, int c, int[] dir, int[][] grid) {
+    private void mark(int row, int col, int[][] grid) {
         int m = grid.length, n = grid[0].length;
-        r += dir[0];
-        c += dir[1];
-        while (r >= 0 && r < m && c >= 0 && c < n) {
-            if (grid[r][c] == WALL || grid[r][c] == GUARD) break;
-            grid[r][c] = GUARDED;
-            r += dir[0];
-            c += dir[1];
+
+        // up
+        for (int r = row - 1; r >= 0; r--) {
+            if (grid[r][col] == WALL || grid[r][col] == GUARD) break;
+            grid[r][col] = GUARDED;
+        }
+
+        // down
+        for (int r = row + 1; r < m; r++) {
+            if (grid[r][col] == WALL || grid[r][col] == GUARD) break;
+            grid[r][col] = GUARDED;
+        }
+
+        // left
+        for (int c = col - 1; c >= 0; c--) {
+            if (grid[row][c] == WALL || grid[row][c] == GUARD) break;
+            grid[row][c] = GUARDED;
+        }
+
+        // right
+        for (int c = col + 1; c < n; c++) {
+            if (grid[row][c] == WALL || grid[row][c] == GUARD) break;
+            grid[row][c] = GUARDED;
         }
     }
 }
