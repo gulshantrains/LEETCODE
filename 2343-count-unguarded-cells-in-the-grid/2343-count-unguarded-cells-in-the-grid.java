@@ -1,58 +1,37 @@
 class Solution {
-
-    private static final int UNGUARDED = 0;
-    private static final int GUARDED = 1;
-    private static final int GUARD = 2;
-    private static final int WALL = 3;
-
-    public void markguarded(int row, int col, int[][] grid) {
-        // Traverse upwards
-        for (int r = row - 1; r >= 0; r--) {
-            if (grid[r][col] == WALL || grid[r][col] == GUARD) break;
-            grid[r][col] = GUARDED;
-        }
-        // Traverse downwards
-        for (int r = row + 1; r < grid.length; r++) {
-            if (grid[r][col] == WALL || grid[r][col] == GUARD) break;
-            grid[r][col] = GUARDED;
-        }
-        // Traverse leftwards
-        for (int c = col - 1; c >= 0; c--) {
-            if (grid[row][c] == WALL || grid[row][c] == GUARD) break;
-            grid[row][c] = GUARDED;
-        }
-        // Traverse rightwards
-        for (int c = col + 1; c < grid[0].length; c++) {
-            if (grid[row][c] == WALL || grid[row][c] == GUARD) break;
-            grid[row][c] = GUARDED;
-        }
-    }
+    private static final int EMPTY = 0, GUARDED = 1, WALL = 2, GUARD = 3;
+    private static final int[][] DIRS = {{-1,0},{1,0},{0,-1},{0,1}}; // up, down, left, right
 
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
         int[][] grid = new int[m][n];
 
-        // Mark guards' positions
-        for (int[] guard : guards) {
-            grid[guard[0]][guard[1]] = GUARD;
-        }
+        // Mark guards and walls
+        for (int[] g : guards) grid[g[0]][g[1]] = GUARD;
+        for (int[] w : walls) grid[w[0]][w[1]] = WALL;
 
-        // Mark walls' positions
-        for (int[] wall : walls) {
-            grid[wall[0]][wall[1]] = WALL;
-        }
-
-        // Mark cells as guarded by traversing from each guard
-        for (int[] guard : guards) {
-            markguarded(guard[0], guard[1], grid);
-        }
+        // Spread guard vision
+        for (int[] g : guards)
+            for (int[] d : DIRS)
+                mark(g[0], g[1], d, grid);
 
         // Count unguarded cells
-        int count = 0;
-        for (int[] row : grid) {
-            for (int cell : row) {
-                if (cell == UNGUARDED) count++;
-            }
+        int unguarded = 0;
+        for (int[] row : grid)
+            for (int cell : row)
+                if (cell == EMPTY) unguarded++;
+
+        return unguarded;
+    }
+
+    private void mark(int r, int c, int[] dir, int[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        r += dir[0];
+        c += dir[1];
+        while (r >= 0 && r < m && c >= 0 && c < n) {
+            if (grid[r][c] == WALL || grid[r][c] == GUARD) break;
+            grid[r][c] = GUARDED;
+            r += dir[0];
+            c += dir[1];
         }
-        return count;
     }
 }
