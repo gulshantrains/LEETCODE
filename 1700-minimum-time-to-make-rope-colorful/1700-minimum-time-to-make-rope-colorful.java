@@ -8,9 +8,7 @@ class Solution {
             if (co.charAt(i) == co.charAt(i - 1)) {
                 ans += Math.min(nT[i], nT[i - 1]);
 
-                if (nT[i] < nT[i - 1]) {
-                    nT[i] = nT[i - 1];
-                }
+                nT[i] = Math.max(nT[i], nT[i - 1]);
             }
 
         }
