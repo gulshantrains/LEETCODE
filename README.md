@@ -43,6 +43,7 @@
 | [2050-count-good-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/flyingelephhant/LEETCODE/tree/master/2174-next-greater-numerically-balanced-number) |
+| [2288-count-operations-to-obtain-zero](https://github.com/flyingelephhant/LEETCODE/tree/master/2288-count-operations-to-obtain-zero) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
@@ -155,6 +156,7 @@
 | [2169-simple-bank-system](https://github.com/flyingelephhant/LEETCODE/tree/master/2169-simple-bank-system) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/flyingelephhant/LEETCODE/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/flyingelephhant/LEETCODE/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2288-count-operations-to-obtain-zero](https://github.com/flyingelephhant/LEETCODE/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/flyingelephhant/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
