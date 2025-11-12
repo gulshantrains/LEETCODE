@@ -180,6 +180,7 @@
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/flyingelephhant/LEETCODE/tree/master/0035-search-insert-position) |
@@ -1366,6 +1367,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/flyingelephhant/LEETCODE/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/flyingelephhant/LEETCODE/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/flyingelephhant/LEETCODE/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/flyingelephhant/LEETCODE/tree/master/0141-linked-list-cycle) |
