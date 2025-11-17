@@ -287,6 +287,7 @@
 | [1510-find-lucky-integer-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1524-string-matching-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/flyingelephhant/LEETCODE/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/flyingelephhant/LEETCODE/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/flyingelephhant/LEETCODE/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/flyingelephhant/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/flyingelephhant/LEETCODE/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
