@@ -1,15 +1,8 @@
 class Solution {
     public int maxDistinct(String s) {
-        int[] freq = new int[26];
-        int ans = 0;
+      Set<Character> ch=new HashSet<>();
+      for(char x: s.toCharArray()) ch.add(x);
 
-        for (char x : s.toCharArray()) {
-            if (freq[x - 'a'] == 0) {
-                ans++;
-            }
-            freq[x - 'a']++;
-        }
-
-        return ans;
+      return ch.size();  
     }
 }
