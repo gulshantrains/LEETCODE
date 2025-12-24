@@ -139,6 +139,7 @@
 | [2716-prime-subtraction-operation](https://github.com/flyingelephhant/LEETCODE/tree/master/2716-prime-subtraction-operation) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/flyingelephhant/LEETCODE/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
+| [3074-apple-redistribution-into-boxes](https://github.com/flyingelephhant/LEETCODE/tree/master/3074-apple-redistribution-into-boxes) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/flyingelephhant/LEETCODE/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -414,6 +415,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/2915-count-of-interesting-subarrays) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
 | [3034-points-that-intersect-with-cars](https://github.com/flyingelephhant/LEETCODE/tree/master/3034-points-that-intersect-with-cars) |
+| [3074-apple-redistribution-into-boxes](https://github.com/flyingelephhant/LEETCODE/tree/master/3074-apple-redistribution-into-boxes) |
 | [3093-sum-of-values-at-indices-with-k-set-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/3093-sum-of-values-at-indices-with-k-set-bits) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1117,6 +1119,7 @@
 | [2887-sort-vowels-in-a-string](https://github.com/flyingelephhant/LEETCODE/tree/master/2887-sort-vowels-in-a-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/flyingelephhant/LEETCODE/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/flyingelephhant/LEETCODE/tree/master/3001-apply-operations-to-maximize-score) |
+| [3074-apple-redistribution-into-boxes](https://github.com/flyingelephhant/LEETCODE/tree/master/3074-apple-redistribution-into-boxes) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
