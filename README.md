@@ -118,6 +118,7 @@
 | [1818-maximum-score-from-removing-substrings](https://github.com/flyingelephhant/LEETCODE/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1829-maximum-units-on-a-truck](https://github.com/flyingelephhant/LEETCODE/tree/master/1829-maximum-units-on-a-truck) |
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1975-maximum-matrix-sum) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/flyingelephhant/LEETCODE/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/flyingelephhant/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/flyingelephhant/LEETCODE/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -328,6 +329,7 @@
 | [1917-maximum-average-pass-ratio](https://github.com/flyingelephhant/LEETCODE/tree/master/1917-maximum-average-pass-ratio) |
 | [1944-truncate-sentence](https://github.com/flyingelephhant/LEETCODE/tree/master/1944-truncate-sentence) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/flyingelephhant/LEETCODE/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1975-maximum-matrix-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1975-maximum-matrix-sum) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/flyingelephhant/LEETCODE/tree/master/1977-minimum-interval-to-include-each-query) |
 | [1983-maximum-population-year](https://github.com/flyingelephhant/LEETCODE/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -1523,6 +1525,7 @@
 | [1753-path-with-minimum-effort](https://github.com/flyingelephhant/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/flyingelephhant/LEETCODE/tree/master/1876-map-of-highest-peak) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/flyingelephhant/LEETCODE/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1975-maximum-matrix-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1975-maximum-matrix-sum) |
 | [2145-grid-game](https://github.com/flyingelephhant/LEETCODE/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/flyingelephhant/LEETCODE/tree/master/2343-count-unguarded-cells-in-the-grid) |
