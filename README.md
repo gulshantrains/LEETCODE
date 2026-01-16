@@ -828,6 +828,7 @@
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/flyingelephhant/LEETCODE/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/flyingelephhant/LEETCODE/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3803-count-residue-prefixes](https://github.com/flyingelephhant/LEETCODE/tree/master/3803-count-residue-prefixes) |
 | [3827-implement-router](https://github.com/flyingelephhant/LEETCODE/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/flyingelephhant/LEETCODE/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/flyingelephhant/LEETCODE/tree/master/3863-power-grid-maintenance) |
@@ -926,6 +927,7 @@
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/flyingelephhant/LEETCODE/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
+| [3803-count-residue-prefixes](https://github.com/flyingelephhant/LEETCODE/tree/master/3803-count-residue-prefixes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/flyingelephhant/LEETCODE/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Counting
 |  |
