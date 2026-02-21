@@ -16,6 +16,7 @@
 | [0368-largest-divisible-subset](https://github.com/flyingelephhant/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0445-add-two-numbers-ii](https://github.com/flyingelephhant/LEETCODE/tree/master/0445-add-two-numbers-ii) |
 | [0523-continuous-subarray-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/0523-continuous-subarray-sum) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/flyingelephhant/LEETCODE/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
 | [0797-rabbits-in-forest](https://github.com/flyingelephhant/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/flyingelephhant/LEETCODE/tree/master/0826-soup-servings) |
@@ -625,6 +626,7 @@
 | [0338-counting-bits](https://github.com/flyingelephhant/LEETCODE/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/flyingelephhant/LEETCODE/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/flyingelephhant/LEETCODE/tree/master/0389-find-the-difference) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/flyingelephhant/LEETCODE/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/flyingelephhant/LEETCODE/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
