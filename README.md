@@ -39,6 +39,7 @@
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/flyingelephhant/LEETCODE/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/flyingelephhant/LEETCODE/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/flyingelephhant/LEETCODE/tree/master/1642-water-bottles) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/flyingelephhant/LEETCODE/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/flyingelephhant/LEETCODE/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1925-count-square-sum-triples](https://github.com/flyingelephhant/LEETCODE/tree/master/1925-count-square-sum-triples) |
@@ -166,6 +167,7 @@
 | [0735-asteroid-collision](https://github.com/flyingelephhant/LEETCODE/tree/master/0735-asteroid-collision) |
 | [1195-distribute-candies-to-people](https://github.com/flyingelephhant/LEETCODE/tree/master/1195-distribute-candies-to-people) |
 | [1642-water-bottles](https://github.com/flyingelephhant/LEETCODE/tree/master/1642-water-bottles) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/flyingelephhant/LEETCODE/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/flyingelephhant/LEETCODE/tree/master/2048-build-array-from-permutation) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/flyingelephhant/LEETCODE/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -629,6 +631,7 @@
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/flyingelephhant/LEETCODE/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/flyingelephhant/LEETCODE/tree/master/0795-k-th-symbol-in-grammar) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/flyingelephhant/LEETCODE/tree/master/0934-bitwise-ors-of-subarrays) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/flyingelephhant/LEETCODE/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/flyingelephhant/LEETCODE/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/flyingelephhant/LEETCODE/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/flyingelephhant/LEETCODE/tree/master/1993-sum-of-all-subset-xor-totals) |
