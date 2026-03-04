@@ -1675,4 +1675,8 @@
 |  |
 | ------- |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/flyingelephhant/LEETCODE/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+## Database
+|  |
+| ------- |
+| [0511-game-play-analysis-i](https://github.com/flyingelephhant/LEETCODE/tree/master/0511-game-play-analysis-i) |
 <!---LeetCode Topics End-->
