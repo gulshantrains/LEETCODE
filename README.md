@@ -1679,5 +1679,6 @@
 ## Database
 |  |
 | ------- |
+| [0176-second-highest-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/0176-second-highest-salary) |
 | [0511-game-play-analysis-i](https://github.com/flyingelephhant/LEETCODE/tree/master/0511-game-play-analysis-i) |
 <!---LeetCode Topics End-->
