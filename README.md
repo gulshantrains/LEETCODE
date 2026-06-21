@@ -1681,4 +1681,5 @@
 | ------- |
 | [0176-second-highest-salary](https://github.com/flyingelephhant/LEETCODE/tree/master/0176-second-highest-salary) |
 | [0511-game-play-analysis-i](https://github.com/flyingelephhant/LEETCODE/tree/master/0511-game-play-analysis-i) |
+| [1978-employees-whose-manager-left-the-company](https://github.com/flyingelephhant/LEETCODE/tree/master/1978-employees-whose-manager-left-the-company) |
 <!---LeetCode Topics End-->
